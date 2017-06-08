@@ -1,0 +1,24 @@
+header{padding:25px 0px;}
+header .table2>.cell2{padding-left: 10px;}
+header .table2>.cell2 h1{font-size: 25px;color: #796252;}
+header .table2>.cell2 address{font-size: 20px;color: #e92426;}
+header .table3>.cell2{padding-left: 10px;}
+header .table3>.cell2 .hotline{font-size: 14px;color: #7e491d;text-transform: uppercase;text-align: left;}
+header .table3>.cell2 .phone{font-size: 48px;color: #796252;text-transform: uppercase;font-weight: bold;}
+/**/
+/**/
+menu{background-color: #5e3c19;}
+menu .table1 .cell1{color: #fff;text-transform: uppercase;height: 50px;width:150px;text-align: center;}
+menu .table1 .border1{border-right:1px solid #fff;}
+menu .table1 .cell2{color: #fff;text-align: center;}
+menu .container{padding:15px 0px;background-image: url('imghome/home-4.jpg');background-repeat: no-repeat;}
+menu .table1 a{display: block;}
+menu .table1 a:hover{text-decoration: underline;}
+
+
+
+
+
+
+
+
