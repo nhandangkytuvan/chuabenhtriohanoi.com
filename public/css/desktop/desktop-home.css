@@ -68,23 +68,63 @@ div.row3 .flex1col3 table tr td i.bg7.active{background-position: 0px -116px;}
 div.row3 .flex1col3 table tr td i.bg7{background-position: -104px -139px;}
 div.row3 .flex1col3 table tr td i.bg8.active{background-position: -43px -116px;}
 div.row3 .flex1col3 table tr td i.bg8{background-position: -150px -139px;}
+/**/
+div.row4{margin-top: 10px;}
+div.row4 .container{padding-top:25px;background-color: #fff;overflow: hidden;}
+div.row4 .title{color: #5e3c19;font-weight: bold;font-size: 29px;}
+div.row4 .slogan span{display: inline-block;position: relative;font-size: 29px;color: #353535;padding:0px 10px;}
+div.row4 .slogan span:before,div.row4 .slogan span:after{background-color: #5e3c19;height: 2px;position:absolute;top:50%;width: 1000px;content: "";}
+div.row4 .slogan span:before{right: 100%;}
+div.row4 .slogan span:after{left: 100%;}
+div.row4 .slick-pk{margin-top: 40px;}
+/**/
+div.row5{margin-top: 30px;}
+div.row5 .flex1col1{width: 806px;background-color: #e1dcd8;padding:5px;}
+div.row5 .flex1col1 .flex2{background-color: #fff;}
+div.row5 .flex1col1 .flex2 .flex2col1 table td{height: 40px;color: #4f4f4f;text-align: center;}
+div.row5 .flex1col1 .flex2 .flex2col1 table td.active{background-color: #5e3c19;color: #fff;}
+div.row5 .flex1col1 .flex2 .flex2col1 table td div{border-right: 1px solid #4f4f4f;padding:0px 20px;}
+div.row5 .flex1col1 .flex2 .flex2col1 table td.active.arrow_box {
+	position: relative;
+	background: #5e3c19;
+	border: 1px solid #5e3c19;
+}
+div.row5 .flex1col1 .flex2 .flex2col1 table td.active.arrow_box:after, div.row5 .flex1col1 .flex2 .flex2col1 table td.active.arrow_box:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+div.row5 .flex1col1 .flex2 .flex2col1 table td.active.arrow_box:after {
+	border-color: rgba(94, 60, 25, 0);
+	border-top-color: #5e3c19;
+	border-width: 10px;
+	margin-left: -10px;
+}
+div.row5 .flex1col1 .flex2 .flex2col1 table td.active.arrow_box:before {
+	border-color: rgba(94, 60, 25, 0);
+	border-top-color: #5e3c19;
+	border-width: 11px;
+	margin-left: -11px;
+}
+div.row5 .flex1col1 .flex2 .flex2col1 .contents2{padding:0px 10px;}
+div.row5 .flex1col1 .flex2 .flex2col1 .contents2 .bg{background-image: url('imghome/home-22.png');background-repeat: no-repeat;width: 563px;height: 91px;margin:0px auto;margin-top: 10px;padding:5px 10px;}
+div.row5 .flex1col1 .flex2 .flex2col1 .contents2 .bg .title{color: #343434;}
+div.row5 .flex1col1 .flex2 .flex2col1 .contents2 .bg .des1{color: #343434;margin-top: 5px;}
+div.row5 .flex1col1 .flex2 .flex2col1 .contents2 .bg .des1 a{color: red;}
+div.row5 .flex1col1 .flex2 .flex2col1 .contents2 table tr td i{font-size: 6px;color: #343434;vertical-align: 2px;}
+div.row5 .flex1col1 .flex2 .flex2col1 .contents2 table{width: 100%;border-spacing: 0px;}
+div.row5 .flex1col1 .flex2 .flex2col1 .contents2 table tr td{width: 50%;padding:10px 0px;text-align: left;}
+div.row5 .flex1col1 .flex2 .flex2col2{padding-right: 10px;}
+div.row5 .flex1col1 .flex2 .flex2col2 .table1{color: #fff;border-spacing: 0px;width: 183px;}
+div.row5 .flex1col1 .flex2 .flex2col2 .table1{background-color: #4f4a44;height: 38px;text-align: center;border-bottom-right-radius:15px;border-bottom-left-radius: 15px;}
+div.row5 .flex1col1 .flex2 .flex2col2 .table1 .cell1{padding-left: 10px;}
+div.row5 .flex1col1 .flex2 .flex2col2 .img1{margin-top: 30px;}
 
 
 

@@ -220,4 +220,89 @@
 			</div>
 		</div>
 	</div>
+	<div class="row4">
+		<div class="container">
+			<div class="title text-uppercase text-center">Hình ảnh nhân viên</div>
+			<div class="slogan text-center"><span>Chúng tôi luôn nỗ lực hết mình</span></div>
+			<div class="slick-pk">
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/css/desktop/imghome/home-15.png') }}" alt="" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/css/desktop/imghome/home-16.png') }}" alt="" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/css/desktop/imghome/home-17.png') }}" alt="" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/css/desktop/imghome/home-18.png') }}" alt="" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/css/desktop/imghome/home-19.png') }}" alt="" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/css/desktop/imghome/home-20.png') }}" alt="" class="center-block"></a></div>
+				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/css/desktop/imghome/home-21.png') }}" alt="" class="center-block"></a></div>
+			</div>
+			<script>
+				$('.slick-pk').slick({
+				  	slidesToShow: 4,
+				  	slidesToScroll: 1,
+				  	// autoplay: true,
+				  	// autoplaySpeed: 2000,
+				});	
+			</script>
+		</div>
+	</div>
+	<div class="row5">
+		<div class="container">
+			<div class="flex flex1 justify-content-between">
+				<div class="flex1col1">
+					<div class="flex flex2 justify-content-between">
+						<div class="flex2col1">
+							<div class="tabs2">
+								<table>
+									<tr>
+										<td class="active arrow_box"><div>Chuyên khoa trĩ</div></td>
+										<td><div>Trĩ nội</div></td>
+										<td><div>Trĩ ngoại</div></td>
+										<td><div>Trĩ hỗn hợp</div></td>
+									</tr>
+								</table>
+							</div>
+							<div class="contents2">
+								<div class="active">
+									<div class="bg">
+										<div class="title text-uppercase">Bệnh trĩ là gì?</div>
+										<div class="des1 text-justify">
+											Bệnh trĩ hay còn gọi là bệnh lòi dom, là bệnh rất thường gặp ở đường hậu môn trực tràng, bệnh có thể gặp ở cả nam và nữ, nhất là những người thường xuyên bị táo bón, người làm những công việc phải đứng, ngồi quá  <a href="#">(chi tiết)</a>
+										</div>
+									</div>
+									<table>
+										<tr>
+											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+										</tr>
+										<tr>
+											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+										</tr>
+										<tr>
+											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+										</tr>
+										<tr>
+											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+										</tr>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="flex2col2">
+							<div class="dis-table table1">
+								<div class="table-cell cell1"><i class="fa fa-user"></i></div>
+								<div class="table-cell cell2">Hỏi đáp trực tuyến<br>với chuyên gia</div>
+							</div>
+							<div class="img1">
+								<a href="#"><img src="{{ asset('public/css/desktop/imghome/home-23.png') }}" alt="" class="center-block"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="flex1col2">
+					
+				</div>
+			</div>
+		</div>
+	</div>
 @endsection('content')
