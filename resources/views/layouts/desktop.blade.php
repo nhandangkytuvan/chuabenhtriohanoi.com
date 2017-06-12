@@ -34,6 +34,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/desktop-popup.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/desktop-header.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/desktop-footer.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/desktop-popup.css') }}">
     @yield('css')
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery-1.12.3.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery.form.min.js') }}"></script>
@@ -198,5 +199,6 @@
         <div class="toolbar">
         </div>
     </footer>
+    @include('layouts.popupDesktop1')
 </body>
 </html>

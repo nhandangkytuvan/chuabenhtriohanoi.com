@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('#popup-desktop').popup({
         blur:true,
-        transition: 'all 0.3s',
+        transition: 'all 3s',
         scrolllock: false,
         background: false,
         backgroundactive:false,
@@ -11,7 +11,7 @@ $(document).ready(function() {
     var gio = d.getHours();
     var phut = d.getMinutes();
     if((7<gio&&gio<22)||(gio==22&&phut<=30)||(gio==7&&phut>=30)){
-        setTimeout(showchat, 15000);
+        setTimeout(showchat, 1000);
     }
     //
     $(".tabs2 tr td").hover(function() {
@@ -62,6 +62,11 @@ $(document).ready(function() {
     }, function() {
     	
     });
+    //
+    window.setInterval(function(){
+        $("#popup-desktop >.content-popup>.linktv >.table1 tr td:nth-child(2) a").toggleClass('active');
+        $("#popup-desktop >.content-popup>.nhapsodienthoai button").toggleClass('active');
+    }, 1000);
 });
 //
 function open_tuvan(){
