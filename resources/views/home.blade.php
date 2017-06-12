@@ -41,7 +41,7 @@
 						<div class="table-cell cell2">
 							<table class="width-100">
 								<tr>
-									<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Áp xe hậu môn</a></td>
+									<td class="text-left" style="vertical-align: top;"><a href="#"><i class="fa fa-circle"></i> Áp xe hậu môn</a></td>
 									<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Ngứa rát hậu môn</a></td>
 								</tr>
 								<tr>

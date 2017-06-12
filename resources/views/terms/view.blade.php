@@ -2,9 +2,6 @@
 @section('title')
 	<title>{{ $term->name }}</title>
 @endsection('title')
-@section('keyword')
-	
-@endsection('keyword')
 @section('css')
 	<link rel="canonical" href="{{ APITerm::getUrlByObj($term) }}" />
 	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-pagination.css') }}">
@@ -12,181 +9,425 @@
 	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-term.css') }}">
 @endsection('css')
 @section('js')
+<script type="text/javascript" src="{{ asset('public/js/global/MSClass.js') }}"></script>
 @endsection('js')
+@section('banner')
+	@include('layouts.bannerDesktop')
+@endsection('banner')
+@section('menu')
+	@include('layouts.menuDesktop')
+@endsection('menu')
 @section('content')
-<div class="banner">
-	<div class="container">
-		<div class="home">
-			<div class="row1">
-				<div class="container">
-					<div class="flex flex1 justify-content-between">
-						<div class="flex1col1 flex justify-content-center align-items-center">
-							<div class="flex">
-								<div>
-									<span class="color1">Từ khóa phổ biến:</span>
-								</div>
-								<div>
-									<span class="color2"><a href="">Sinh dục giảm sút -</a></span>
-								</div>
-								<div>
-									<span class="color2"><a href="">Thời gian quan hệ ngắn -</a></span>
-								</div>
-								<div>
-									<span class="color2"><a href="">Xuất tinh nhanh</a></span>
-								</div>
-							</div>
+	<div class="row1">
+		<div class="container">
+			<div class="items">
+				<div class="item active">
+					<div class="dis-table table1">
+						<div class="table-cell cell1 bg1">
+							<a href="#">chuyên khoa<br>trĩ</a>
 						</div>
-						<div class="flex1col2 flex justify-content-center align-items-center">
-							<div class="flex">
-								<div class="flex justify-content-center align-items-center">
-									<i class="bg1 dis-inline-block"></i>
-								</div>
-								<div class="flex justify-content-center align-items-center">
-									<span class="h5">Tìm kiếm nhiều hơn</span>
-								</div>
-								<div>
-									<form action="{{ url('search') }}">
-										<div class="flex justify-content-center align-items-center">
-											<div class="flex">
-												<div>
-													<input type="text" placeholder="Nhập từ khóa">
-												</div>
-												<div>
-													<button type="submit" class="text-center"><i class="fa fa-search"></i></button>
-												</div>
-											</div>
-										</div>
-									</form>
-								</div>
-							</div>
+						<div class="table-cell cell2">
+							<table class="width-100">
+								<tr>
+									<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Trĩ ngoại</a></td>
+									<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Trĩ nội</a></td>
+								</tr>
+								<tr>
+									<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Trĩ hỗn hợp</a></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="dis-table table1">
+						<div class="table-cell cell1 bg2">
+							<a href="#">bệnh quanh<br>hậu môn</a>
+						</div>
+						<div class="table-cell cell2">
+							<table class="width-100">
+								<tr>
+									<td class="text-left" style="vertical-align: top;"><a href="#"><i class="fa fa-circle"></i> Áp xe hậu môn</a></td>
+									<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Ngứa rát hậu môn</a></td>
+								</tr>
+								<tr>
+									<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Polyp hậu môn</a></td>
+									<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Đau hậu môn</a></td>
+								</tr>
+								<tr>
+									<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Hậu môn có vật thể lạ</a></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="dis-table table1">
+						<div class="table-cell cell1 bg3">
+							<a href="#">chấn thương<br>hậu môn</a>
+						</div>
+						<div class="table-cell cell2">
+							<table class="width-100">
+								<tr>
+									<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Rò hậu môn</a></td>
+									<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Nứt kẽ hậu môn</a></td>
+								</tr>
+								<tr>
+									<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Sa hậu môn</a></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="dis-table table1">
+						<div class="table-cell cell1 bg4">
+							<a href="#">biểu hiện<br>thường gặp</a>
+						</div>
+						<div class="table-cell cell2">
+							<table class="width-100">
+								<tr>
+									<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Đi ngoài ra máu</a></td>
+									<td class="text-left"><a href="#"><i class="fa fa-circle"></i> Táo bón</a></td>
+								</tr>
+							</table>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<main class="container term">
-	<div class="flex flex0 justify-content-between">
-		<div class="flex0col1">
+	<div class="row2">
+		<div class="container">
+			<table class="width-100">
+				<tr>
+					<td>
+						<span class="text-uppercase">tìm kiếm</span>
+						<input type="text">
+						<button><i class="fa fa-search" aria-hidden="true"></i></button>
+					</td>
+					<td class="text-right">
+						<span class="text-uppercase">từ khóa hót :</span>
+						<span> đi ngoài ra máu  ngứa hậu môn  trĩ nội  trĩ ngoại  bệnh xung quanh hậu môn  nguyên nhân dẫn đến bệnh trĩ</span>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!-- column -->
+	<div class="row3">
+		<div class="container">
+			<i class="fa fa-home"></i>
+			<a href="#">Trang chủ</a>
+			<span>></span>
+			<span>Bệnh trĩ là gì</span>
+		</div>
+	</div>
+	<div class="row4">
+		<div class="container">
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
-					<div>
-						<a href="{{ APITerm::getUrlByObj($term) }}" title="{{ $term->name }}">
-							@if($term->avatar)
-								<img src="{{ asset('public/upload/'.$term->avatar) }}" class="center-block" alt="{{ $term->name }}">
-							@else
-								<img src="{{ asset('public/images/desktop2/term-3.png') }}" class="center-block" alt="{{ $term->name }}">
-							@endif
-						</a>
+					<div class="line1">
+						<table>
+							<tr>
+								<td>
+									<a href="#"><img src="{{ asset('public/css/desktop/imgterm/term-1.png') }}" alt=""></a>
+								</td>
+								<td>
+									<h1>Bệnh trĩ là gì?</h1>
+									<p>
+										Bệnh trĩ hay còn gọi là bệnh lòi dom, là bệnh rất thường gặp ở đường hậu môn trực tràng, bệnh có thể gặp ở cả nam và nữ, nhất là những người thường xuyên bị táo bón, người làm những công việc phải đứng, ngồi quá nhiều, được hình thành do giãn nở quá mức các mạch máu. Vậy nguyên nhân, triệu chứng và cách điều trị  ... <a href="#">Chi tiết</a>
+									</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="line2">
+						<table class="width-100 table1">
+							<tr>
+								<td>
+									<table class="width-100 table2">
+										<tr>
+											<td>Nguyên nhân</td>
+											<td><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
+										</tr>
+									</table>
+								</td>
+								<td>
+									<table class="width-100 table2">
+										<tr>
+											<td>Triệu trứng</td>
+											<td><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<table class="width-100 table2">
+										<tr>
+											<td>Nguy hại</td>
+											<td><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
+										</tr>
+									</table>
+								</td>
+								<td>
+									<table class="width-100 table2">
+										<tr>
+											<td>Điều trị</td>
+											<td><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="line3">
+						<div class="posts">
+							<div class="post">
+								<h2 class="clearfix">
+									<a href="#">Lorem ipsum dolor sit amet.</a>
+									<a href="#" class="pull-right">Click gặp chuyên gia tư vấn</a>	
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?
+									<a href="#">【 Xem thêm 】</a>
+								</p>
+							</div>
+							<div class="post">
+								<h2 class="clearfix">
+									<a href="#">Lorem ipsum dolor sit amet.</a>
+									<a href="#" class="pull-right">Click gặp chuyên gia tư vấn</a>	
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?
+									<a href="#">【 Xem thêm 】</a>
+								</p>
+							</div>
+							<div class="post">
+								<h2 class="clearfix">
+									<a href="#">Lorem ipsum dolor sit amet.</a>
+									<a href="#" class="pull-right">Click gặp chuyên gia tư vấn</a>	
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?
+									<a href="#">【 Xem thêm 】</a>
+								</p>
+							</div>
+							<div class="post">
+								<h2 class="clearfix">
+									<a href="#">Lorem ipsum dolor sit amet.</a>
+									<a href="#" class="pull-right">Click gặp chuyên gia tư vấn</a>	
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?
+									<a href="#">【 Xem thêm 】</a>
+								</p>
+							</div>
+							<div class="post">
+								<h2 class="clearfix">
+									<a href="#">Lorem ipsum dolor sit amet.</a>
+									<a href="#" class="pull-right">Click gặp chuyên gia tư vấn</a>	
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?
+									<a href="#">【 Xem thêm 】</a>
+								</p>
+							</div>
+							<div class="post">
+								<h2 class="clearfix">
+									<a href="#">Lorem ipsum dolor sit amet.</a>
+									<a href="#" class="pull-right">Click gặp chuyên gia tư vấn</a>	
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?
+									<a href="#">【 Xem thêm 】</a>
+								</p>
+							</div>
+							<div class="post">
+								<h2 class="clearfix">
+									<a href="#">Lorem ipsum dolor sit amet.</a>
+									<a href="#" class="pull-right">Click gặp chuyên gia tư vấn</a>	
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?
+									<a href="#">【 Xem thêm 】</a>
+								</p>
+							</div>
+							<div class="post">
+								<h2 class="clearfix">
+									<a href="#">Lorem ipsum dolor sit amet.</a>
+									<a href="#" class="pull-right">Click gặp chuyên gia tư vấn</a>	
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?
+									<a href="#">【 Xem thêm 】</a>
+								</p>
+							</div>
+							<div class="my_pagination">
+								<nav aria-label="Page navigation">
+								  <ul class="pagination">
+								    <li>
+								      <a href="#" aria-label="Previous">
+								        <span aria-hidden="true">&laquo;</span>
+								      </a>
+								    </li>
+								    <li><a href="#">1</a></li>
+								    <li><a href="#">2</a></li>
+								    <li><a href="#">3</a></li>
+								    <li><a href="#">4</a></li>
+								    <li><a href="#">5</a></li>
+								    <li>
+								      <a href="#" aria-label="Next">
+								        <span aria-hidden="true">&raquo;</span>
+								      </a>
+								    </li>
+								  </ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="line4"></div>
+				</div>
+				<div class="flex1col2">
+					<div class="line1">
+						<div><img src="{{ asset('public/css/desktop/imghome/home-12.png') }}" alt="" class="center-block"></div>
+						<div class="des1 text-justify">
+							Phòng khám Nam Khang Hà Nội là cơ sở y tế chuyên điều trị nam khoa hiếm có ở khu vực Hà Nội, phòng khám đạt tiêu chuẩn y tế JCI quốc tế, hội tụ đội ngũ chuyên gia cao cấp trong và ngoài nước, dịch vụ chất lượng cao, môi trường khám chữa bệnh ấm cúng đạt chất lượng 5 sao ... <a href="#">tìm hiểu thêm</a>
+						</div>
+						<div class="bg">
+							<table>
+								<tr>
+									<td><img src="{{ asset('public/css/desktop/imghome/home-13.png') }}" alt=""></td>
+									<td class="text-uppercase">Tìm hiểu bệnh tình nhanh chóng</td>
+								</tr>
+							</table>
+						</div>
+						<table class="footer">
+							<tr>
+								<td><i class="bg1"></i></td>
+								<td><a href="#">Chuyên gia giải đáp </a></td>
+								<td><i class="bg2"></i></td>
+								<td><a href="#">Hỏi đáp trực tuyến</a></td>
+							</tr>
+							<tr>
+								<td><i class="bg3"></i></td>
+								<td><a href="#">Điều trị cần biết </a></td>
+								<td><i class="bg4"></i></td>
+								<td><a href="#">Điện thoại miễn phí</a></td>
+							</tr>
+							<tr>
+								<td><i class="bg5"></i></td>
+								<td><a href="#">Đăng ký đặt hẹn</a></td>
+								<td><i class="bg6"></i></td>
+								<td><a href="#">Chuyên gia tư vấn</a></td>
+							</tr>
+							<tr>
+								<td><i class="bg7"></i></td>
+								<td><a href="#">Ý kiến khiếu nại</a></td>
+								<td><i class="bg8"></i></td>
+								<td><a href="#">Chỉ đường</a></td>
+							</tr>
+						</table>
+						<script>
+							$(document).ready(function($) {
+								//
+							    $("div.flex1col2 .line1 table.footer tr td").hover(function() {
+							    	$(this).find('i').addClass('active');
+							    }, function() {
+							    	$(this).find('i').removeClass('active');
+							    });
+							    //
+							    $("div.flex1col2 .line1 table.footer tr td:nth-child(2n+2)").hover(function() {
+							    	$(this).prev('td').find('i').addClass('active');
+							    }, function() {
+							    	$(this).prev('td').find('i').removeClass('active');
+							    });
+							});	
+						</script>
+					</div>
+					<div class="line2">
+						<div class="bg">
+							<table>
+								<tr>
+									<td><i class="bg1"></i></td>
+									<td class="text-uppercase">Đặt lịch trực tuyến</td>
+								</tr>
+							</table>
+						</div>
+						<div class="dathen">
+							<div id="demo">
+								<div id="demo1">
+									{!! APIGlobal::getRandomeName() !!}
+								</div>
+							</div>
+							<script type="text/javascript">
+						        new Marquee(
+								{
+									MSClassID : "demo",
+									ContentID : "demo1",
+								 	Direction : 0,
+									Step	  : 0,
+									Height	  : 178,
+									Timer	  : 4,
+									DelayTime : 5000,
+									WaitTime  : 0,
+									ScrollStep: 5000,
+									SwitchType: 0,
+									AutoStart : 1
+								})
+						    </script>
+						</div>
+						<div class="footer">
+							Hôm nay đã có 46 người đặt lịch hẹn
+						</div>
+					</div>
+					<div class="line3">
+						<div class="bg">
+							<table>
+								<tr>
+									<td><i class="bg2"></i></td>
+									<td class="text-uppercase">Trực tràng hậu môn</td>
+								</tr>
+							</table>
+						</div>					
+						<div class="img1">
+							<img src="{{ asset('public/css/desktop/imghome/home-26.png') }}" alt="" class="center-block">
+						</div>
+						<div class="posts">
+							<ul>
+								<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
+								<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
+								<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
+								<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
+								<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="line4">
+						<div class="bg">
+							<table>
+								<tr>
+									<td><i class="bg3"></i></td>
+									<td class="text-uppercase">Táo bón</td>
+								</tr>
+							</table>
+						</div>					
+						<div class="img1">
+							<img src="{{ asset('public/css/desktop/imghome/home-27.png') }}" alt="" class="center-block">
+						</div>
+						<div class="posts">
+							<ul>
+								<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
+								<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
+								<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
+								<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
+								<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
-				<div class="flex1col2 flex flex-wrap-wrap align-content-between">
-					<div class="term-name flex align-items-center">
-						<div class="flex3 flex">
-							<div class="flex3col1">
-								<h1 class="text-uppercase">{{ $term->name }}</h1>
-							</div>
-							<div class="flex3col2">
-								
-							</div>
-						</div>
-					</div>
-					@php 
-						$post_first = $term->post()->orderBy('id','desc')->first();
-						if($post_first){
-							$post_first_id = $post_first->id;
-						}else{
-							$post_first_id = 0;
-						}
-						$posts = $term->post()->where('id','<>',$post_first_id)->orderBy('id','desc')->paginate(6);
-					@endphp
-					@if($post_first)
-					<div class="post-first">
-						<h2 class="text-uppercase text-center">
-							<a href="{{ APIPost::getUrlByObj($post_first) }}" title="{{ $post_first->name }}">{{ $post_first->name }}</a>
-						</h2>
-						<p>{{ APIPost::getDescription($post_first->description,40) }} <a href="{{ APIPost::getUrlByObj($post_first) }}" title="chi tiết">Chi tiết</a></p>
-					</div>
-					<div class="flex flex2 flex-wrap-wrap justify-content-between align-content-between">
-						<div class="flex2col1 flex align-items-center justify-content-center">
-							<div class="width-100">
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-glow" title="Triệu chứng">Triệu chứng</a>
-							</div>
-						</div>
-						<div class="flex2col1 flex align-items-center justify-content-center">
-							<div class="width-100">
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-glow" title="Nguyên nhân">Nguyên nhân</a>
-							</div>
-						</div>
-						<div class="flex2col1 flex align-items-center justify-content-center">
-							<div class="width-100">
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-glow" title="Nguy hại">Nguy hại</a>
-							</div>
-						</div>
-						<div class="flex2col1 flex align-items-center justify-content-center">
-							<div class="width-100">
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-glow" title="Điều trị">Điều trị</a>
-							</div>
-						</div>
-						<div class="flex2col1 flex align-items-center justify-content-center">
-							<div class="width-100">
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-glow" title="Chi phí">Chi phí</a>
-							</div>
-						</div>
-						<div class="flex2col1 flex align-items-center justify-content-center">
-							<div class="width-100">
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-glow" title="Phòng khám">Phòng khám</a>
-							</div>
-						</div>
-					</div>
-					@endif
-				</div>
 			</div>
-			<div class="posts">
-				@foreach($posts as $post)
-				<div class="post">
-					<div class="flex flex4 justify-content-between">
-						<div class="flex4col1 flex align-items-center">
-							<h3><a href="{{ APIPost::getUrlByObj($post) }}" title="{{ $post->name }}">{{ $post->name }}</a></h3>
-						</div>	
-						<div class="flex4col2 flex align-items-center">
-							<div class="flex flex5 justify-content-between">
-								<div class="flex5col1 flex align-items-center justify-content-center">
-									<a href="tel:1800 - 6181" title="1800 - 6181">
-										<img src="{{ asset('public/images/desktop2/term-5.png') }}" class="center-block" alt="1800 - 6181">
-									</a>
-								</div>
-								<div class="flex5col2 flex align-items-center justify-content-center">
-									<div><a href="tel:18006181" title="1800 - 6181">1800 - 6181</a></div>
-								</div>
-								<div class="flex5col3 flex align-items-center justify-content-center">
-									<div>
-										<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Tư vấn">Tư vấn</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<p>
-						{{ APIPost::getDescription($post->description,50) }}
-						<a href="{{ APIPost::getUrlByObj($post) }}" title="Chi tiết">Chi tiết</a>
-					</p>
-				</div>
-				@endforeach
-			</div>
-			<div class="my_pagination">
-				{{ $posts->links() }}
-			</div>
-			<div>
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" title="Nhắc nhở">
-					<img src="{{ asset('public/images/desktop2/term-6.png') }}" class="center-block">
-				</a>
-			</div>
-		</div>
-		<div class="flex0col2">
-			@include('layouts.slidebar')
 		</div>
 	</div>
-</main>
 @endsection('content')
