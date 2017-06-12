@@ -4,11 +4,13 @@ use Illuminate\Http\Request;
 use App\Http\Requests\StorePost;
 use App\Post;
 use DB,File,Auth,App,Session;
+use Jenssegers\Agent\Agent;
+
 class PostController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware('auth')->except('view');
     }
     /**
      * Display a listing of the resource.
@@ -164,5 +166,21 @@ class PostController extends Controller
     public function delete(Post $post)
     {
         return view('posts.delete',['post'=>$post]);
+    }
+    //
+    public function view($post_link,Request $request){
+        $array_link = explode('-',$post_link);
+        $id = end($array_link);
+        $post = Post::find($id);
+        if(!$post){
+            return redirect('/');
+        }
+        // -----------
+        $agent = new Agent();
+        if($agent->isDesktop()){
+            return view('posts.view',['post'=>$post]); 
+        }else{
+            return 'Hello mobile';   
+        }
     }
 }

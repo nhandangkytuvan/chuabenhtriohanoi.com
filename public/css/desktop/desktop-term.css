@@ -26,6 +26,7 @@ div.row3{background-color: #5e3c19;height:50px;line-height:50px;color: #fff;}
 /**/
 div.row3 .fa.fa-home{width: 35px;height: 35px;background-color: #fff;color: #5e3c19;border-radius: 50%;vertical-align: middle;font-size: 22px;line-height: 35px;text-align: center;}
 div.row4 .flex1col1{width: 812px;padding:15px;background-color: #fff;}
+/*content term */
 div.row4 .flex1col1 .line1 table tr td:nth-child(2){padding-left: 30px;}
 div.row4 .flex1col1 .line1 table tr td:nth-child(2) h1{text-transform: uppercase;font-weight: normal;color: #5e3c19;font-size: 14px;}
 div.row4 .flex1col1 .line1 table tr td:nth-child(2) p{margin-top: 10px;color: #3d3d3d;text-align: justify;}
@@ -49,7 +50,7 @@ div.row4 .flex1col1 .line3 .posts .post p a{color: #5e3c19;}
 div.row4 .flex1col1 .line3 .posts .post p a:hover{text-decoration: underline;}
 /*div.row4 .flex1col1 .line4{margin:0px -15px;margin-top: 20px;border-bottom:1px solid #e7e6e4;width: 105%;}*/
 div.row4 .flex1col1 .footer img{height: 113px;}
-
+/*end content term */
 /**/
 
 div.row4 .flex1col2{width: 375px;}
