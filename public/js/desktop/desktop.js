@@ -1,40 +1,4 @@
 $(document).ready(function() {
-	$('.row5 .flex1col1').hover(function() {
-		var index = $(this).index();
-		$(this).addClass('active');
-		$(this).siblings('div').removeClass('active');
-		$('.row5 .tab-contents >div').eq(index).addClass('active');
-		$('.row5 .tab-contents >div').eq(index).siblings('div').removeClass('active');
-	}, function() {
-		
-	});
-	// $('.tabs-buttons-2 .flex4col1 a').hover(function() {
-	// 	var index = $(this).parents('.tabs-buttons-2 div.flex4col1').index();
-	// 	$(this).addClass('active');
-	// 	$(this).parents('.tabs-buttons-2 div.flex4col1').siblings('div').find('a').removeClass('active');
-	// 	$('.tabs-contents-2 >div').eq(index).addClass('active');
-	// 	$('.tabs-contents-2 >div').eq(index).siblings('div').removeClass('active');
-	// }, function() {
-		
-	// });
-	// var myinter = setInterval( home_kythuatnamkhoa, 3000);
-	// $('div.row4 div.img1').hover(function() {
-	// 	clearInterval(myinter);
- //  		$(this).fadeOut();
- //  		$(this).siblings('div').fadeIn();
-	// }, function() {
-	// 	myinter = setInterval( home_kythuatnamkhoa, 3000);
-	// });
-	// $('div.row4 div.img2').hover(function() {
-	// 	clearInterval(myinter);
-	// }, function() {
- //  		$(this).fadeOut();
- //  		$(this).siblings('div').fadeIn();
- //  		myinter = setInterval( home_kythuatnamkhoa, 3000);
-	// });
-	
-	// var myinter2 = setInterval(home_thuonghieu, 3000);
-
 	$('#popup-desktop').popup({
         blur:true,
         transition: 'all 0.3s',
@@ -49,43 +13,61 @@ $(document).ready(function() {
     if((7<gio&&gio<22)||(gio==22&&phut<=30)||(gio==7&&phut>=30)){
         setTimeout(showchat, 15000);
     }
+    //
+    $(".tabs2 tr td").hover(function() {
+    	var indexTd = $(this).index();
+    	$(this).addClass('active2');
+    	$(this).siblings('td').removeClass('active2');
+    	$(this).parents('.tabs2').next('.contents2').children('div').eq(indexTd).addClass('active');
+    	$(this).parents('.tabs2').next('.contents2').children('div').eq(indexTd).siblings('div').removeClass('active');
+    }, function() {
+    	
+    });
+    //
+    $("div.row3 .flex1col3 table.footer tr td").hover(function() {
+    	$(this).find('i').addClass('active');
+    }, function() {
+    	$(this).find('i').removeClass('active');
+    });
+    //
+    $("div.row3 .flex1col3 table.footer tr td:nth-child(2n+2)").hover(function() {
+    	$(this).prev('td').find('i').addClass('active');
+    }, function() {
+    	$(this).prev('td').find('i').removeClass('active');
+    });
+    //
+    $("div.row3 .flex2col1").hover(function() {
+    	$(this).addClass('active');
+    	$(this).find('i').addClass('active')
+    	$(this).siblings('div').removeClass('active');
+    	$(this).siblings('div').find('i').removeClass('active');
+    	var indexFlex = $(this).index();
+    	$(this).parents('div.tabs').siblings('div.posts').children('div').eq(indexFlex).addClass('active');
+    	$(this).parents('div.tabs').siblings('div.posts').children('div').eq(indexFlex).siblings('div').removeClass('active');
+    }, function() {
 
-
+    });
+    //
+    $("footer .table2 .table3 td a").hover(function() {
+    	$(this).find('i').addClass('active');
+    }, function() {
+    	$(this).find('i').removeClass('active');
+    });
+    //
+    $('.toolbar2').scrollToFixed( { bottom: 0 } );
+    //
+    $("div.row1 .item").hover(function() {
+    	$(this).addClass('active');
+    	$(this).siblings('div.item').removeClass('active');
+    }, function() {
+    	
+    });
 });
+//
 function open_tuvan(){
 	window.open("http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en","_blank");
 }
-// kythuat nam khoa slide
-// function home_kythuatnamkhoa(){
-// 	var obj = $(".row4 .flex2col1.active");
-// 	$(".row4 .flex2col1.active >div>div").each(function(index, el) {
-// 		if($(el).css('display') == 'none'){
-// 			$(el).fadeIn();
-// 		}else{
-// 			$(el).fadeOut();
-// 		}
-// 	});
-// 	if(obj.next().length){
-// 		obj.removeClass('active');
-// 		obj.next().addClass('active');
-// 	}else{
-// 		obj.removeClass('active');
-// 		$(".row4 .flex2col1").first().addClass('active');
-// 	}
-// }
-// thuong hieu slide
-// function home_thuonghieu(){
-// 	var obj = $('.row7 .flex1 >div.active');
-// 	obj.find('div.slickmy').slick('slickNext');
-// 	obj.removeClass('active');
-// 	if(obj.next('div').length){
-// 		obj.next('div').addClass('active');
-// 	}else{
-// 		$('.row7 .flex1 >div').first().addClass('active');
-// 	}
-// }
-
-
+//
 function showchat() {
     $('#popup-desktop').popup('show');
 }

@@ -76,6 +76,127 @@
     @yield('menu')
     @yield('content')
     <footer>
+        <div class="container">
+            <div class="menu-footer">
+                <table class="table1">
+                    <tr>
+                        <td><a href="#">Giới thiệu<br>phòng khám</a></td>
+                        <td><a href="#">Kỹ thuật<br>đặc biệt</a></td>
+                        <td><a href="#">Bệnh án<br>điển hình</a></td>
+                        <td><a href="#">Các câu hỏi<br>về sức khỏe</a></td>
+                        <td><a href="#">Đăng ký<br>trực tuyến</a></td>
+                        <td><a href="#">Tư vấn<br>trực tuyến</a></td>
+                    </tr>
+                </table>
+            </div>
+            <table class="width-100 table2">
+                <tr>
+                    <td class="td1">
+                        <div>
+                            <img src="{{ asset('public/css/desktop/imghome/home-1.png') }}" alt="" class="center-block">
+                            <div class="title">PHÒNG KHÁM CHUYÊN KHOA NAM KHANG</div>
+                            <address>SỐ 193C1 BÀ TRIỆU - HAI BÀ TRƯNG - HÀ NỘI</address>
+                        </div>
+                    </td>
+                    <td class="td2">
+                        <div>
+                            <p class="p1">Thời gian mở cửa:  <span>8:00 - 20:00</span></p>
+                            <p class="p2">Hotline:  <span>1800 - 6181 . 043 - 9656999</span></p>
+                            <p class="p3">
+                                Các thông tin trên trang web mang tính chất tham khảo, không thể làm
+                                căn cứ để chuẩn đoán hay chữa trị, hãy làm theo sự chuẩn đoán của bác sĩ.
+                            </p>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <table class="table3">
+                                <tr>
+                                    <td>
+                                        <a class="text-center dis-block" href="#">
+                                            <i class="dis-inline-block bg1"></i>
+                                            <span class="dis-block">Đặt lịch<br>trực tuyến</span>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a class="text-center dis-block" href="#">
+                                            <i class="dis-inline-block bg2"></i>
+                                            <span class="dis-block">Điện thoại<br>miễn phí</span>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a class="text-center dis-block" href="#">
+                                            <i class="dis-inline-block bg3"></i>
+                                            <span class="dis-block">Facebook<br>Phòng khám</span>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="text-center dis-block" href="#">
+                                            <i class="dis-inline-block bg4"></i>
+                                            <span class="dis-block">Chỉ đường <br>&nbsp;</span>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a class="text-center dis-block" href="#">
+                                            <i class="dis-inline-block bg5"></i>
+                                            <span class="dis-block">Đội ngũ<br>chuyên gia</span>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a class="text-center dis-block" href="#">
+                                            <i class="dis-inline-block bg6"></i>
+                                            <span class="dis-block">Hỏi đáp<br>trực tuyến</span>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="toolbar2">
+            <div class="container">
+                <div class="bg">
+                    <table>
+                        <tr>
+                            <td class="td1"><img src="{{ asset('public/css/desktop/imghome/home-34.png') }}" alt=""></td>
+                            <td class="td2">
+                                <div>
+                                    <p>Nhận cuộc gọi miễn phí của chuyên gia</p>
+                                    <p><input type="text" class="dis-block" placeholder="Hãy nhập số điện thoại của bạn"></p>
+                                </div>
+                            </td>
+                            <td class="td3">
+                                <button>Gửi</button>
+                            </td>
+                            <td class="td4">
+                                Hoặc gọi: <span>1800 - 6181</span>
+                            </td>
+                            <td class="td5">
+                                <a href="#">Tư vấn<br>kĩ thuật<br>điều trị</a>
+                            </td>
+                            <td class="td6">
+                                <a href="#">Tư vấn<br>chi phí<br>điều trị</a>
+                            </td>
+                            <td class="td7">
+                                <a href="#" class="dis-table">
+                                    <i class="fa fa-user table-cell"></i>
+                                    <span class="table-cell">
+                                        Hỏi bệnh trực tuyến<br>
+                                        Hỏi nhanh đáp nhanh
+                                    </span>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="toolbar">
+        </div>
     </footer>
 </body>
 </html>
