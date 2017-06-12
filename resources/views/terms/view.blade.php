@@ -288,6 +288,9 @@
 						</div>
 					</div>
 					<div class="line4"></div>
+					<div class="footer">
+						<img src="{{ asset('public/css/desktop/imgterm/term-2.png') }}" alt="" class="img-responsive center-block">
+					</div>
 				</div>
 				<div class="flex1col2">
 					<div class="line1">
