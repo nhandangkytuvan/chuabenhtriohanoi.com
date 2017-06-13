@@ -1,4 +1,3 @@
-<div id="popup-desktop">
 	<div class="content-popup">
 		<div class="name text-uppercase">Cổng tư vấn và đặt hẹn trực tuyến</div>
 		<div class="linktv">
@@ -29,5 +28,5 @@
 			</form>
 		</div>
 	</div>
-	<div class="my_close"><a href="javascript:;" class="popup-desktop_close">X</a></div>
+	<div class="my_close"><a href="javascript:;" class="popup_desktop_close">X</a></div>
 </div>
