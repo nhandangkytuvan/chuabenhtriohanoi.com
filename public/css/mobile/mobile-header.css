@@ -1,0 +1,56 @@
+header .bg{background-color: #00877d;text-align: center;padding-top: 25px;color: #fff;padding-bottom: 15px;}
+header .bg h1{font-size: 18px;font-weight: bold;margin-top: 5px;padding:0px 10px;}
+header .bg div.phone{padding:0px 10px;}
+header .bg div.phone span{font-size: 24px;margin-top: 5px;font-weight: bold;}
+header .bg div.slogan{font-style: italic;margin-top: 5px;padding:0px 10px;}
+/**/
+menu .row1{padding:0px 0px;}
+menu .row1:nth-child(n+2){margin-top: -5px;}
+menu .row1 .dis-table{border-spacing: 5px;}
+menu .row1 a{background-color: #6faa70;color: #fff;height: 78px;padding:0px 0px;}
+menu .row1 a img{min-width: 30px;}
+menu .row1 a span{display: table-cell;vertical-align: middle;text-align: center;padding-left: 5px;font-size: 12px;}
+menu .row1 a.cell3{background-color: #ff767b;}
+menu .row1 a.cell4{background-color: #009ebc;}
+menu .row1 a.cell6{background-color: #ffa645;font-size: 24px;}
+menu .row1 a.cell6 span{font-size: 16px;}
+menu .row1 a.cell7{background-color: #009e9a;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

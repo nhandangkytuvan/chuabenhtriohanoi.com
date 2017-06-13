@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Carbon;
+use Jenssegers\Agent\Agent;
 class HomeController extends Controller
 {
     /**
@@ -20,7 +21,12 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function home(){            
-        return view('home');
+    public function home(){    
+        $agent = new Agent();
+        if($agent->isDesktop()){        
+            return view('home');
+        }else{
+            return view('homeMobile');
+        }
     }
 }
