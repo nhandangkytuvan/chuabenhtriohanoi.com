@@ -22,7 +22,7 @@
                     <img src="{{ asset('public/upload/'.$post->avatar) }}" class="img-responsive center-block" style="max-width: 50px;">
                     @endif
                 </td>
-                <td><a href="#">{{ $post->name }}</a></td>
+                <td><a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></td>
                 <td>{{ $post->term ? $post->term->name : '' }}</td>
                 <td>{{ $post->user ? $post->user->name : '' }}</td>
                 <td>

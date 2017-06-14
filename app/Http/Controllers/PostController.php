@@ -79,6 +79,9 @@ class PostController extends Controller
             }
         }
         $post->orther = json_encode($orther);
+        // alias
+        $post->alias = str_slug($post->name,'-');
+        // save
         $post->save();
         return redirect('posts/'.$post->id.'/edit'); 
     }
@@ -141,10 +144,13 @@ class PostController extends Controller
             }
         }
         $post->orther = json_encode($orther);
+        // alias
+        $post->alias = str_slug($post->name,'-');
+        // save
         $post->save();
         //return blade edit
         $terms = App\Term::get();
-        return view('posts.edit',['post'=>$post,'terms'=>$terms]);
+        return redirect('posts/'.$post->id.'/edit'); 
     }
 
     /**
