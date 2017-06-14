@@ -77,6 +77,8 @@ class TermController extends Controller
         $term->alias = str_slug($term->name,'-');
         // save
         $term->save();
+        // notifi
+        Session::flash('success','Lưu thành công :v');
         return redirect('terms/'.$term->id.'/edit');
     }
 
@@ -142,6 +144,8 @@ class TermController extends Controller
         $term->alias = str_slug($term->name,'-');
         // save
         $term->save();
+        // notifi
+        Session::flash('success','Sửa thành công :v');
         return redirect('terms/'.$term->id.'/edit');
     }
 
@@ -159,6 +163,8 @@ class TermController extends Controller
         $term->media()->update(['term_id'=>0]);
         File::delete(public_path('upload\\'.$term->avatar));
         DB::statement('ALTER TABLE terms AUTO_INCREMENT = 1');
+        // notifi
+        Session::flash('success','Xóa thành công :v');
         return redirect('terms');
     }
     //
