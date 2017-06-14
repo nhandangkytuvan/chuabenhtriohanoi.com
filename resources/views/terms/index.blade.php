@@ -22,7 +22,7 @@
                     <img src="{{ asset('public/upload/'.$term->avatar) }}" class="img-responsive center-block" style="max-width: 50px;">
                     @endif
                 </td>
-                <td><a href="#">{{ $term->name }}</a></td>
+                <td><a href="{{ APITerm::getUrlByObj($term) }}">{{ $term->name }}</a></td>
                 <td></td>
                 <td></td>
                 <td>

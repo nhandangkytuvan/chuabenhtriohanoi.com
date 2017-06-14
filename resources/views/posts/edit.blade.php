@@ -83,4 +83,6 @@
         });
     </script>
 @endsection('content')
-
+@section('search')
+    @include('layouts.notifi')
+@endsection('search')
