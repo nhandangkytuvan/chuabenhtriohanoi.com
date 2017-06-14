@@ -83,6 +83,8 @@ class PostController extends Controller
         $post->alias = str_slug($post->name,'-');
         // save
         $post->save();
+        // notifi
+        Session::flash('success','Lưu thành công :v');
         return redirect('posts/'.$post->id.'/edit'); 
     }
 
@@ -148,8 +150,8 @@ class PostController extends Controller
         $post->alias = str_slug($post->name,'-');
         // save
         $post->save();
-        //return blade edit
-        $terms = App\Term::get();
+        // notifi
+        Session::flash('success','Sửa thành công :v');
         return redirect('posts/'.$post->id.'/edit'); 
     }
 
@@ -165,6 +167,8 @@ class PostController extends Controller
         $post->delete();
         File::delete(public_path('upload\\'.$post->avatar));
         DB::statement('ALTER TABLE posts AUTO_INCREMENT = 1');
+        // notifi
+        Session::flash('success','Xóa thành công :v');
         return redirect('posts');
 
     }
