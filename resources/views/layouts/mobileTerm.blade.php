@@ -31,9 +31,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/hover/css/hover.css') }}">
 
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/mobile/mobile.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('public/css/mobile/mobile-header.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('public/css/mobile/mobile-footer.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('public/css/mobile/mobile-popup.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/css/mobile/mobileTerm-header.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/css/mobile/mobileTerm-footer.css') }}">
     @yield('css')
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery-1.12.3.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery.form.min.js') }}"></script>
@@ -48,58 +47,24 @@
         <div class="container">
             <div class="bg">
                 <div class="logo">
-                    <img src="{{ asset('public/css/mobile/imghome/home-1.png') }}" alt="" class="center-block">
+                    <table class="width-100">
+                        <tr>
+                            <td>
+                                <img src="{{ asset('public/css/mobile/imghome/home-1.png') }}" alt="" class="center-block">
+                            </td>
+                            <td>
+                                <div class="name">PHÒNG KHÁM CHUYÊN KHOA NAM KHANG</div>
+                                <div class="slogan">Bởi vì chuyên khoa, cho nên chuyên nghiệp</div>
+                            </td>
+                            <td class="text-right">
+                                <div class="text-uppercase dis-table"><span class="table-cell">Chuyên khoa</span></div>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
-                <h1>PHÒNG KHÁM CHUYÊN KHOA NAM KHANG</h1>
-                <div class="phone">Điện thoại：<span>1800 - 6181</span></div>
-                <div class="slogan">Bởi vì chuyên khoa, cho nên chuyên nghiệp</div>
             </div>
         </div>
     </header>
-    <menu>
-        <div class="container">
-            <div class="row1">
-                <div class="dis-table width-100">
-                    <a href="#" class="table-cell cell1">
-                        <span><img src="{{ asset('public/css/mobile/imghome/home-2.png') }}" alt="" class="img-responsive"></span>
-                        <span class="text-uppercase">Giới thiệu phòng khám</span>
-                    </a>
-                    <a href="#" class="table-cell cell2">
-                        <span><img src="{{ asset('public/css/mobile/imghome/home-3.png') }}" alt="" class="img-responsive"></span>
-                        <span class="text-uppercase">Đội ngũ chuyên gia</span>
-                    </a>
-                </div>
-            </div>
-            <div class="row1">
-                <div class="dis-table width-100">
-                    <a href="#" class="table-cell cell3">
-                        <span><img src="{{ asset('public/css/mobile/imghome/home-4.png') }}" alt="" class="img-responsive"></span>
-                        <span class="text-uppercase">Đăng ký<br>đặt hẹn</span>
-                    </a>
-                    <a href="#" class="table-cell cell4">
-                       <span><img src="{{ asset('public/css/mobile/imghome/home-5.png') }}" alt="" class="img-responsive"></span>
-                        <span class="text-uppercase">Tư vấn<br>trực tuyến</span>
-                    </a>
-                    <a href="#" class="table-cell cell5">
-                        <span><img src="{{ asset('public/css/mobile/imghome/home-6.png') }}" alt="" class="img-responsive"></span>
-                        <span class="text-uppercase">Hướng dẫn<br>chỉ đường</span>
-                    </a>
-                </div>
-            </div>
-            <div class="row1">
-                <div class="dis-table width-100">
-                    <a href="#" class="table-cell cell6">
-                        <span><img src="{{ asset('public/css/mobile/imghome/home-7.png') }}" alt="" class="img-responsive"></span>
-                        <span class="text-uppercase">1800 - 6181</span>
-                    </a>
-                    <a href="#" class="table-cell cell7">
-                        <span><img src="{{ asset('public/css/mobile/imghome/home-8.png') }}" alt="" class="img-responsive"></span>
-                        <span class="text-uppercase">Kỹ thuật<br>điều trị</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </menu>
     @yield('banner')
     @yield('menu')
     @yield('content')
@@ -152,20 +117,38 @@
                     </table>
                 </div>
             </div>
-            <div class="toolbar">
-                <div class="dis-table width-100 table1">
-                    <a href="#" class="table-cell">
+            <div class="toolbarTerm">
+                <div class="dis-table width-100">
+                    <div class="table-cell cell1">
                         <div class="dis-table width-100">
-                            <span class="table-cell"><img src="{{ asset('public/css/mobile/imghome/home-28.png') }}" alt=""></span>
-                            <span class="table-cell">1800-6181</span>
+                            <div class="table-cell">
+                                <h3 class="text-center"><a href="tel:18006181"><i class="bg bg1"></i></a></h3>
+                            </div>
+                            <div class="table-cell">
+                                <h4 class="text-center"><a href="tel:18006181">Điện thoại tư vấn</a></h4>
+                            </div>
                         </div>
-                    </a>
-                    <a href="#" class="table-cell">
+                    </div>
+                    <div class="table-cell cell2">
                         <div class="dis-table width-100">
-                            <span class="table-cell"><img src="{{ asset('public/css/mobile/imghome/tttf.gif') }}" alt=""></span>
-                            <span class="text-uppercase table-cell">Thông tin của bạn</span>
+                            <div class="table-cell">
+                                <h3 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="bg bg2"></i></a></h3>
+                            </div>
+                            <div class="table-cell">
+                                <h4 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a></h4>
+                            </div>
                         </div>
-                    </a>
+                    </div>
+                    <div class="table-cell cell1">
+                        <div class="dis-table width-100">
+                            <div class="table-cell">
+                                <h3 class="text-center"><a href="#top"><i class="bg bg3"></i></a></h3>
+                            </div>
+                            <div class="table-cell">
+                                <h4 class="text-center"><a href="{{ url('/') }}">Quay lại</a></h4>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

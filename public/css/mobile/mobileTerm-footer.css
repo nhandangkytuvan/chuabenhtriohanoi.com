@@ -1,4 +1,4 @@
-footer{margin-top: 20px;padding-bottom: 60px;}
+footer{margin-top: 20px;padding-bottom: 40px;}
 footer div.bg{background-color: #00877d;padding-top: 20px;padding-bottom: 10px;}
 footer div.bg .dis-table.table1{color: #fff;padding:0px 10px;}
 footer div.bg .dis-table.table1 span{padding-left: 5px;font-weight: bold;font-size: 14px;}
@@ -14,46 +14,17 @@ footer div.bg div.bg2 .table2 td:nth-child(3){font-size: 11px;}
 footer div.bg div.bg2 .line3{margin-top: 10px;text-align: center;color: #e99c08;}
 footer div.bg .goTop{margin-top: 20px;color: #fff;font-size: 12px;text-align: center;}
 footer div.bg .goTop{padding-top: 10px;border-top: 1px solid #159188;height: 50px;}
-footer .toolbar{color: #fff;position: fixed;width: 100%;bottom:0;max-width: 640px;margin:0px auto;}
+footer .toolbar{color: #fff;position: fixed;width: 100%;bottom:0;}
 footer .toolbar .dis-table.table1{height: 60px;border-spacing: 0px;}
 footer .toolbar .dis-table.table1 a{width: 50%;text-align: center;padding:0px 5px;}
 footer .toolbar .dis-table.table1 a:nth-child(1){background-color: #22cdbd;font-size: 18px;}
 footer .toolbar .dis-table.table1 a:nth-child(2){background-color: #20a4cd;font-size: 13px;}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/**/
+footer .toolbarTerm{position: fixed;bottom: 0px;width: 100%;max-width: 640px;margin:0px auto;}
+footer .toolbarTerm .table-cell.cell1{padding:5px;background-color: #038ea7;color: #fff;width: 33%;}
+footer .toolbarTerm .table-cell i{display: inline-block;width: 25px;height: 26px;line-height: 26px;background-image: url('imgterm/icon-4.png');background-repeat: no-repeat;background-position: 0px 0px;}
+footer .toolbarTerm .table-cell.cell2 i.bg2{width: 35px;background-position: -188px 0px;background-image: url('imgterm/icon-4.gif')}
+footer .toolbarTerm .table-cell.cell1 i.bg3{background-position: -405px 0px;}
+footer .toolbarTerm .table-cell.cell2:nth-child(2){background-color: #ffb400;color: #fff;}

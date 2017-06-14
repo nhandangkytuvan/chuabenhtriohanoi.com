@@ -11,7 +11,7 @@
 .home .row3 .title span{display: table-cell;height: 48px;vertical-align: middle;}
 .home .row3 .dis-table{border-spacing: 5px;}
 .home .row3 .dis-table:nth-child(n+3){margin-top: -5px;}
-.home .row3 .dis-table a{background-color: #fff;color: #00877d;text-align: center;height: 53px;}
+.home .row3 .dis-table a{background-color: #fff;color: #00877d;text-align: center;height: 53px;padding:0px 5px;}
 /**/
 .home .row4{background-color: #fff;padding:0px 0px;margin-top: 30px;}
 .home .row4 .title{background-color: #00877d;color: #fff;height: 48px;margin: 0px 5px;padding-left: 10px;}

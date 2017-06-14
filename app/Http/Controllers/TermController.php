@@ -174,7 +174,7 @@ class TermController extends Controller
         if($agent->isDesktop()){
             return view('terms.view',['term'=>$term]); 
         }else{
-            
+            return view('terms.viewMobile',['term'=>$term]);
         }
     }
 }

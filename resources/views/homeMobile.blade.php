@@ -146,13 +146,7 @@
 						</tr>
 						<tr>
 							<td>Loại bệnh :</td>
-							<td>
-								<select name="">
-									<option value="0">Loại bệnh</option>
-									<option value="0">Loại bệnh</option>
-									<option value="0">Loại bệnh</option>
-								</select>
-							</td>
+							<td><input type="text" placeholder="Mời nhập triệu trứng"></td>
 						</tr>
 					</table>
 					<div class="button text-center">
