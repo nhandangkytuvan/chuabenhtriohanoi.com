@@ -4,6 +4,7 @@
 /**/
 .home .row2{margin-top: 30px;padding:0px 5px;}
 .home .row2 tr td{padding:0px 5px;color: #454545;width:33.33%;}
+.home .row2 tr td img{max-width: 144px;margin:0px auto;display: block;}
 .home .row2 tr td div:nth-child(2){margin-top: 5px;height: 40px;}
 /**/
 .home .row3{background-color: #e8e8e8;padding:0px 0px;margin-top: 30px;}

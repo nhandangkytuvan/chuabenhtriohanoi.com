@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Network Room 146HN') }}</title>
+    <title>Network Room 146HN</title>
 
     <!-- Styles -->
     @yield('css')
@@ -52,7 +52,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Network Room 146HN') }}
+                        Network Room 146HN
                     </a>
                 </div>
 

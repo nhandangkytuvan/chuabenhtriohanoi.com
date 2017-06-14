@@ -5,7 +5,7 @@ use DB,File,Auth,App,Session;
 class APIGlobal {
     // get getRandomeName
     public static function getRandomeName(){
-        $benhs = ['sùi mào gà','giang mai','bệnh lậu','mụn rộp sinh dục'];
+        $benhs = ['Trĩ ngoại','Trĩ nội','Trĩ hỗn hợp',' Áp xe hậu môn','Ngứa rát hậu môn','Polyp hậu môn','Đau hậu môn','Hậu môn có vật thể','Rò hậu môn','  Nứt kẽ hậu môn','Sa hậu môn','Đi ngoài ra máu','Táo bón'];
         $numbers = [0,1,2,3,4,5,6,7,8,9];
         $names = [
             'An','Anh','Bách','Bảo','Công','Cường','Đức','Dũng','Dương','Đạt','Duy','Gia','Hải','Hiếu','Hoàng','Huy','Hùng','Khải','Khang','Khánh','Khoa','Khôi','Kiên','Lâm','Long','Lộc','Minh','Nam','Nghĩa','Ngọc','Nguyên','Nhân','Phi','Phong','Phúc','Quân','Quang','Quốc','Tâm','Thái','Thành','Thiên','Thịnh','Trung','Tuất','Tùng','Sơn','Việt','Vinh','Uy'];
