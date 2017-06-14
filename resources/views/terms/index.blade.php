@@ -15,7 +15,7 @@
                 <td>#</td>
             </tr>
             @foreach($terms as $key => $term)
-            <tr>
+            <tr {!! $term->term_id == 0 ? 'class="active"' : '' !!}>
                 <td>{{ $term->id }}</td>
                 <td>
                     @if($term->avatar)
