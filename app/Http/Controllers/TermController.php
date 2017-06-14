@@ -73,6 +73,9 @@ class TermController extends Controller
             }
         }
         $term->orther = json_encode($orther);
+        // alias
+        $term->alias = str_slug($term->name,'-');
+        // save
         $term->save();
         return redirect('terms/'.$term->id.'/edit');
     }
@@ -135,6 +138,9 @@ class TermController extends Controller
             }
         }
         $term->orther = json_encode($orther);
+        // alias
+        $term->alias = str_slug($term->name,'-');
+        // save
         $term->save();
         return redirect('terms/'.$term->id.'/edit');
     }
