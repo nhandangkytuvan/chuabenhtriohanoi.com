@@ -1,12 +1,24 @@
 footer{margin-top: 20px;}
-footer div.bg{background-color: #00877d;padding-top: 20px;}
+footer div.bg{background-color: #00877d;padding-top: 20px;padding-bottom: 10px;}
 footer div.bg .dis-table.table1{color: #fff;padding:0px 10px;}
 footer div.bg .dis-table.table1 span{padding-left: 5px;font-weight: bold;font-size: 14px;}
-footer div.bg div.bg2{background-color: #fff;border-radius: 10px;margin:0px 5px;margin-top: 10px;height: 100px;}
-
-
-
-
+footer div.bg div.bg2{background-color: #fff;border-radius: 10px;margin:0px 5px;margin-top: 10px;padding:15px 10px;padding-top: 15px;}
+footer div.bg div.bg2 .line1{border:2px solid #e99c08;height: 45px;padding-left: 10px;border-radius: 5px;display: table;width: 100%;border-spacing: 0px;}
+footer div.bg div.bg2 .line1 .cell2{font-size: 20px;font-weight: bold;color: #e99c08;}
+footer div.bg div.bg2 .line1 .cell3{background-color: #e99c08;color: #fff;font-size: 12px;padding:0px 5px;}
+footer div.bg div.bg2 .line2{margin-top: 10px;}
+footer div.bg div.bg2 .table2{color: #e99c08}
+footer div.bg div.bg2 .table2 td{vertical-align: bottom;text-align: center;}
+footer div.bg div.bg2 .table2 td:nth-child(2){font-size: 15px;}
+footer div.bg div.bg2 .table2 td:nth-child(3){font-size: 11px;}
+footer div.bg div.bg2 .line3{margin-top: 10px;text-align: center;color: #e99c08;}
+footer div.bg .goTop{margin-top: 20px;color: #fff;font-size: 12px;}
+footer div.bg .goTop{padding-top: 10px;border-top: 1px solid #159188;height: 50px;}
+footer .toolbar{color: #fff;position: fixed;width: 100%;bottom:0;}
+footer .toolbar .dis-table.table1{height: 60px;border-spacing: 0px;}
+footer .toolbar .dis-table.table1 a{width: 50%;text-align: center;padding:0px 5px;}
+footer .toolbar .dis-table.table1 a:nth-child(1){background-color: #22cdbd;font-size: 18px;}
+footer .toolbar .dis-table.table1 a:nth-child(2){background-color: #20a4cd;font-size: 13px;}
 
 
 

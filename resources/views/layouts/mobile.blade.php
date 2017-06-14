@@ -110,7 +110,63 @@
                     <span class="table-cell"><img src="{{ asset('public/css/mobile/imghome/home-1.png') }}" alt="" class="img-responsive"></span>
                     <span class="text-uppercase table-cell">PHÒNG KHÁM CHUYÊN KHOA NAM KHANG</span>
                 </div>
-                <div class="bg2"></div>
+                <div class="bg2">
+                    <div class="line1">
+                        <span class="table-cell text-center"><img src="{{ asset('public/css/mobile/imghome/home-24.png') }}" alt=""></span>
+                        <span class="table-cell text-center cell2">1800 - 6181</span>
+                        <a href="#" class="table-cell text-uppercase text-center cell3">Bấm để gọi</a>
+                    </div>
+                    <div class="line2">
+                        <table class="width-100 table2">
+                            <tr>
+                                <td><img src="{{ asset('public/css/mobile/imghome/home-25.png') }}" alt=""></td>
+                                <td>8:00 - 20:00</td>
+                                <td class="text-uppercase">( không nghỉ lễ tết cuối tuần)</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="line3">
+                        <a href="#">Địa chỉ phòng khám : Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</a>
+                    </div>
+                </div>
+                <div class="goTop">
+                    <table class="width-100">
+                        <tr>
+                            <td>
+                                <table class="width-100">
+                                    <tr>
+                                        <td><a href="#"><img src="{{ asset('public/css/mobile/imghome/home-26.png') }}" alt=""></a></td>
+                                        <td><a href="#" class="text-uppercase">Về đầu trang</a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <table class="width-100">
+                                    <tr>
+                                        <td><a href="#"><img src="{{ asset('public/css/mobile/imghome/home-27.png') }}" alt=""></a></td>
+                                        <td><a href="#" class="text-uppercase">Bác sĩ tư vấn</a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="toolbar">
+                <div class="dis-table width-100 table1">
+                    <a href="#" class="table-cell">
+                        <div class="dis-table width-100">
+                            <span class="table-cell"><img src="{{ asset('public/css/mobile/imghome/home-28.png') }}" alt=""></span>
+                            <span class="table-cell">1800-6181</span>
+                        </div>
+                    </a>
+                    <a href="#" class="table-cell">
+                        <div class="dis-table width-100">
+                            <span class="table-cell"><img src="{{ asset('public/css/mobile/imghome/home-29.png') }}" alt=""></span>
+                            <span class="text-uppercase table-cell">Thông tin của bạn</span>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
