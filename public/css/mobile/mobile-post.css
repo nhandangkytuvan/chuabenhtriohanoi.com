@@ -1,0 +1,71 @@
+.post h1{text-align: center;text-transform: uppercase;font-size: 15px;font-weight: bold;padding:0px 15px;margin:0px 15px;margin-top: 20px;padding-top: 20px;border-top:2px solid #1e64ae;}
+.post .detail{text-align: justify;margin-top: 20px;padding:0px 15px;color: #4b4b4b;}
+.post .more{margin:0px 15px;margin-top: 20px;}
+.post .more ul{list-style: none;}
+.post .more ul li{margin-top: 10px;}
+.post .more ul li i{color: #99a839;}
+.post .more ul li a{color: #ba5c5c;}
+/**/
+.post div.row3{margin-top: 20px;padding:0px 15px;}
+.post div.row3 .bg{background-color: #00877d;color:#fff;font-size: 12px;height: 45px;}
+.post div.row3 .bg span{padding:0px 10px;}
+.post div.row3 .bg span:nth-child(2){color: #fff600;}
+.post div.row3 .bg span:nth-child(2) strong{color: #fff;font-weight: normal;}
+.post div.row3 .table1{margin:0px -5px;margin-top: 15px;}
+.post div.row3 .table2{margin:0px -5px;margin-top: -5px;}
+.post div.row3 table{border-spacing: 5px;}
+.post div.row3 td{padding:5px;}
+.post div.row3 td.bg1{background-color: #88b4b9;color:#fff;}
+.post div.row3 td.bg2{background-color: #97b98b;color:#fff;}
+.post div.row3 td.bg3{background-color: #dba089;color:#fff;}
+.post div.row3 td.bg4{background-color: #d0a0a4;color:#fff;}
+.post div.row3 td.bg5{background-color: #a196ae;color:#fff;}
+.post div.row3 td.bg6{background-color: #88b4b9;color:#fff;}
+/**/
+.post .row4{background-color: #fff;padding:0px 10px;margin-top: 30px;}
+.post .row4 .title{background-color: #00877d;color: #fff;height: 48px;margin: 0px 5px;padding-left: 10px;}
+.post .row4 .title span{display: table-cell;height: 48px;vertical-align: middle;}
+.post .row4 .bg{background-color: #00877d;margin: 0px 5px;margin-top: 5px;padding-top: 15px;padding-right: 5px;padding-bottom: 18px;}
+.post .row4 .bg table {color: #fff;}
+.post .row4 .bg table input{outline: none;box-shadow: none;height: 30px;background-color: #fff;display: block;width: 100%;border:none;padding-left: 5px;color: #454545;}
+.post .row4 .bg table tr td:nth-child(1){padding-left: 5px;}
+.post .row4 .bg table select{display: block;width: 100%;height: 30px;color: #454545;border:none;outline: none;box-shadow: none;background-color:#fff;}
+.post .row4 .bg table tr td{padding-bottom: 10px;}
+.post .row4 .bg .button{margin-top: 20px;}
+.post .row4 .bg .button button{height: 30px;border-radius: 5px;background-image: linear-gradient(#fff,#d5c496);color: #00877d;border:1px solid #005f38;width: 100px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -180,7 +180,7 @@ class PostController extends Controller
         if($agent->isDesktop()){
             return view('posts.view',['post'=>$post]); 
         }else{
-            return 'Hello mobile';   
+            return view('posts.viewMobile',['post'=>$post]);  
         }
     }
 }
