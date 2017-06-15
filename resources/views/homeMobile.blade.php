@@ -14,40 +14,40 @@
 			<table class="width-100">
 				<tr>
 					<td>
-						<div><img src="{{ asset('public/css/mobile/imghome/home-10.png') }}" alt="" class="img-responsive"></div>
-						<div class="text-center">Trĩ nội</div>
+						<div><a href="{{ APITerm::getUrlByID(3) }}"><img src="{{ asset('public/css/mobile/imghome/home-10.png') }}" alt="" class="img-responsive"></a></div>
+						<div class="text-center"><a href="{{ APITerm::getUrlByID(3) }}">Trĩ nội</a></div>
 					</td>
 					<td>
-						<div><img src="{{ asset('public/css/mobile/imghome/home-11.png') }}" alt="" class="img-responsive"></div>
-						<div class="text-center">Trĩ ngoại</div>
+						<div><a href="{{ APITerm::getUrlByID(2) }}"><img src="{{ asset('public/css/mobile/imghome/home-11.png') }}" alt="" class="img-responsive"></a></div>
+						<div class="text-center"><a href="{{ APITerm::getUrlByID(2) }}">Trĩ ngoại</a></div>
 					</td>
 					<td>
-						<div><img src="{{ asset('public/css/mobile/imghome/home-12.png') }}" alt="" class="img-responsive"></div>
-						<div class="text-center">Trĩ hỗn hợp</div>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<div><img src="{{ asset('public/css/mobile/imghome/home-13.png') }}" alt="" class="img-responsive"></div>
-						<div class="text-center">Nứt kẽ hậu môn</div>
-					</td>
-					<td>
-						<div><img src="{{ asset('public/css/mobile/imghome/home-14.png') }}" alt="" class="img-responsive"></div>
-						<div class="text-center">Sa hậu môn</div>
-					</td>
-					<td>
-						<div><img src="{{ asset('public/css/mobile/imghome/home-15.png') }}" alt="" class="img-responsive"></div>
-						<div class="text-center">Polyp hậu môn</div>
+						<div><a href="{{ APITerm::getUrlByID(4) }}"><img src="{{ asset('public/css/mobile/imghome/home-12.png') }}" alt="" class="img-responsive"></a></div>
+						<div class="text-center"><a href="{{ APITerm::getUrlByID(4) }}">Trĩ hỗn hợp</a></div>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<div><img src="{{ asset('public/css/mobile/imghome/home-16.png') }}" alt="" class="img-responsive"></div>
-						<div class="text-center">Rò hậu môn </div>
+						<div><a href="{{ APITerm::getUrlByID(13) }}"><img src="{{ asset('public/css/mobile/imghome/home-13.png') }}" alt="" class="img-responsive"></a></div>
+						<div class="text-center"><a href="{{ APITerm::getUrlByID(13) }}">Nứt kẽ hậu môn</a></div>
 					</td>
 					<td>
-						<div><img src="{{ asset('public/css/mobile/imghome/home-17.png') }}" alt="" class="img-responsive"></div>
-						<div class="text-center">Bệnh khác</div>
+						<div><a href="{{ APITerm::getUrlByID(14) }}"><img src="{{ asset('public/css/mobile/imghome/home-14.png') }}" alt="" class="img-responsive"></a></div>
+						<div class="text-center"><a href="{{ APITerm::getUrlByID(14) }}">Sa hậu môn</a></div>
+					</td>
+					<td>
+						<div><a href="{{ APITerm::getUrlByID(8) }}"><img src="{{ asset('public/css/mobile/imghome/home-15.png') }}" alt="" class="img-responsive"></a></div>
+						<div class="text-center"><a href="{{ APITerm::getUrlByID(8) }}">Polyp hậu môn</a></div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div><a href="{{ APITerm::getUrlByID(12) }}"><img src="{{ asset('public/css/mobile/imghome/home-16.png') }}" alt="" class="img-responsive"></a></div>
+						<div class="text-center"><a href="{{ APITerm::getUrlByID(12) }}">Rò hậu môn </a></div>
+					</td>
+					<td>
+						<div><a href="#"><img src="{{ asset('public/css/mobile/imghome/home-17.png') }}" alt="" class="img-responsive"></a></div>
+						<div class="text-center"><a href="#">Bệnh khác</a></div>
 					</td>
 				</tr>
 			</table>
@@ -62,30 +62,30 @@
 			<table class="width-100">
 				<tr>
 					<td>
-						<div><img src="{{ asset('public/css/mobile/imghome/home-18.png') }}" alt="" class="img-responsive"></div>
-						<div class="text-center">Đi ngoài ra máu</div>
+						<div><a href="{{ APITerm::getUrlByID(16) }}"><img src="{{ asset('public/css/mobile/imghome/home-18.png') }}" alt="" class="img-responsive"></a></div>
+						<div class="text-center"><a href="{{ APITerm::getUrlByID(16) }}">Đi ngoài ra máu</a></div>
 					</td>
 					<td>
-						<div><img src="{{ asset('public/css/mobile/imghome/home-19.png') }}" alt="" class="img-responsive"></div>
-						<div class="text-center">Áp xe hậu môn</div>
+						<div><a href="{{ APITerm::getUrlByID(6) }}"><img src="{{ asset('public/css/mobile/imghome/home-19.png') }}" alt="" class="img-responsive"></a></div>
+						<div class="text-center"><a href="{{ APITerm::getUrlByID(6) }}">Áp xe hậu môn</a></div>
 					</td>
 					<td>
-						<div><img src="{{ asset('public/css/mobile/imghome/home-20.png') }}" alt="" class="img-responsive"></div>
-						<div class="text-center">Ngứa hậu môn</div>
+						<div><a href="{{ APITerm::getUrlByID(7) }}"><img src="{{ asset('public/css/mobile/imghome/home-20.png') }}" alt="" class="img-responsive"></a></div>
+						<div class="text-center"><a href="{{ APITerm::getUrlByID(7) }}">Ngứa hậu môn</a></div>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<div><img src="{{ asset('public/css/mobile/imghome/home-21.png') }}" alt="" class="img-responsive"></div>
-						<div class="text-center">Hậu môn có vật thể lạ</div>
+						<div><a href="{{ APITerm::getUrlByID(10) }}"><img src="{{ asset('public/css/mobile/imghome/home-21.png') }}" alt="" class="img-responsive"></a></div>
+						<div class="text-center"><a href="{{ APITerm::getUrlByID(10) }}">Hậu môn có vật thể lạ</a></div>
 					</td>
 					<td>
-						<div><img src="{{ asset('public/css/mobile/imghome/home-22.png') }}" alt="" class="img-responsive"></div>
-						<div class="text-center">Đau hậu môn</div>
+						<div><a href="{{ APITerm::getUrlByID(9) }}"><img src="{{ asset('public/css/mobile/imghome/home-22.png') }}" alt="" class="img-responsive"></a></div>
+						<div class="text-center"><a href="{{ APITerm::getUrlByID(9) }}">Đau hậu môn</a></div>
 					</td>
 					<td>
-						<div><img src="{{ asset('public/css/mobile/imghome/home-23.png') }}" alt="" class="img-responsive"></div>
-						<div class="text-center">Táo bón</div>
+						<div><a href="{{ APITerm::getUrlByID(17) }}"><img src="{{ asset('public/css/mobile/imghome/home-23.png') }}" alt="" class="img-responsive"></a></div>
+						<div class="text-center"><a href="{{ APITerm::getUrlByID(17) }}">Táo bón</a></div>
 					</td>
 				</tr>
 			</table>

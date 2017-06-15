@@ -53,7 +53,7 @@
                             <a href="{{ url('/') }}"><img src="{{ asset('public/css/desktop/imghome/home-1.png') }}" alt=""></a>
                         </div>
                         <div class="table-cell cell2">
-                            <h1>PHÒNG KHÁM CHUYÊN KHOA NAM KHANG</h1>
+                            <h1><a href="{{ url('/') }}">PHÒNG KHÁM CHUYÊN KHOA NAM KHANG</a></h1>
                             <address>SỐ 193C1 BÀ TRIỆU - HAI BÀ TRƯNG - HÀ NỘI</address>
                         </div>
                     </div>
@@ -61,11 +61,11 @@
                 <div class="table-cell cell2 text-right">
                     <div class="dis-table table3">
                         <div class="table-cell cell1">
-                            <a href="#"><img src="{{ asset('public/css/desktop/imghome/home-2.png') }}" alt=""></a>
+                            <a href="tel:1800 6181"><img src="{{ asset('public/css/desktop/imghome/home-2.png') }}" alt=""></a>
                         </div>
                         <div class="table-cell cell2">
                             <div class="hotline">Đường dây nóng 24h : </div>
-                            <div class="phone"><a href="#">1800 - 6181</a></div>
+                            <div class="phone"><a href="tel:1800 6181">1800 - 6181</a></div>
                         </div>
                     </div>
                 </div>

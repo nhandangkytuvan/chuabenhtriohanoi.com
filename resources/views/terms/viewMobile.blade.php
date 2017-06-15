@@ -5,9 +5,9 @@
 @section('content')
 	<div class="container term">
 		<div class="row1">
-			<a href="#">Trang chủ</a>
+			<a href="{{ url('/') }}">Trang chủ</a>
 			<span>></span>
-			<h1>Trĩ nội</h1>
+			<h1>{{ $term->name }}</h1>
 		</div>
 		<div class="row2">
 			<div class="posts">
@@ -71,32 +71,40 @@
 				<a href="#" class="text-uppercase">Trang sau</a>
 			</div>
 		</div>
+		@php 	
+			$orther = json_decode($term->orther,true);
+			if(isset($orther['meta'])){
+				$meta = explode(";",$orther['meta']);
+			}	
+		@endphp
 		<div class="row3">
+			@if(isset($meta))
 			<div class="bg text-uppercase">Câu hỏi thường gặp</div>
 			<div class="table1">
 				<table class="width-100">
 					<tr>
-						<td class="bg1"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
-						<td class="bg2"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
+						<td class="bg1"><a href="#">{{ $meta[0] }}</a></td>
+						<td class="bg2"><a href="#">{{ $meta[1] }}</a></td>
 					</tr>
 				</table>
 			</div>
 			<div class="table2">
 				<table class="width-100">
 					<tr>
-						<td class="bg3"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
-						<td class="bg4"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
+						<td class="bg3"><a href="#">{{ $meta[2] }}</a></td>
+						<td class="bg4"><a href="#">{{ $meta[3] }}</a></td>
 					</tr>
 				</table>
 			</div>
 			<div class="table2">
 				<table class="width-100">
 					<tr>
-						<td class="bg5"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
-						<td class="bg6"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
+						<td class="bg5"><a href="#">{{ $meta[4] }}</a></td>
+						<td class="bg6"><a href="#">{{ $meta[5] }}</a></td>
 					</tr>
 				</table>
 			</div>
+			@endif
 			<div class="table3">
 				<table class="width-100 table4">
 					<tr>

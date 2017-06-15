@@ -15,6 +15,7 @@
                 <td>#</td>
             </tr>
             @foreach($terms as $key => $term)
+            @php $orther = json_decode($term->orther,true);@endphp
             <tr {!! $term->term_id == 0 ? 'class="active"' : '' !!}>
                 <td>{{ $term->id }}</td>
                 <td>
@@ -22,7 +23,13 @@
                     <img src="{{ asset('public/upload/'.$term->avatar) }}" class="img-responsive center-block" style="max-width: 50px;">
                     @endif
                 </td>
-                <td><a href="{{ APITerm::getUrlByObj($term) }}">{{ $term->name }}</a></td>
+                <td>
+                    <a href="{{ APITerm::getUrlByObj($term) }}" >{{ $term->name }}</a>
+                    @if(isset($orther['meta']))
+                    <span class="glyphicon glyphicon-pushpin pull-right" 
+                        data-toggle="tooltip" data-placement="top" title="{{ isset($orther['meta']) ? $orther['meta'] : '' }}"></span>
+                    @endif
+                </td>
                 <td></td>
                 <td></td>
                 <td>
@@ -57,6 +64,11 @@
             @endforeach
         </table>
     </div>
+    <script>
+        $(document).ready(function($) {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 @endsection('content')
 
 @section('modal')

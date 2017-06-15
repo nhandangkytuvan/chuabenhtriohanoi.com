@@ -48,10 +48,10 @@
         <div class="container">
             <div class="bg">
                 <div class="logo">
-                    <img src="{{ asset('public/css/mobile/imghome/home-1.png') }}" alt="" class="center-block">
+                    <a href="{{ url('/') }}"><img src="{{ asset('public/css/mobile/imghome/home-1.png') }}" alt="" class="center-block"></a>
                 </div>
-                <h1>PHÒNG KHÁM CHUYÊN KHOA NAM KHANG</h1>
-                <div class="phone">Điện thoại：<span>1800 - 6181</span></div>
+                <h1><a href="{{ url('/') }}">PHÒNG KHÁM CHUYÊN KHOA NAM KHANG</a></h1>
+                <div class="phone"><a href="tel:1800 - 6181">Điện thoại：<span>1800 - 6181</span></a></div>
                 <div class="slogan">Bởi vì chuyên khoa, cho nên chuyên nghiệp</div>
             </div>
         </div>
@@ -88,7 +88,7 @@
             </div>
             <div class="row1">
                 <div class="dis-table width-100">
-                    <a href="#" class="table-cell cell6">
+                    <a href="tel:1800 - 6181" class="table-cell cell6">
                         <span><img src="{{ asset('public/css/mobile/imghome/home-7.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">1800 - 6181</span>
                     </a>
@@ -107,14 +107,14 @@
         <div class="container">
             <div class="bg">
                 <div class="logo dis-table width-100 table1">
-                    <span class="table-cell"><img src="{{ asset('public/css/mobile/imghome/home-1.png') }}" alt="" class="img-responsive"></span>
-                    <span class="text-uppercase table-cell">PHÒNG KHÁM CHUYÊN KHOA NAM KHANG</span>
+                    <span class="table-cell"><a href="{{ url('/') }}"><img src="{{ asset('public/css/mobile/imghome/home-1.png') }}" alt="" class="img-responsive"></a></span>
+                    <span class="text-uppercase table-cell"><a href="{{ url('/') }}">PHÒNG KHÁM CHUYÊN KHOA NAM KHANG</a></span>
                 </div>
                 <div class="bg2">
                     <div class="line1">
-                        <span class="table-cell text-center"><img src="{{ asset('public/css/mobile/imghome/home-24.png') }}" alt=""></span>
-                        <span class="table-cell text-center cell2">1800 - 6181</span>
-                        <a href="#" class="table-cell text-uppercase text-center cell3">Bấm để gọi</a>
+                        <span class="table-cell text-center"><a href="tel:1800 - 6181"><img src="{{ asset('public/css/mobile/imghome/home-24.png') }}" alt=""></a></span>
+                        <span class="table-cell text-center cell2"><a href="tel:1800 - 6181">1800 - 6181</a></span>
+                        <a href="tel:1800 - 6181" class="table-cell text-uppercase text-center cell3">Bấm để gọi</a>
                     </div>
                     <div class="line2">
                         <table class="width-100 table2">
@@ -154,7 +154,7 @@
             </div>
             <div class="toolbar">
                 <div class="dis-table width-100 table1">
-                    <a href="#" class="table-cell">
+                    <a href="tel:1800 - 6181" class="table-cell">
                         <div class="dis-table width-100">
                             <span class="table-cell"><img src="{{ asset('public/css/mobile/imghome/home-28.png') }}" alt=""></span>
                             <span class="table-cell">1800-6181</span>
