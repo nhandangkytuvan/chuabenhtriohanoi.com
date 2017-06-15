@@ -7,10 +7,18 @@ use Illuminate\Database\Eloquent\Model;
 class Term extends Model
 {
     protected $table = 'terms';
-    public $fillable = ['id','user_id','term_id','name','avatar','alias','description','content','orther'];
+    public $fillable = ['id','user_id','term_id','name','avatar','alias','status','description','content','orther'];
     public function user()
     {
         return $this->belongsTo('App\User');
+    }
+    public function child()
+    {
+        return $this->hasMany('App\Term');
+    }
+    public function parent()
+    {
+        return $this->belongsTo('App\Term');
     }
     public function post()
     {

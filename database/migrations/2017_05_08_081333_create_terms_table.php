@@ -20,6 +20,7 @@ class CreateTermsTable extends Migration
             $table->string('name')->nullable();
             $table->string('avatar')->nullable();
             $table->string('alias')->nullable();
+            $table->boolean('status')->nullable();
             $table->text('description')->nullable();
             $table->longtext('content')->nullable();
             $table->longtext('orther')->nullable();

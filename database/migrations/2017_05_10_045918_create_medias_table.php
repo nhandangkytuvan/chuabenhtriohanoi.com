@@ -20,6 +20,7 @@ class CreateMediasTable extends Migration
             $table->string('name')->nullable();
             $table->text('avatar')->nullable();
             $table->string('alias')->nullable();
+            $table->boolean('status')->nullable();
             $table->text('description')->nullable();
             $table->timestamps();
         });

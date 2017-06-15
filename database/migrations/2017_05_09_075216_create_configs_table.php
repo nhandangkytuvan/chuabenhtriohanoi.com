@@ -18,6 +18,7 @@ class CreateConfigsTable extends Migration
             $table->string('name')->nullable();
             $table->string('avatar')->nullable();
             $table->string('alias')->nullable();
+            $table->boolean('status')->nullable();
             $table->text('description')->nullable();
             $table->text('content')->nullable();
             $table->timestamps();

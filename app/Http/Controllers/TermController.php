@@ -159,6 +159,7 @@ class TermController extends Controller
     {
         $this->authorize('delete', $term);
         $term->delete();
+        $term->child()->update(['term_id'=>0]);
         $term->post()->update(['term_id'=>0]);
         $term->media()->update(['term_id'=>0]);
         File::delete(public_path('upload\\'.$term->avatar));

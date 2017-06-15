@@ -40,6 +40,12 @@
                             </select>
                         </div>
                     </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label for="">Cho online</label>
+                            <input type="checkbox" name="status" value="1" checked class="form-control" style="box-shadow: none;text-align: left;height: 20px;width: 30px;">
+                        </div>
+                    </div>
                 </div>
                 <div class="form-group">
                     <label class="control-label">Mô tả</label>
@@ -61,6 +67,7 @@
     </form>
     <script>
         $(document).ready(function() {
+            // tinmce setup
             tinymce.init({
                 selector: 'textarea.tinymce',
                 font_formats: 'Arial=arial,helvetica,sans-serif;',
@@ -76,10 +83,42 @@
                 toolbar1: 'undo redo insert styleselect bold italic alignleft aligncenter alignright alignjustify bullist numlist outdent indent',
                 toolbar2: 'print preview media forecolor backcolor fontsizeselect link image code responsivefilemanager fullscreen',
                 image_advtab: true,
-                external_filemanager_path:"http://localhost/vt_blog/filemanager/",
-                external_plugins: { "filemanager" : "http://localhost/vt_blog/filemanager/plugin.min.js"},
+                external_filemanager_path:"http://chuabenhtriohanoi.com/filemanager/",
+                external_plugins: { "filemanager" : "http://chuabenhtriohanoi.com/filemanager/plugin.min.js"},
             }); 
+            // autosize textarea
             autosize($("textarea.autosize"));
+            // view image avatar
+            $("#fileUpload").on('change', function () {
+                //Get count of selected files
+                var countFiles = $(this)[0].files.length;
+                var imgPath = $(this)[0].value;
+                var extn = imgPath.substring(imgPath.lastIndexOf('.') + 1).toLowerCase();
+                var image_holder = $("#image-holder");
+                image_holder.empty();
+
+                if (extn == "gif" || extn == "png" || extn == "jpg" || extn == "jpeg") {
+                    if (typeof (FileReader) != "undefined") {
+                        //loop for each file selected for uploaded.
+                        for (var i = 0; i < countFiles; i++) {
+
+                            var reader = new FileReader();
+                            reader.onload = function (e) {
+
+                                $('<img src="'+e.target.result+'" class="img-thumbnail img-responsive" />').appendTo(image_holder);
+                            }
+
+                            image_holder.show();
+                            reader.readAsDataURL($(this)[0].files[i]);
+                        }
+
+                    }else{
+                        alert("This browser does not support FileReader.");
+                    }
+                }else{
+                    alert("Please select only images");
+                }
+            });
         });
     </script>
 @endsection('content')
