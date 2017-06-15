@@ -6,7 +6,7 @@
 	<link rel="canonical" href="{{ APIPost::getUrlByObj($post) }}" />
 	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-sidebar.css') }}">
 	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-post.css') }}">
-	<link href="{{ asset('public/css/app/codepen.min.css') }}" rel="stylesheet">
+	<link href="{{ asset('public/css/desktop/post-detail-css.css') }}" rel="stylesheet">
 @endsection('css')
 @section('js')
 <script type="text/javascript" src="{{ asset('public/js/global/MSClass.js') }}"></script>
@@ -18,13 +18,14 @@
 	@include('layouts.menuDesktop')
 @endsection('menu')
 @section('content')
+	@php $term = $post->term ? $post->term : null;@endphp
 	<!-- column -->
 	<div class="row3">
 		<div class="container">
 			<i class="fa fa-home"></i>
 			<a href="{{ url('/') }}">Trang chủ</a>
 			<span>></span>
-			<a href="#">{{ $post->term ? $post->term->name : '' }}</a>
+			<a href="{{ APITerm::getUrlByObj($term) }}">{{ isset($term) ? $term->name : '' }}</a>
 		</div>
 	</div>
 	<div class="row4">
@@ -33,11 +34,8 @@
 				<div class="flex1col1">
 					<div class="line1">
 						<h1>{{ $post->name }}</h1>
-						<div class="description">
-							{{ $post->description }}
-						</div>
 						<div class="detail">
-							{{ $post->detail }}
+							{!! $post->content !!}
 						</div>
 					</div>
 					<div class="line2"></div>
@@ -56,35 +54,43 @@
 							</div>
 							<table class="table2 width-100">
 								<tr>
-									<td><a href="#"><i class="fa fa-angle-right"></i> Không cần xếp hàng để khám</a></td>
-									<td><a href="#"><i class="fa fa-angle-right"></i> Tư vẫn miến phí</a></td>
-									<td><a href="#"><i class="fa fa-angle-right"></i> Khám ưu tiên</a></td>
+									<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-angle-right"></i> Không cần xếp hàng để khám</a></td>
+									<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-angle-right"></i> Tư vẫn miến phí</a></td>
+									<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-angle-right"></i> Khám ưu tiên</a></td>
 								</tr>
 							</table>
 							<div class="text-center footer">
-								<a href="#">Tư vẫn trực tuyến</a>
-								<a href="#">Liên hệ bác sĩ</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Liên hệ bác sĩ</a>
 							</div>
 						</div>
 					</div>
 					<div class="line4">
 						<table class="width-100 table1">
 							<tr>
-								<td>Trang trước : <a href="#">Lorem ipsum dolor sit amet, consectetur.</a></td>
-								<td>Trang sau : <a href="#">Lorem ipsum dolor sit amet, consectetur.</a></td>
+								@php $post_pre = $term->post()->where('id','<',$post->id)->orderBy('id','desc')->first(); @endphp
+								@if($post_pre)
+								<td>Trang trước : <a href="{{ APIPost::getUrlByObj($post_pre) }}">{{ $post_pre->name }}</a></td>
+								@endif
+								@php $post_next = $term->post()->where('id','>',$post->id)->orderBy('id','asc')->first(); @endphp
+								@if($post_next)
+								<td>Trang sau : <a href="{{ APIPost::getUrlByObj($post_next) }}">{{ $post_next->name }}</a></td>
+								@endif
 							</tr>
 						</table>
 					</div>
-					<div class="line5">
-						<div class="dis-inline-block bg1">
+					<div class="line5 dis-table width-100">
+						<div class="table-cell bg1">
 							<ul>
-								<li><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></li>
-								<li><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></li>
-								<li><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></li>
-								<li><a href="#">Lorem ipsum dolor sit amet, consectetur. ipsum dolor sit amet, consectetur. ipsum dolor sit amet, consectetur.</a></li>
+								@php  
+									$posts = $term->post()->where('id','<>',$post->id)->limit(3)->get();
+								@endphp
+								@foreach($posts as $post)
+								<li><a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></li>
+								@endforeach
 							</ul>
 						</div>
-						<div class="dis-inline-block bg2">
+						<div class="table-cell bg2">
 							<ul>
 								<li><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></li>
 								<li><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></li>
@@ -98,7 +104,7 @@
 					<div class="line1">
 						<div><img src="{{ asset('public/css/desktop/imghome/home-12.png') }}" alt="" class="center-block"></div>
 						<div class="des1 text-justify">
-							Phòng khám Nam Khang Hà Nội là cơ sở y tế chuyên điều trị nam khoa hiếm có ở khu vực Hà Nội, phòng khám đạt tiêu chuẩn y tế JCI quốc tế, hội tụ đội ngũ chuyên gia cao cấp trong và ngoài nước, dịch vụ chất lượng cao, môi trường khám chữa bệnh ấm cúng đạt chất lượng 5 sao ... <a href="#">tìm hiểu thêm</a>
+							Phòng khám Nam Khang Hà Nội là cơ sở y tế chuyên điều trị nam khoa hiếm có ở khu vực Hà Nội, phòng khám đạt tiêu chuẩn y tế JCI quốc tế, hội tụ đội ngũ chuyên gia cao cấp trong và ngoài nước, dịch vụ chất lượng cao, môi trường khám chữa bệnh ấm cúng đạt chất lượng 5 sao ... <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">tìm hiểu thêm</a>
 						</div>
 						<div class="bg">
 							<table>

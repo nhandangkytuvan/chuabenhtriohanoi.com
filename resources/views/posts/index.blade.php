@@ -12,6 +12,7 @@
                 <td>Tên</td>
                 <td>Danh mục</td>
                 <td>T.giả</td>
+                <td>Ngày</td>
                 <td>#</td>
             </tr>
             @foreach($posts as $key => $post)
@@ -25,6 +26,7 @@
                 <td><a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></td>
                 <td>{{ $post->term ? $post->term->name : '' }}</td>
                 <td>{{ $post->user ? $post->user->name : '' }}</td>
+                <td>{{ date("d.m",strtotime($post->created_at)) }}</td>
                 <td>
                     <div class="clearfix">
                         <div class="pull-right">

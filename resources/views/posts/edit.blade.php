@@ -85,6 +85,9 @@
                 image_advtab: true,
                 external_filemanager_path:"http://chuabenhtriohanoi.com/filemanager/",
                 external_plugins: { "filemanager" : "http://chuabenhtriohanoi.com/filemanager/plugin.min.js"},
+                content_css: [
+                    '{{ asset("public/css/app/codepen.min.css") }}'
+                ],
             }); 
             // autosize textarea
             autosize($("textarea.autosize"));

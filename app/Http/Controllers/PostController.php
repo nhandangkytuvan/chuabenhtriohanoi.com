@@ -79,6 +79,8 @@ class PostController extends Controller
             }
         }
         $post->orther = json_encode($orther);
+        // source
+        $post->content = str_replace("src=\"../source","src=\"/source",$post->content);
         // alias
         $post->alias = str_slug($post->name,'-');
         // save
@@ -146,6 +148,8 @@ class PostController extends Controller
             }
         }
         $post->orther = json_encode($orther);
+        // source
+        $post->content = str_replace("src=\"../source","src=\"/source",$post->content);
         // alias
         $post->alias = str_slug($post->name,'-');
         // save
