@@ -6,6 +6,7 @@
 	<link rel="canonical" href="{{ APIPost::getUrlByObj($post) }}" />
 	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-sidebar.css') }}">
 	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-post.css') }}">
+	<link href="{{ asset('public/css/app/codepen.min.css') }}" rel="stylesheet">
 @endsection('css')
 @section('js')
 <script type="text/javascript" src="{{ asset('public/js/global/MSClass.js') }}"></script>
@@ -23,7 +24,7 @@
 			<i class="fa fa-home"></i>
 			<a href="{{ url('/') }}">Trang chủ</a>
 			<span>></span>
-			<a href="#">Bệnh trĩ</a>
+			<a href="#">{{ $post->term ? $post->term->name : '' }}</a>
 		</div>
 	</div>
 	<div class="row4">
@@ -31,12 +32,12 @@
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
 					<div class="line1">
-						<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+						<h1>{{ $post->name }}</h1>
 						<div class="description">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, sit. Soluta, ad, dolorum. Provident delectus officiis doloremque tenetur nihil non debitis, natus quod et cupiditate vero sapiente illum ut est repellat placeat recusandae molestiae eius voluptate ipsum. Neque, expedita. Labore.
+							{{ $post->description }}
 						</div>
 						<div class="detail">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam in suscipit numquam, earum magni voluptatem porro dolorum blanditiis, reprehenderit qui nulla tenetur odio quos deserunt aliquam deleniti dolore. Ex maiores animi nostrum, ut aspernatur. Incidunt, ut perferendis modi eos cumque animi atque esse expedita mollitia debitis, blanditiis deleniti aut, sapiente consequatur quae ullam a aspernatur labore. Voluptatibus magni similique ad non quaerat quam aut, impedit perferendis corrupti natus nisi, asperiores, voluptatum necessitatibus odit. Illo sunt dolor vero placeat itaque adipisci eius officiis magnam quibusdam! Quasi id fugiat vero, harum eveniet, delectus, repellat dolores maiores deserunt praesentium vel esse? Similique dolorem at porro sint et voluptas aliquam tempore error ratione maiores odit id, quidem earum, nesciunt illum sunt est soluta officiis nostrum ipsa unde ea quas? Error hic nesciunt eum, vero sit tempora reprehenderit fuga numquam repellat rem eaque eius ab, ipsum sequi esse est? Illo ea voluptates dolores mollitia nihil, modi laudantium commodi similique pariatur animi, tenetur voluptatum rerum, expedita delectus necessitatibus dolor. Ut, sint asperiores nam error laborum. Ex deserunt repellendus illum doloribus facere nulla impedit ratione enim aliquam, quasi architecto iusto voluptate doloremque aut esse unde eligendi ipsum quae quam magnam ut at. Vero corrupti eveniet expedita alias repellat ipsam dignissimos nemo molestias laborum, pariatur animi est asperiores at. Omnis quidem, animi blanditiis esse voluptate mollitia, perspiciatis quam aliquam nam pariatur aperiam itaque facilis. Inventore tempora est qui odio eaque, quos iusto amet impedit dicta quia asperiores molestias placeat non ratione voluptatibus at nesciunt obcaecati, nostrum excepturi doloremque laboriosam? Quidem ratione quos aut! Quasi labore quidem in, ipsa accusantium eum ab, obcaecati ipsam iste odio, enim quibusdam nesciunt minima culpa? Natus mollitia itaque iste vel laudantium corrupti sint illum deleniti quos quas rem repudiandae ipsum, voluptatum ea debitis eos ut deserunt reprehenderit voluptatibus beatae fuga amet iusto. Voluptatem!
+							{{ $post->detail }}
 						</div>
 					</div>
 					<div class="line2"></div>

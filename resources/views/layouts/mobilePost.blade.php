@@ -33,6 +33,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/mobile/mobile.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/mobile/mobilePost-header.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/mobile/mobileTerm-footer.css') }}">
+    <link href="{{ asset('public/css/app/codepen.min.css') }}" rel="stylesheet">
     @yield('css')
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery-1.12.3.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery.form.min.js') }}"></script>

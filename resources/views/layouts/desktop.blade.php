@@ -22,7 +22,7 @@
     <meta property="fb:admins" content="">
     <!-- link rss,sitemap -->
     <!-- link icon -->
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('public/upload/'.$configs[0]->avatar) }}" type="image/x-icon">
     @yield('title')
     @yield('keyword')
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/font-awesome/css/font-awesome.min.css') }}">
@@ -81,11 +81,11 @@
                 <table class="table1">
                     <tr>
                         <td><a href="#">Giới thiệu<br>phòng khám</a></td>
-                        <td><a href="#">Kỹ thuật<br>đặc biệt</a></td>
-                        <td><a href="#">Bệnh án<br>điển hình</a></td>
-                        <td><a href="#">Các câu hỏi<br>về sức khỏe</a></td>
-                        <td><a href="#">Đăng ký<br>trực tuyến</a></td>
-                        <td><a href="#">Tư vấn<br>trực tuyến</a></td>
+                        <td><a href="{{ APITerm::getUrlByID(18) }}">Kỹ thuật<br>đặc biệt</a></td>
+                        <td><a href="{{ APITerm::getUrlByID(19) }}">Bệnh án<br>điển hình</a></td>
+                        <td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Các câu hỏi<br>về sức khỏe</a></td>
+                        <td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đăng ký<br>trực tuyến</a></td>
+                        <td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn<br>trực tuyến</a></td>
                     </tr>
                 </table>
             </div>
@@ -113,13 +113,13 @@
                             <table class="table3">
                                 <tr>
                                     <td>
-                                        <a class="text-center dis-block" href="#">
+                                        <a class="text-center dis-block" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
                                             <i class="dis-inline-block bg1"></i>
                                             <span class="dis-block">Đặt lịch<br>trực tuyến</span>
                                         </a>
                                     </td>
                                     <td>
-                                        <a class="text-center dis-block" href="#">
+                                        <a class="text-center dis-block" href="tel:1800 6181">
                                             <i class="dis-inline-block bg2"></i>
                                             <span class="dis-block">Điện thoại<br>miễn phí</span>
                                         </a>
@@ -145,7 +145,7 @@
                                         </a>
                                     </td>
                                     <td>
-                                        <a class="text-center dis-block" href="#">
+                                        <a class="text-center dis-block" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
                                             <i class="dis-inline-block bg6"></i>
                                             <span class="dis-block">Hỏi đáp<br>trực tuyến</span>
                                         </a>
@@ -176,13 +176,13 @@
                                 Hoặc gọi: <span>1800 - 6181</span>
                             </td>
                             <td class="td5">
-                                <a href="#">Tư vấn<br>kĩ thuật<br>điều trị</a>
+                                <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn<br>kĩ thuật<br>điều trị</a>
                             </td>
                             <td class="td6">
-                                <a href="#">Tư vấn<br>chi phí<br>điều trị</a>
+                                <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn<br>chi phí<br>điều trị</a>
                             </td>
                             <td class="td7">
-                                <a href="#" class="dis-table">
+                                <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table">
                                     <i class="fa fa-user table-cell"></i>
                                     <span class="table-cell">
                                         Hỏi bệnh trực tuyến<br>
