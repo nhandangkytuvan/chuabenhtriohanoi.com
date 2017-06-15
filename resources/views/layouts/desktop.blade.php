@@ -31,7 +31,6 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/hover/css/hover.css') }}">
 
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/desktop.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/desktop-popup.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/desktop-header.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/desktop-footer.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/desktop-popup.css') }}">
@@ -51,7 +50,7 @@
                 <div class="table-cell cell1 text-left">
                     <div class="dis-table table2">
                         <div class="table-cell cell1">
-                            <a href="#"><img src="{{ asset('public/css/desktop/imghome/home-1.png') }}" alt=""></a>
+                            <a href="{{ url('/') }}"><img src="{{ asset('public/css/desktop/imghome/home-1.png') }}" alt=""></a>
                         </div>
                         <div class="table-cell cell2">
                             <h1>PHÒNG KHÁM CHUYÊN KHOA NAM KHANG</h1>
