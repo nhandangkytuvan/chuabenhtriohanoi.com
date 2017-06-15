@@ -31,6 +31,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/hover/css/hover.css') }}">
 
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/desktop.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/desktop-popup.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/desktop-header.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/desktop-footer.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/desktop-popup.css') }}">
@@ -165,7 +166,7 @@
                             <td class="td1"><img src="{{ asset('public/css/desktop/imghome/home-34.png') }}" alt=""></td>
                             <td class="td2">
                                 <div>
-                                    <p>Nhận cuộc gọi miễn phí của chuyên gia</p>
+                                    <p>Nhận cuộc gọi miễn phí từ chuyên gia</p>
                                     <p><input type="text" class="dis-block" placeholder="Hãy nhập số điện thoại của bạn"></p>
                                 </div>
                             </td>
