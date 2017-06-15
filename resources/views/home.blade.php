@@ -221,9 +221,9 @@
 								<table>
 									<tr>
 										<td class="active arrow_box"><div>Chuyên khoa trĩ</div></td>
-										<td><div>Trĩ nội</div></td>
-										<td><div>Trĩ ngoại</div></td>
-										<td><div>Trĩ hỗn hợp</div></td>
+										<td><div><span>Trĩ nội</span></div></td>
+										<td><div><span>Trĩ ngoại</span></div></td>
+										<td><div><span>Trĩ hỗn hợp</span></div></td>
 									</tr>
 								</table>
 							</div>
@@ -390,11 +390,11 @@
 								<table>
 									<tr>
 										<td class="active arrow_box"><div>Bệnh xung<br>quanh hậu môn</div></td>
-										<td><div>Áp xe<br>hậu môn</div></td>
-										<td><div>Ngứa rát<br>hậu môn</div></td>
-										<td><div>Polyp<br>hậu môn</div></td>
-										<td><div>Đau hậu<br>môn</div></td>
-										<td><div>Hậu môn có<br>vật thể lạ</div></td>
+										<td><div><span>Áp xe<br>hậu môn</span></div></td>
+										<td><div><span>Ngứa rát<br>hậu môn</span></div></td>
+										<td><div><span>Polyp<br>hậu môn</span></div></td>
+										<td><div><span>Đau hậu<br>môn</span></div></td>
+										<td><div><span>Hậu môn có<br>vật thể lạ</span></div></td>
 									</tr>
 								</table>
 							</div>
@@ -625,10 +625,10 @@
 								<table>
 									<tr>
 										<td class="active arrow_box"><div>Chấn thương<br>hậu môn</div></td>
-										<td><div>Rò hậu môn</div></td>
-										<td><div>Nứt kẽ hậu môn</div></td>
-										<td><div>Sa hậu môn</div></td>
-										<td><div>Đi ngoài ra máu</div></td>
+										<td><div><span>Rò hậu môn</span></div></td>
+										<td><div><span>Nứt kẽ hậu môn</span></div></td>
+										<td><div><span>Sa hậu môn</span></div></td>
+										<td><div><span>Đi ngoài ra máu</span></div></td>
 									</tr>
 								</table>
 							</div>
