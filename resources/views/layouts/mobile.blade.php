@@ -22,7 +22,7 @@
     <meta property="fb:admins" content="">
     <!-- link rss,sitemap -->
     <!-- link icon -->
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('public/upload/'.$configs[0]->avatar) }}" type="image/x-icon">
     @yield('title')
     @yield('keyword')
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/font-awesome/css/font-awesome.min.css') }}">
@@ -64,7 +64,7 @@
                         <span><img src="{{ asset('public/css/mobile/imghome/home-2.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Giới thiệu phòng khám</span>
                     </a>
-                    <a href="#" class="table-cell cell2">
+                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell cell2">
                         <span><img src="{{ asset('public/css/mobile/imghome/home-3.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Đội ngũ chuyên gia</span>
                     </a>
@@ -72,15 +72,15 @@
             </div>
             <div class="row1">
                 <div class="dis-table width-100">
-                    <a href="#" class="table-cell cell3">
+                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell cell3">
                         <span><img src="{{ asset('public/css/mobile/imghome/home-4.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Đăng ký<br>đặt hẹn</span>
                     </a>
-                    <a href="#" class="table-cell cell4">
+                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell cell4">
                        <span><img src="{{ asset('public/css/mobile/imghome/home-5.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Tư vấn<br>trực tuyến</span>
                     </a>
-                    <a href="#" class="table-cell cell5">
+                    <a href="https://goo.gl/maps/YP8cFNyYZFP2" class="table-cell cell5">
                         <span><img src="{{ asset('public/css/mobile/imghome/home-6.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Hướng dẫn<br>chỉ đường</span>
                     </a>
@@ -92,7 +92,7 @@
                         <span><img src="{{ asset('public/css/mobile/imghome/home-7.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">1800 - 6181</span>
                     </a>
-                    <a href="#" class="table-cell cell7">
+                    <a href="{{ APITerm::getUrlByID(18) }}" class="table-cell cell7">
                         <span><img src="{{ asset('public/css/mobile/imghome/home-8.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Kỹ thuật<br>điều trị</span>
                     </a>
@@ -126,7 +126,7 @@
                         </table>
                     </div>
                     <div class="line3">
-                        <a href="#">Địa chỉ phòng khám : Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</a>
+                        <a href="https://goo.gl/maps/YP8cFNyYZFP2">Địa chỉ phòng khám : Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</a>
                     </div>
                 </div>
                 <div class="goTop">
@@ -143,8 +143,8 @@
                             <td>
                                 <table class="width-100">
                                     <tr>
-                                        <td><a href="#"><img src="{{ asset('public/css/mobile/imghome/home-27.png') }}" alt=""></a></td>
-                                        <td><a href="#" class="text-uppercase">Bác sĩ tư vấn</a></td>
+                                        <td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/mobile/imghome/home-27.png') }}" alt=""></a></td>
+                                        <td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-uppercase">Bác sĩ tư vấn</a></td>
                                     </tr>
                                 </table>
                             </td>
@@ -154,13 +154,13 @@
             </div>
             <div class="toolbar">
                 <div class="dis-table width-100 table1">
-                    <a href="tel:1800 - 6181" class="table-cell">
+                    <a href="tel:1800 6181" class="table-cell">
                         <div class="dis-table width-100">
                             <span class="table-cell"><img src="{{ asset('public/css/mobile/imghome/home-28.png') }}" alt=""></span>
                             <span class="table-cell">1800-6181</span>
                         </div>
                     </a>
-                    <a href="#" class="table-cell">
+                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell">
                         <div class="dis-table width-100">
                             <span class="table-cell"><img src="{{ asset('public/css/mobile/imghome/tttf.gif') }}" alt=""></span>
                             <span class="text-uppercase table-cell">Thông tin của bạn</span>

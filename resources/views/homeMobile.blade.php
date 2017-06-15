@@ -47,7 +47,7 @@
 					</td>
 					<td>
 						<div><a href="#"><img src="{{ asset('public/css/mobile/imghome/home-17.png') }}" alt="" class="img-responsive"></a></div>
-						<div class="text-center"><a href="#">Bệnh khác</a></div>
+						<div class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bệnh khác</a></div>
 					</td>
 				</tr>
 			</table>
@@ -95,32 +95,32 @@
 				<span class="">Câu hỏi thường gặp</span>
 			</div>
 			<div class="dis-table width-100">
-	            <a href="#" class="table-cell">
+	            <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell">
 	                Hình ảnh triệu chứng bệnh trĩ
 	            </a>
-	            <a href="#" class="table-cell">
+	            <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell">
 	                Đau hậu môn
 	            </a>
-	            <a href="#" class="table-cell">
+	            <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell">
 	                Ngứa hậu môn
 	            </a>
 	        </div>
 	        <div class="dis-table width-100">
-	            <a href="#" class="table-cell">
+	            <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell">
 	                Đi ngoài ra máu <br>do nguyên nhân nào  
 	            </a>
-	            <a href="#" class="table-cell">
+	            <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell">
 	               Táo bón 
 	            </a>
 	        </div>
 	        <div class="dis-table width-100">
-	            <a href="#" class="table-cell">
+	            <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell">
 	                Gói dài hậu môn
 	            </a>
-	            <a href="#" class="table-cell">
+	            <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell">
 	                Cách điều trị bệnh trĩ 
 	            </a>
-	            <a href="#" class="table-cell">
+	            <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell">
 	                Phòng khám điều trị bệnh trĩ ở Hà Nội
 	            </a>
 	        </div>

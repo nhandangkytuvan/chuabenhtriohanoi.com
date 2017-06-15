@@ -8,7 +8,7 @@
 						<span class="text-uppercase">Bạn có thắc mắc ? Tư vấn với bác sĩ</span>
 					</td>
 					<td>
-						<a href="#" class="active">Tư vấn trực tuyến</a>
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="active">Tư vấn trực tuyến</a>
 					</td>
 				</tr>
 			</table>

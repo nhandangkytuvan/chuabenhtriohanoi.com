@@ -113,6 +113,7 @@ div.row5 .flex1>.flex1col1 .flex2 .flex2col2{padding-right: 10px;}
 div.row5 .flex1>.flex1col1 .flex2 .flex2col2 .table1{color: #fff;border-spacing: 0px;width: 183px;}
 div.row5 .flex1>.flex1col1 .flex2 .flex2col2 .table1{background-color: #4f4a44;height: 38px;text-align: center;border-bottom-right-radius:15px;border-bottom-left-radius: 15px;}
 div.row5 .flex1>.flex1col1 .flex2 .flex2col2 .table1 .cell1{padding-left: 10px;}
+div.row5 .flex1>.flex1col1 .flex2 .flex2col2 .table1 a:hover{text-decoration: underline;}
 div.row5 .flex1>.flex1col1 .flex2 .flex2col2 .img1{margin-top: 18px;}
 
 div.row5 .flex1>.flex1col2{width: 378px;background-color: #fff;}

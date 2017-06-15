@@ -8,22 +8,22 @@
 				<a href="#">Giới thiệu<br>phòng khám</a>
 			</div>
 			<div class="table-cell cell1 border1">
-				<a href="#">Kỹ thuật<br>đặc biệt</a>
+				<a href="{{ APITerm::getUrlByID(18) }}">Kỹ thuật<br>đặc biệt</a>
 			</div>
 			<div class="table-cell cell1 border1">
-				<a href="#">Bệnh án<br>điển hình</a>
+				<a href="{{ APITerm::getUrlByID(19) }}">Bệnh án<br>điển hình</a>
 			</div>
 			<div class="table-cell cell1 border1">
-				<a href="#">Hỏi đáp<br>sức khỏe</a>
+				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Hỏi đáp<br>sức khỏe</a>
 			</div>
 			<div class="table-cell cell1">
-				<a href="#">Đăng ký<br>trực tuyến</a>
+				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đăng ký<br>trực tuyến</a>
 			</div>
 			<div class="table-cell cell2 border1">
-				<a href="#">Chỉ đường</a>
+				<a href="https://goo.gl/maps/YP8cFNyYZFP2">Chỉ đường</a>
 			</div>
 			<div class="table-cell cell2">
-				<a href="#">Đặt hẹn<br>trực tuyến</a>
+				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn<br>trực tuyến</a>
 			</div>
 		</div>
 	</div>

@@ -93,8 +93,8 @@
                 <tr>
                     <td class="td1">
                         <div>
-                            <img src="{{ asset('public/css/desktop/imghome/home-1.png') }}" alt="" class="center-block">
-                            <div class="title">PHÒNG KHÁM CHUYÊN KHOA NAM KHANG</div>
+                            <a href="{{ url('/') }}"><img src="{{ asset('public/css/desktop/imghome/home-1.png') }}" alt="" class="center-block"></a>
+                            <div class="title"><a href="{{ url('/') }}">PHÒNG KHÁM CHUYÊN KHOA NAM KHANG</a></div>
                             <address>SỐ 193C1 BÀ TRIỆU - HAI BÀ TRƯNG - HÀ NỘI</address>
                         </div>
                     </td>
@@ -133,7 +133,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a class="text-center dis-block" href="#">
+                                        <a class="text-center dis-block" href="https://goo.gl/maps/YP8cFNyYZFP2">
                                             <i class="dis-inline-block bg4"></i>
                                             <span class="dis-block">Chỉ đường <br>&nbsp;</span>
                                         </a>

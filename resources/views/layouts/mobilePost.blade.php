@@ -22,7 +22,7 @@
     <meta property="fb:admins" content="">
     <!-- link rss,sitemap -->
     <!-- link icon -->
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('public/upload/'.$configs[0]->avatar) }}" type="image/x-icon">
     @yield('title')
     @yield('keyword')
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/font-awesome/css/font-awesome.min.css') }}">
@@ -82,11 +82,11 @@
             </div>
             <div class="row1">
                 <div class="dis-table width-100">
-                    <a href="#" class="table-cell cell3">
+                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell cell3">
                         <span><img src="{{ asset('public/css/mobile/imghome/home-4.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Đăng ký<br>đặt hẹn</span>
                     </a>
-                    <a href="#" class="table-cell cell4">
+                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell cell4">
                        <span><img src="{{ asset('public/css/mobile/imghome/home-5.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Tư vấn<br>trực tuyến</span>
                     </a>
@@ -141,8 +141,8 @@
                             <td>
                                 <table class="width-100">
                                     <tr>
-                                        <td><a href="#"><img src="{{ asset('public/css/mobile/imghome/home-27.png') }}" alt=""></a></td>
-                                        <td><a href="#" class="text-uppercase">Bác sĩ tư vấn</a></td>
+                                        <td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/mobile/imghome/home-27.png') }}" alt=""></a></td>
+                                        <td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-uppercase">Bác sĩ tư vấn</a></td>
                                     </tr>
                                 </table>
                             </td>
