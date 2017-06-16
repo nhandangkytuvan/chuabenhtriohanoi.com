@@ -11,7 +11,6 @@
                 <td>Ảnh</td>
                 <td>Tên</td>
                 <td>Số bài</td>
-                <td>L.xem</td>
                 <td>#</td>
             </tr>
             @foreach($terms as $key => $term)
@@ -30,8 +29,7 @@
                         data-toggle="tooltip" data-placement="top" title="{{ isset($orther['meta']) ? $orther['meta'] : '' }}"></span>
                     @endif
                 </td>
-                <td></td>
-                <td></td>
+                <td>{{ $term->post()->count() }}</td>
                 <td>
                     <div class="clearfix">
                         <div class="pull-right">
