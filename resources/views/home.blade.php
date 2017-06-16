@@ -378,7 +378,7 @@
 					    </script>
 					</div>
 					<div class="footer">
-						Hôm nay đã có 46 người đặt lịch hẹn
+						Hôm nay đã có <span style="color: red;">46</span> người đặt lịch hẹn
 					</div>
 				</div>
 			</div>

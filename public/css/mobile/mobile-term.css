@@ -3,7 +3,7 @@
 /**/
 .term div.row2{padding:10px;}
 .term div.row2 .posts .post{border:1px solid #d8d8d8;border-bottom: 2px solid #8a8a8a;padding:10px;margin-bottom: 10px;}
-.term div.row2 .posts .post h2{color: #00aaa8;font-size: 12px;font-weight: normal;}
+.term div.row2 .posts .post h2{color: #00aaa8;font-size: 12px;}
 .term div.row2 .posts .post div.description{margin-top: 10px;color: #323232;}
 .term div.row2 .posts .post div.footer{margin-top: 5px;}
 .term div.row2 .posts .post div.footer a{background-color: #00aaa8;text-align: center;color: #fff;padding:5px 8px;box-shadow: 1px 1px #484848;}
