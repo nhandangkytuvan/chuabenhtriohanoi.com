@@ -31,6 +31,7 @@
 		<div class="container">
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
+					@if($term->term_id != 0)
 					<div class="line1">
 						<table>
 							<tr>
@@ -38,9 +39,9 @@
 									<a href="#"><img src="{{ asset('public/css/desktop/imgterm/term-1.png') }}" alt=""></a>
 								</td>
 								<td>
-									<h1>Bệnh trĩ là gì?</h1>
+									<h1>{{ $term->name }} là gì?</h1>
 									<p>
-										Bệnh trĩ hay còn gọi là bệnh lòi dom, là bệnh rất thường gặp ở đường hậu môn trực tràng, bệnh có thể gặp ở cả nam và nữ, nhất là những người thường xuyên bị táo bón, người làm những công việc phải đứng, ngồi quá nhiều, được hình thành do giãn nở quá mức các mạch máu. Vậy nguyên nhân, triệu chứng và cách điều trị  ... <a href="#">Chi tiết</a>
+										Bệnh trĩ hay còn gọi là bệnh lòi dom, là bệnh rất thường gặp ở đường hậu môn trực tràng, bệnh có thể gặp ở cả nam và nữ, nhất là những người thường xuyên bị táo bón, người làm những công việc phải đứng, ngồi quá nhiều, được hình thành do giãn nở quá mức các mạch máu. Vậy nguyên nhân, triệu chứng và cách điều trị  ... <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chi tiết</a>
 									</p>
 								</td>
 							</tr>
@@ -86,108 +87,24 @@
 							</tr>
 						</table>
 					</div>
+					@endif
 					<div class="line3">
 						<div class="posts">
+							@php $posts = $term->post()->orderBy('id','desc')->paginate(8);@endphp
+							@foreach($posts as $post)
 							<div class="post">
 								<h2 class="clearfix">
-									<a href="#">Lorem ipsum dolor sit amet.</a>
-									<a href="#" class="pull-right">Click gặp chuyên gia tư vấn</a>	
+									<a href="{{ APIPost::getUrlByObj($post) }}" title="{{ $post->name }}">{{ $post->name }}</a>
+									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="pull-right">Click gặp chuyên gia tư vấn</a>	
 								</h2>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?
-									<a href="#">【 Xem thêm 】</a>
+									{!! APIPost::getDescription($post->description,60) !!}...
+									<a href="{{ APIPost::getUrlByObj($post) }}" title="Xem thêm">【 Xem thêm 】</a>
 								</p>
 							</div>
-							<div class="post">
-								<h2 class="clearfix">
-									<a href="#">Lorem ipsum dolor sit amet.</a>
-									<a href="#" class="pull-right">Click gặp chuyên gia tư vấn</a>	
-								</h2>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?
-									<a href="#">【 Xem thêm 】</a>
-								</p>
-							</div>
-							<div class="post">
-								<h2 class="clearfix">
-									<a href="#">Lorem ipsum dolor sit amet.</a>
-									<a href="#" class="pull-right">Click gặp chuyên gia tư vấn</a>	
-								</h2>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?
-									<a href="#">【 Xem thêm 】</a>
-								</p>
-							</div>
-							<div class="post">
-								<h2 class="clearfix">
-									<a href="#">Lorem ipsum dolor sit amet.</a>
-									<a href="#" class="pull-right">Click gặp chuyên gia tư vấn</a>	
-								</h2>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?
-									<a href="#">【 Xem thêm 】</a>
-								</p>
-							</div>
-							<div class="post">
-								<h2 class="clearfix">
-									<a href="#">Lorem ipsum dolor sit amet.</a>
-									<a href="#" class="pull-right">Click gặp chuyên gia tư vấn</a>	
-								</h2>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?
-									<a href="#">【 Xem thêm 】</a>
-								</p>
-							</div>
-							<div class="post">
-								<h2 class="clearfix">
-									<a href="#">Lorem ipsum dolor sit amet.</a>
-									<a href="#" class="pull-right">Click gặp chuyên gia tư vấn</a>	
-								</h2>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?
-									<a href="#">【 Xem thêm 】</a>
-								</p>
-							</div>
-							<div class="post">
-								<h2 class="clearfix">
-									<a href="#">Lorem ipsum dolor sit amet.</a>
-									<a href="#" class="pull-right">Click gặp chuyên gia tư vấn</a>	
-								</h2>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?
-									<a href="#">【 Xem thêm 】</a>
-								</p>
-							</div>
-							<div class="post">
-								<h2 class="clearfix">
-									<a href="#">Lorem ipsum dolor sit amet.</a>
-									<a href="#" class="pull-right">Click gặp chuyên gia tư vấn</a>	
-								</h2>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam? laboriosam?Reiciendis temporibus nihil aliquam, laboriosam?
-									<a href="#">【 Xem thêm 】</a>
-								</p>
-							</div>
+							@endforeach
 							<div class="my_pagination">
-								<nav aria-label="Page navigation">
-								  <ul class="pagination">
-								    <li>
-								      <a href="#" aria-label="Previous">
-								        <span aria-hidden="true">&laquo;</span>
-								      </a>
-								    </li>
-								    <li><a href="#">1</a></li>
-								    <li><a href="#">2</a></li>
-								    <li><a href="#">3</a></li>
-								    <li><a href="#">4</a></li>
-								    <li><a href="#">5</a></li>
-								    <li>
-								      <a href="#" aria-label="Next">
-								        <span aria-hidden="true">&raquo;</span>
-								      </a>
-								    </li>
-								  </ul>
-								</nav>
+								{{ $posts->links() }}
 							</div>
 						</div>
 					</div>
