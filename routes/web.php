@@ -39,7 +39,8 @@ Route::get('mydb/posts','MydbController@posts');
 Route::get('mydb/medias','MydbController@medias');
 Route::get('mydb/users','MydbController@users');
 
-
+// ChuyenDe
+Route::get('/chuyen-de',function(){return view('chuyende');});
 // Term
 Route::get('/{term_link?}', 'TermController@view')->where(['term_link'=>'[-a-z0-9]+']);
 // Post

@@ -1,18 +1,26 @@
 @extends('layouts.mobilePost')
 @section('css')
+	<link href="{{ asset('public/css/mobile/post-detail.css') }}" rel="stylesheet">
 	<link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-post.css') }}">
 @endsection('css')
 @section('content')
+	@php $term = $post->term; @endphp
 	<div class="container post">
-		<h1>Nguyên nhân gây ra bệnh trĩ</h1>
+		<h1>{{ $post->name }}</h1>
 		<div class="detail">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, sint reiciendis delectus dolor facilis dolorum saepe dolores sunt, eum magni aliquam quaerat officiis, repellat commodi. Ipsum, deleniti suscipit nobis optio at dolorem labore cupiditate saepe ad dolore! Quasi vitae aliquam nulla iure voluptates expedita, quaerat magnam voluptatum facere, itaque eveniet consequuntur fuga culpa deleniti atque! Dolores a adipisci labore dignissimos vitae quaerat velit perferendis, atque voluptatum optio accusamus culpa saepe nulla esse est at. Quisquam odio explicabo neque voluptas, mollitia placeat quas sequi officiis aperiam provident rerum optio architecto voluptatem fuga dolore nesciunt cumque earum ratione numquam eum. Eveniet recusandae, nihil quae labore animi. Veniam similique optio maiores et rerum officiis nisi minus nihil explicabo iure eum quibusdam sint doloremque nemo accusamus vel mollitia autem atque repellat, aperiam consequatur placeat est! Repellat, praesentium porro consequatur aperiam. Facere, neque voluptatum aliquam quam totam eligendi atque officiis possimus delectus commodi dignissimos maiores natus velit ipsum, voluptatibus? Fugiat ea aperiam pariatur, dolor. Ea, cupiditate. Quibusdam ipsum assumenda, pariatur optio iusto non illum dolor molestias fuga quae eligendi nostrum eius natus hic similique quam alias. Minima, dolores. Quod similique magnam corporis numquam, labore maiores ipsam rerum eos facere est incidunt maxime iure amet accusamus!
+			{!! $post->content !!}
 		</div>
 		<div class="more">
 			<div>Bài đọc thêm</div>
 			<ul>
-				<li><i class="fa fa-arrow-right"></i> <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
-				<li><i class="fa fa-arrow-right"></i> <a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
+				@php $post_pre = $term->post()->where('id','<',$post->id)->orderBy('id','desc')->first(); @endphp
+				@if($post_pre)
+				<li><i class="fa fa-arrow-right"></i> <a href="{{ APIPost::getUrlByObj($post_pre) }}">Bài trước : {{ $post_pre->name }}</a></li>
+				@endif
+				@php $post_next = $term->post()->where('id','>',$post->id)->orderBy('id','asc')->first(); @endphp
+				@if($post_next)
+				<li><i class="fa fa-arrow-right"></i> <a href="{{ APIPost::getUrlByObj($post_next) }}">Bài sau : {{ $post_next->name }}</a></li>
+				@endif
 			</ul>
 		</div>
 		<div class="row3">

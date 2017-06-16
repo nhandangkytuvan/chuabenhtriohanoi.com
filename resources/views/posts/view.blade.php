@@ -92,10 +92,7 @@
 						</div>
 						<div class="table-cell bg2">
 							<ul>
-								<li><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></li>
-								<li><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></li>
-								<li><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></li>
-								<li><a href="#">Lorem ipsum dolor sit amet, consectetur. ipsum dolor sit amet, consectetur. ipsum dolor sit amet, consectetur.</a></li>
+								<li><a href="{{ APIPost::getUrlByID(19) }}" title="Sơ lược về phòng khám">Sơ lược về phòng khám</a></li>
 							</ul>
 						</div>
 					</div>
