@@ -227,6 +227,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'APITerm' => App\Helpers\APITerm::class,
         'APIPost' => App\Helpers\APIPost::class,
+        'APIUser' => App\Helpers\APIUser::class,
         'APIGlobal' => App\Helpers\APIGlobal::class,
         'Carbon' => 'Carbon\Carbon',
         'Agent' => Jenssegers\Agent\Facades\Agent::class,

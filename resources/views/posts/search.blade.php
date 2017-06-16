@@ -5,13 +5,24 @@
 			<div class="form-group">
 				<label for="">Danh mục</label>
 				<select name="term_id" class="form-control">
-					<option value="0">Chọn</option>
+					<option value="">Chọn</option>
 					{{ APITerm::getOptionSelectBladePost($terms,Request::input('term_id')) }}
 				</select>
 			</div>
 			<div class="form-group">
 				<label for="">Tên bài</label>
 				<input type="text" name="name" class="form-control" placeholder="{{ Request::input('name') }}">
+			</div>
+			<div class="form-group">
+				<label for="">Tác giả</label>
+				<select name="user_id" class="form-control">
+					<option value="">Chọn tác giả</option>
+					{!! APIUser::getOption(Request::input('user_id')) !!}
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="">Thời gian</label>
+				<input type="date" name="created_at" class="form-control" value="{{ Request::input('created_at') }}">
 			</div>
 			<div class="form-group">
 				<button type="submit" class="btn btn-danger"><i class="glyphicon glyphicon-search"></i> Tìm bài</button>

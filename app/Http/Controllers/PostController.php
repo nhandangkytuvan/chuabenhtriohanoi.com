@@ -27,6 +27,12 @@ class PostController extends Controller
         if($request->has('name')){
             $posts->where('name','like','%'.$request->input('name').'%');
         }
+        if($request->has('user_id')){
+            $posts->whereUserId($request->input('user_id'));
+        }
+        if($request->has('created_at')){
+            $posts->whereDate('created_at', $request->input('created_at'));
+        }
         $posts = $posts->paginate(10);
         return view('posts.index',['posts'=>$posts,'terms'=>$terms]);
     }
