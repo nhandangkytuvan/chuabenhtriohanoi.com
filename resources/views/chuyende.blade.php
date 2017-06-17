@@ -534,13 +534,87 @@
 						</td>
 						<td>
 							<div class="bg2">
-								
+								<div class="line1 text-center">Bản thân không phân<br>biệt được cấp độ trĩ?</div>
+								<div class="line2 text-uppercase text-center">Hỏi bác sĩ</div>
+								<div class="line3 text-center">
+									<a href="#"><img src="{{ asset('public/css/chuyende1/chuyende-29.png') }}" alt=""></a>
+								</div>
 							</div>
 						</td>
 						<td>
 							<div class="bg3">
 								Bệnh trĩ để lâu không chữa sẽ không tự động khỏi, không thăm khám bác sĩ mà tùy tiện mua thuốc về chữa chỉ là phương pháp doa xịu tạm thời, không thể chữa khỏi bệnh trĩ, bệnh sẽ liên tục tái phát, khiến bệnh tình thêm nghiêm trọng.
 							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="border2">
+				<table>
+					<tr>
+						<td>
+							<img src="{{ asset('public/css/chuyende1/chuyende-30.png') }}" alt="">
+						</td>
+						<td>
+							<div class="line1 text-uppercase">Bác sĩ chuyên khoa Nam Khang Hà Nội khuyên nhủ</div>
+							<div class="line2">
+								Triệu chứng bệnh trĩ và polyp trực tràng, sa trực tràng, ung thư đại trực tràng và các bệnh tương tự khác, rất dễ bị nhầm lẫn, do vậy để tránh sự thiếu sót trong chẩn đoán phương pháp điều trị, chẩn đoán chính xác bằng khoa học là không thể thiếu.
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="global2 text-center">
+				<div class="border1 dis-inline-block text-center">
+					<div class="margin1 text-uppercase text-center"><span>Bệnh trĩ liên tục tái phát, phải chữa trị như thế nào?</span></div>
+					<table>
+						<tr>
+							<td>
+								<a href="#" class="dis-table table1">
+									<span class="table-cell"><img src="{{ asset('public/css/chuyende1/chuyende-7.png') }}" alt=""></span>
+									<span class="table-cell text-uppercase">Click tư vấn trực tuyến</span>
+								</a>
+							</td>
+							<td>
+								<a href="#" class="dis-table table2">
+									<span class="table-cell"><img src="{{ asset('public/css/chuyende1/chuyende-8.png') }}" alt=""></span>
+									<span class="table-cell text-uppercase">1800 - 6181</span>
+								</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row5">
+		<div class="global1 text-center">
+			<div class="dis-inline-block text-center border1">
+				<div class="el1 text-center dis-inline-block">Q5</div>
+				<div class="el2 text-center dis-inline-block text-uppercase">
+					Có phải bệnh trĩ không? Phương pháp kiểm tra chính quy là quan trọng nhất
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="line1">
+				<img src="{{ asset('public/css/chuyende1/chuyende-31.png') }}" alt="" class="center-block">
+			</div>
+			<div class="border2">
+				<table class="width-100">
+					<tr>
+						<td><img src="{{ asset('public/css/chuyende1/chuyende-32.png') }}" alt=""> Bác sĩ thăm hỏi</td>
+						<td><img src="{{ asset('public/css/chuyende1/chuyende-32.png') }}" alt=""> Chẩn đoán bệnh hậu môn bằng hình ảnh</td>
+						<td><img src="{{ asset('public/css/chuyende1/chuyende-32.png') }}" alt=""> Chẩn đoán bệnh hậu môn bằng tay</td>
+					</tr>
+				</table>
+			</div>
+			<div class="line3">
+				<table class="width-100">
+					<tr>
+						<td>Bác sĩ nhắc nhở</td>
+						<td>
+							Trong y học lâm sàng, chẩn đoán bằng mắt và tay là bước tìm hiểu đầu tiên trong công tác hỏi thăm bệnh tình của người bệnh, bước này không được coi là số liệu chẩn đoán chuyên khoa về bệnh.... <a href="#">Chi tiết>>></a>
 						</td>
 					</tr>
 				</table>
