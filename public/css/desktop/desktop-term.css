@@ -35,10 +35,10 @@ div.row4 .flex1col1 .line1 table tr td:nth-child(2) p a{color: red;}
 div.row4 .flex1col1 .line2{background-color: #e7e6e4;padding:15px;margin-top: 25px;}
 div.row4 .flex1col1 .line2 .table1{border-spacing: 0px;}
 div.row4 .flex1col1 .line2 .table1 >tbody>tr:nth-child(1)>td{padding-bottom: 10px;}
-div.row4 .flex1col1 .line2 .table1 >tbody>tr>td:nth-child(1){border-right: 1px dashed #bfbebc;padding-right: 10px;}
+div.row4 .flex1col1 .line2 .table1 >tbody>tr>td:nth-child(1){border-right: 1px dashed #bfbebc;padding-right: 10px;width: 50%;}
 div.row4 .flex1col1 .line2 .table1 >tbody>tr>td:nth-child(2){padding-left: 10px;}
 div.row4 .flex1col1 .line2 .table1 .table2{border-spacing: 0px;}
-div.row4 .flex1col1 .line2 .table1 .table2 tr td:nth-child(1){min-width: 100px;background-color: #5e3c19;color: #fff;min-height: 30px;text-align: center;}
+div.row4 .flex1col1 .line2 .table1 .table2 tr td:nth-child(1){width: 100px;background-color: #5e3c19;color: #fff;height: 40px;text-align: center;}
 div.row4 .flex1col1 .line2 .table1 .table2 tr td:nth-child(2){background-color: #fff;color: #5e3c19;min-height: 30px;text-align: left;padding:0px 10px;}
 div.row4 .flex1col1 .line2 .table1 .table2 tr td:nth-child(2) a:hover{text-decoration: underline;}
 div.row4 .flex1col1 .line3 .posts .post{margin-top: 30px;padding-bottom: 15px;border-bottom: 1px dashed #bfbebc;}

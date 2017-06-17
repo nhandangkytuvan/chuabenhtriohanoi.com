@@ -32,7 +32,7 @@
                 <div class="row">
                     <div class="col-sm-8">
                         <div class="form-group">
-                            <label for="">Chọn cấp danh mục</label>
+                            <label for="">Chọn danh mục</label>
                             <select name="term_id" class="form-control">
                                 <option value="0">Chọn cấp danh mục</option>
                                 {!! APITerm::getOptionSelectBladePost($terms,$post->term_id) !!}
@@ -42,9 +42,23 @@
                     <div class="col-sm-4">
                         <div class="form-group">
                             <label for="">Cho online</label>
-                            <input type="checkbox" name="status" value="1" {{ $post->status==1 ? 'checked' : '' }}  class="form-control" style="box-shadow: none;text-align: left;height: 20px;width: 30px;">
+                            <div class="checkbox">
+                                <input id="checkboxStatus" type="checkbox" name="status" value="1" {{ $post->status==1 ? 'checked' : '' }} >
+                                <label for="checkboxStatus">Cho online</label>
+                            </div>
                         </div>
                     </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Loại bài</label>
+                    <select name="type" class="form-control">
+                        <option value="0">---Chọn---</option>
+                        <option value="1" {{ $post->type==1 ? 'selected' : '' }}>Nguyên nhân</option>
+                        <option value="2" {{ $post->type==2 ? 'selected' : '' }}>Triệu chứng</option>
+                        <option value="3" {{ $post->type==3 ? 'selected' : '' }}>Tác hại</option>
+                        <option value="4" {{ $post->type==4 ? 'selected' : '' }}>Điều trị</option>
+                        <option value="5" {{ $post->type==5 ? 'selected' : '' }}>Chi phí</option>
+                    </select>
                 </div>
                 <div class="form-group">
                     <label class="control-label">Mô tả</label>

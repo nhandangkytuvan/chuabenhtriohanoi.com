@@ -528,13 +528,19 @@
 				<table>
 					<tr>
 						<td class="text-left">
-							<div class="bg1"></div>
+							<div class="bg1">
+								Trước kia kết quả kiểm tra cho thấy tôi mắc chứng trĩ nội, đi đại tiện rất mất sức và còn ra máu nữa, do bận đi làm nên tôi không có thời gian làm phẫu thuật, liệu uống thuốc tiêu viêm có hiệu quả không?
+							</div>
 						</td>
 						<td>
-							<div class="bg2"></div>
+							<div class="bg2">
+								
+							</div>
 						</td>
 						<td>
-							<div class="bg3"></div>
+							<div class="bg3">
+								Bệnh trĩ để lâu không chữa sẽ không tự động khỏi, không thăm khám bác sĩ mà tùy tiện mua thuốc về chữa chỉ là phương pháp doa xịu tạm thời, không thể chữa khỏi bệnh trĩ, bệnh sẽ liên tục tái phát, khiến bệnh tình thêm nghiêm trọng.
+							</div>
 						</td>
 					</tr>
 				</table>

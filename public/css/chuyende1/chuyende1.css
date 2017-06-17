@@ -69,9 +69,11 @@
 /**/
 .row4 .margin1{margin-top: 65px;}
 .row4 .margin1 table{margin:0px auto;}
-.row4 .margin1 {}
-
-
+.row4 .margin1 table .bg1{background-image: url('chuyende-27.png');background-repeat: no-repeat;background-position: center;width: 423px;height: 211px;}
+.row4 .margin1 table .bg3{background-image: url('chuyende-28.png');background-repeat: no-repeat;background-position: center;width: 464px;height: 232px;}
+.row4 .margin1 table .bg2{background-color: #e57e1a;color: #fff;width: 190px;height: 190px;border-radius: 50%;}
+.row4 .margin1 table tr td{vertical-align: bottom;}
+.row4 .margin1 table tr td:nth-child(2){padding:0px 20px;}
 
 
 
