@@ -14,11 +14,11 @@
     @yield('css')
     <link href="{{ asset('public/css/app/app.css') }}" rel="stylesheet">
     <link href="{{ asset('public/css/app/myapp.css') }}" rel="stylesheet">
-    <link href="{{ asset('public/css/app/codepen.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/css/app/checkbox.css') }}" rel="stylesheet">
     <!-- Scripts -->
     <script src="{{ asset('public/js/app/app.js') }}"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    <script src="{{ asset('public/js/app/angular.min.js') }}"></script>
+    <script src="{{ asset('public/js/app/angular-route.min.js') }}"></script>
     <script src="{{ asset('public/js/app/jquery.form.min.js') }}"></script>
     <script src="{{ asset('public/js/app/jquery.popupoverlay.min.js') }}"></script>
     <script src="{{ asset('public/js/app/jquery-scrolltofixed-min.js') }}"></script>

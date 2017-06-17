@@ -23,7 +23,36 @@
                     <img src="{{ asset('public/upload/'.$post->avatar) }}" class="img-responsive center-block" style="max-width: 50px;">
                     @endif
                 </td>
-                <td><a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></td>
+                <td>
+                    <a href="{{ APIPost::getUrlByObj($post) }}">
+                        {{ $post->name }}
+                        @php 
+                            switch($post->type){
+                                case 1:
+                                    $type = 'nguyên nhân';
+                                    break;
+                                case 2:
+                                    $type = 'triệu trứng';
+                                    break;
+                                case 3:
+                                    $type = 'tác hại';
+                                    break;
+                                case 4:
+                                    $type = 'điều trị';
+                                    break;
+                                case 5:
+                                    $type = 'chi phí';
+                                    break;
+                                default:
+                                    break;
+                            }
+                        @endphp
+                        @if(isset($type))
+                            <label class="label label-success">{{ $type }}</label>
+                            @php $type = null; @endphp
+                        @endif
+                    </a>
+                </td>
                 <td>{{ $post->term ? $post->term->name : '' }}</td>
                 <td>{{ $post->user ? $post->user->name : '' }}</td>
                 <td>{{ date("d.m",strtotime($post->created_at)) }}</td>
