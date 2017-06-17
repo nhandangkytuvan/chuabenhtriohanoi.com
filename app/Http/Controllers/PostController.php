@@ -128,6 +128,7 @@ class PostController extends Controller
      */
     public function update(Request $request, Post $post)
     {
+        $this->authorize('update', $post);
         foreach ($post->fillable as $key => $value) {
             if($request->has($value)){
                 $post->$value = $request->input($value);
