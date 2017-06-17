@@ -25,6 +25,9 @@
 				<input type="date" name="created_at" class="form-control" value="{{ Request::input('created_at') }}">
 			</div>
 			<div class="form-group">
+				<label for="">Tổng bài : {{ $posts->total() }}</label>
+			</div>
+			<div class="form-group">
 				<button type="submit" class="btn btn-danger"><i class="glyphicon glyphicon-search"></i> Tìm bài</button>
 			</div>
 		</form>

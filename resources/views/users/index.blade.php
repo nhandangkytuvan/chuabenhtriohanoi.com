@@ -24,7 +24,7 @@
                 </td>
                 <td><a href="#">{{ $user->name }}</a></td>
                 <td>{{ $user->email }}</td>
-                <td></td>
+                <td>{{ $user->post()->count() }}</td>
                 <td>
                     <div class="clearfix">
                         <div class="pull-right">

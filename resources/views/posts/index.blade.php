@@ -53,7 +53,7 @@
                         @endif
                     </a>
                 </td>
-                <td>{{ $post->term ? $post->term->name : '' }}</td>
+                <td><a href="{{ APITerm::getUrlByObj($post->term) }}">{{ $post->term ? $post->term->name : '' }}</a></td>
                 <td>{{ $post->user ? $post->user->name : '' }}</td>
                 <td>{{ date("d.m",strtotime($post->created_at)) }}</td>
                 <td>
