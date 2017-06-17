@@ -12,6 +12,7 @@
 
 		<li class="list-group-item"><a href="{{ url('users') }}">Tất cả tài khoản</a> <i class="glyphicon glyphicon-user pull-right"></i></li>
 		<li class="list-group-item" style="border-top:none;margin-top: -15px;"><a href="{{ url('users/create') }}">|----Thêm tài khoản</a></li>
+		<li class="list-group-item" style="border-top:none;margin-top: -15px;"><a href="{{ url('users/editPassword') }}">|----Sửa Password</a></li>
 
 		<li class="list-group-item"><a href="{{ url('medias') }}">Tất cả phương tiện</a> <i class="glyphicon glyphicon-picture pull-right"></i></li>
 		<li class="list-group-item" style="border-top:none;margin-top: -15px;"><a href="{{ url('medias/create') }}">|----Thêm phương tiện</a></li>

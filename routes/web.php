@@ -16,6 +16,8 @@
 Route::get('/','HomeController@home');
 // auth
 Auth::routes();
+Route::get('users/editPassword','UserController@editPassword');
+Route::post('users/editPassword','UserController@editPassword');
 // backend
 // terms
 Route::resource('terms', 'TermController');

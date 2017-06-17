@@ -39,6 +39,11 @@
                                         </a> 
                                     </li> 
                                     <li>
+                                        <a href="{{ url('users/editPassword') }}">
+                                            <span class="glyphicon glyphicon-lock"></span> Thay Password
+                                        </a> 
+                                    </li>
+                                    <li>
                                         <a href="javascript:;"  data-toggle="modal" data-target="#modalDestroyUser{{ $user->id }}">
                                             <span class="glyphicon glyphicon-trash"></span> Xóa tài khoản
                                         </a> 

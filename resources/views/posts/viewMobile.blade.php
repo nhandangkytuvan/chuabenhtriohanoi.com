@@ -23,6 +23,13 @@
 				@endif
 			</ul>
 		</div>
+		@php 	
+			$orther = json_decode($term->orther,true);
+			if(isset($orther['meta'])){
+				$meta = explode(";",$orther['meta']);
+			}	
+		@endphp
+		@if(isset($meta))
 		<div class="row3">
 			<div class="bg text-uppercase dis-table width-100">
 				<span class="table-cell">TƯ VẤN TRỰC TRUYẾN</span>
@@ -31,28 +38,29 @@
 			<div class="table1">
 				<table class="width-100">
 					<tr>
-						<td class="bg1"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
-						<td class="bg2"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
+						<td class="bg1"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">{{ $meta[0] }}</a></td>
+						<td class="bg2"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">{{ $meta[1] }}</a></td>
 					</tr>
 				</table>
 			</div>
 			<div class="table2">
 				<table class="width-100">
 					<tr>
-						<td class="bg3"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
-						<td class="bg4"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
+						<td class="bg3"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">{{ $meta[2] }}</a></td>
+						<td class="bg4"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">{{ $meta[3] }}</a></td>
 					</tr>
 				</table>
 			</div>
 			<div class="table2">
 				<table class="width-100">
 					<tr>
-						<td class="bg5"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
-						<td class="bg6"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
+						<td class="bg5"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">{{ $meta[4] }}</a></td>
+						<td class="bg6"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">{{ $meta[5] }}</a></td>
 					</tr>
 				</table>
 			</div>
 		</div>
+		@endif
 		<div class="row4">
 			<div class="title text-uppercase">
 				<span class="">Tự động đăng ký hẹn nhanh chóng</span>
