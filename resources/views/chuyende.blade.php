@@ -524,6 +524,21 @@
 					</div>
 				</div>
 			</div>
+			<div class="margin1">
+				<table>
+					<tr>
+						<td class="text-left">
+							<div class="bg1"></div>
+						</td>
+						<td>
+							<div class="bg2"></div>
+						</td>
+						<td>
+							<div class="bg3"></div>
+						</td>
+					</tr>
+				</table>
+			</div>
 		</div>
 	</div>
 @endsection('content')
