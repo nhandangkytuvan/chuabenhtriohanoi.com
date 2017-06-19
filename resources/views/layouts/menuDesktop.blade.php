@@ -1,28 +1,28 @@
 <menu>
 	<div class="container">
 		<div class="dis-table table1 width-100">
-			<div class="table-cell cell1 border1">
+			<div class="table-cell cell1 border1 hvr-sweep-to-right">
 				<a href="{{ url('/') }}">Trang chủ</a>
 			</div>
-			<div class="table-cell cell1 border1">
-				<a href="#">Giới thiệu<br>phòng khám</a>
+			<div class="table-cell cell1 border1 hvr-sweep-to-right">
+				<a href="{{ APIPost::getUrlByID(19) }}">Giới thiệu<br>phòng khám</a>
 			</div>
-			<div class="table-cell cell1 border1">
+			<div class="table-cell cell1 border1 hvr-sweep-to-right">
 				<a href="{{ APITerm::getUrlByID(18) }}">Kỹ thuật<br>đặc biệt</a>
 			</div>
-			<div class="table-cell cell1 border1">
+			<div class="table-cell cell1 border1 hvr-sweep-to-right">
 				<a href="{{ APITerm::getUrlByID(19) }}">Bệnh án<br>điển hình</a>
 			</div>
-			<div class="table-cell cell1 border1">
+			<div class="table-cell cell1 border1 hvr-sweep-to-right">
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Hỏi đáp<br>sức khỏe</a>
 			</div>
-			<div class="table-cell cell1">
+			<div class="table-cell cell1 hvr-sweep-to-right">
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đăng ký<br>trực tuyến</a>
 			</div>
-			<div class="table-cell cell2 border1">
+			<div class="table-cell cell2 border1 hvr-sweep-to-right">
 				<a href="https://goo.gl/maps/YP8cFNyYZFP2">Chỉ đường</a>
 			</div>
-			<div class="table-cell cell2">
+			<div class="table-cell cell2 hvr-sweep-to-right">
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn<br>trực tuyến</a>
 			</div>
 		</div>

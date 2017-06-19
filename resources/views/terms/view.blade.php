@@ -31,7 +31,13 @@
 		<div class="container">
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
-					@php $posts = $term->post()->orderBy('id','desc')->paginate(8);@endphp
+					@php
+						if($term->id==19) 
+							$posts = $term->post()->orderBy('id','desc')->paginate(10);
+						else{
+							$posts = $term->post()->orderBy('id','desc')->paginate(9);
+						}
+					@endphp
 					@if($term->term_id != 0)
 					@if(isset($posts[0]))
 					<div class="line1">

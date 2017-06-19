@@ -70,11 +70,11 @@
         <div class="container">
             <div class="row1">
                 <div class="dis-table width-100">
-                    <a href="#" class="table-cell cell1">
+                    <a href="{{ APIPost::getUrlByID(19) }}" class="table-cell cell1">
                         <span><img src="{{ asset('public/css/mobile/imghome/home-2.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Giới thiệu phòng khám</span>
                     </a>
-                    <a href="#" class="table-cell cell2">
+                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell cell2">
                         <span><img src="{{ asset('public/css/mobile/imghome/home-3.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Đội ngũ chuyên gia</span>
                     </a>

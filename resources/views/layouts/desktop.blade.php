@@ -80,7 +80,7 @@
             <div class="menu-footer">
                 <table class="table1">
                     <tr>
-                        <td><a href="#">Giới thiệu<br>phòng khám</a></td>
+                        <td><a href="{{ APIPost::getUrlByID(19) }}">Giới thiệu<br>phòng khám</a></td>
                         <td><a href="{{ APITerm::getUrlByID(18) }}">Kỹ thuật<br>đặc biệt</a></td>
                         <td><a href="{{ APITerm::getUrlByID(19) }}">Bệnh án<br>điển hình</a></td>
                         <td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Các câu hỏi<br>về sức khỏe</a></td>

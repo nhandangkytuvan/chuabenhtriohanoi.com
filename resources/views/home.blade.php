@@ -16,7 +16,7 @@
 		<div class="container">
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
-					<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/desktop/imghome/home-9.png') }}" alt="" class="center-block"></a></div>
+					<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-float-shadow"><img src="{{ asset('public/css/desktop/imghome/home-9.png') }}" alt="" class="center-block"></a></div>
 				</div>
 				<div class="flex1col2">
 					<div class="tabs">
@@ -48,7 +48,7 @@
 						</div>
 					</div>
 					<div class="img1">
-						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/desktop/imghome/home-11.png') }}" alt="" class="center-block"></a>
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/desktop/imghome/home-11.png') }}" alt="" class="center-block hvr-glow"></a>
 					</div>
 					<div class="posts">
 						<div class="active">
@@ -144,7 +144,7 @@
 					</div>
 				</div>
 				<div class="flex1col3">
-					<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/desktop/imghome/home-12.png') }}" alt="" class="center-block"></a></div>
+					<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/desktop/imghome/home-12.png') }}" alt="" class="center-block hvr-glow"></a></div>
 					<div class="des1 text-justify">
 						Phòng khám Nam Khang Hà Nội là cơ sở y tế chuyên điều trị nam khoa hiếm có ở khu vực Hà Nội, phòng khám đạt tiêu chuẩn y tế JCI quốc tế, hội tụ đội ngũ chuyên gia cao cấp trong và ngoài nước, dịch vụ chất lượng cao, môi trường khám chữa bệnh ấm cúng đạt chất lượng 5 sao ... <a href="#">tìm hiểu thêm</a>
 					</div>
@@ -193,13 +193,13 @@
 			<div class="title text-uppercase text-center">Hình ảnh nhân viên</div>
 			<div class="slogan text-center"><span>Chúng tôi luôn nỗ lực hết mình</span></div>
 			<div class="slick-pk">
-				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/css/desktop/imghome/home-15.png') }}" alt="" class="center-block"></a></div>
-				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/css/desktop/imghome/home-16.png') }}" alt="" class="center-block"></a></div>
-				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/css/desktop/imghome/home-17.png') }}" alt="" class="center-block"></a></div>
-				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/css/desktop/imghome/home-18.png') }}" alt="" class="center-block"></a></div>
-				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/css/desktop/imghome/home-19.png') }}" alt="" class="center-block"></a></div>
-				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/css/desktop/imghome/home-20.png') }}" alt="" class="center-block"></a></div>
-				<div><a href="{{ url('/ve-chung-toi') }}"><img src="{{ asset('public/css/desktop/imghome/home-21.png') }}" alt="" class="center-block"></a></div>
+				<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-box-shadow-inset"><img src="{{ asset('public/css/desktop/imghome/home-15.png') }}" alt="" class="center-block"></a></div>
+				<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-box-shadow-inset"><img src="{{ asset('public/css/desktop/imghome/home-16.png') }}" alt="" class="center-block"></a></div>
+				<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-box-shadow-inset"><img src="{{ asset('public/css/desktop/imghome/home-17.png') }}" alt="" class="center-block"></a></div>
+				<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-box-shadow-inset"><img src="{{ asset('public/css/desktop/imghome/home-18.png') }}" alt="" class="center-block"></a></div>
+				<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-box-shadow-inset"><img src="{{ asset('public/css/desktop/imghome/home-19.png') }}" alt="" class="center-block"></a></div>
+				<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-box-shadow-inset"><img src="{{ asset('public/css/desktop/imghome/home-20.png') }}" alt="" class="center-block"></a></div>
+				<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-box-shadow-inset"><img src="{{ asset('public/css/desktop/imghome/home-21.png') }}" alt="" class="center-block"></a></div>
 			</div>
 			<script>
 				$('.slick-pk').slick({
@@ -340,7 +340,7 @@
 								<div class="table-cell cell2"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Hỏi đáp trực tuyến<br>với chuyên gia</a></div>
 							</div>
 							<div class="img1">
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/desktop/imghome/home-23.png') }}" alt="" class="center-block"></a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-float"><img src="{{ asset('public/css/desktop/imghome/home-23.png') }}" alt="" class="center-block"></a>
 							</div>
 						</div>
 					</div>
@@ -589,7 +589,7 @@
 								<div class="table-cell cell2"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Hỏi đáp trực tuyến<br>với chuyên gia</a></div>
 							</div>
 							<div class="img1">
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/desktop/imghome/home-25.png') }}" alt="" class="center-block"></a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-float"><img src="{{ asset('public/css/desktop/imghome/home-25.png') }}" alt="" class="center-block"></a>
 							</div>
 						</div>
 					</div>
@@ -604,7 +604,7 @@
 						</table>
 					</div>					
 					<div class="img1">
-						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/desktop/imghome/home-26.png') }}" alt="" class="center-block"></a>
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-glow dis-block"><img src="{{ asset('public/css/desktop/imghome/home-26.png') }}" alt="" class="center-block"></a>
 					</div>
 					<div class="posts">
 						<ul>
@@ -771,7 +771,7 @@
 								<div class="table-cell cell2"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Hỏi đáp trực tuyến<br>với chuyên gia</a></div>
 							</div>
 							<div class="img1">
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/desktop/imghome/home-29.png') }}" alt="" class="center-block"></a>
+								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-float"><img src="{{ asset('public/css/desktop/imghome/home-29.png') }}" alt="" class="center-block"></a>
 							</div>
 						</div>
 					</div>
@@ -786,7 +786,7 @@
 						</table>
 					</div>					
 					<div class="img1">
-						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/desktop/imghome/home-27.png') }}" alt="" class="center-block"></a>
+						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="hvr-glow dis-block"><img src="{{ asset('public/css/desktop/imghome/home-27.png') }}" alt="" class="center-block"></a>
 					</div>
 					<div class="posts">
 						<ul>

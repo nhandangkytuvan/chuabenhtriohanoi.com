@@ -82,9 +82,13 @@
 					<div class="line5 dis-table width-100">
 						<div class="table-cell bg1">
 							<ul>
-								@php  
-									$posts = $term->post()->where('id','<>',$post->id)->limit(3)->get();
-								@endphp
+								@if($post->id==19)
+									@php $posts = App\Post::whereTermId(18)->limit(3)->inRandomOrder()->get();@endphp
+								@else
+									@php  
+										$posts = $term->post()->where('id','<>',$post->id)->limit(3)->get();
+									@endphp
+								@endif
 								@foreach($posts as $post)
 								<li><a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></li>
 								@endforeach
