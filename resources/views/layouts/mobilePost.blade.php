@@ -90,7 +90,7 @@
                        <span><img src="{{ asset('public/css/mobile/imghome/home-5.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Tư vấn<br>trực tuyến</span>
                     </a>
-                    <a href="#" class="table-cell cell5">
+                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell cell5">
                         <span><img src="{{ asset('public/css/mobile/imghome/home-6.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Hướng dẫn<br>chỉ đường</span>
                     </a>
@@ -124,7 +124,7 @@
                         </table>
                     </div>
                     <div class="line3">
-                        <a href="#">Địa chỉ phòng khám : Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</a>
+                        <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Địa chỉ phòng khám : Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</a>
                     </div>
                 </div>
                 <div class="goTop">
@@ -178,7 +178,7 @@
                                 <h3 class="text-center"><a href="#top"><i class="bg bg3"></i></a></h3>
                             </div>
                             <div class="table-cell">
-                                <h4 class="text-center"><a href="{{ url('/') }}">Quay lại</a></h4>
+                                @yield('back')
                             </div>
                         </div>
                     </div>

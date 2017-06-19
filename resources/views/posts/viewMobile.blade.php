@@ -94,3 +94,6 @@
 		</div>
 	</div>
 @endsection('content')
+@section('back')
+	<h4 class="text-center"><a href="{{ APITerm::getUrlByObj($term) }}">Quay lại</a></h4>
+@endsection('back')
