@@ -42,6 +42,7 @@
 .row3{background-color: #fff;padding-top: 40px;padding-bottom: 66px;}
 .row3 .flex1{margin-top: 40px;}
 .row3 .flex1col1{background-color: #f5f5f5;padding:8px;width: 280px;padding-bottom: 15px;margin-bottom: 25px;}
+.row3 .flex1col1 img{width: 263px;height: 182px;}
 .row3 .flex1col1 .name{margin-top: 20px;color: #2e2e2e;}
 .row3 .flex1col1 .border{border:1px solid #e57e1a;margin-top: 20px;color: #e57e1a;padding:0px 10px;}
 .row3 .flex1col1 .border table{margin:0px auto;height: 45px;}
@@ -183,18 +184,19 @@
 .row8 .container .table1 table tr td div.des a{color: red;}
 .row8 .global2{margin-top: 80px;}
 /**/
-.row9{background-image: url('chuyende-48.png');background-repeat: no-repeat;height: 590px;}
-.row9 .name{text-align: center;color: #2a2a2a;font-size: 30px;padding-top: 90px;text-transform: uppercase;}
-.row9 .img{margin-top: 50px;}
-.row9 .des{margin-top: 60px;}
-.row9 .note{text-align: center;color: #ee6225;font-size: 18px;text-transform: uppercase;margin-top: 54px;}
-.row9 .sendmail{text-align: center;margin-top: 70px;}
+.row9{background-image: url('chuyende-48.png');background-repeat: no-repeat;height: 484px;padding-top: 70px;}
+.row9 .container{background-image: url('chuyende-50.png');background-repeat: no-repeat;height: 322px;}
+.row9 .name{text-align: center;color: #2a2a2a;font-size: 30px;padding-top: 35px;text-transform: uppercase;}
+.row9 .img{margin-top: 20px;}
+.row9 .des{margin-top: 25px;}
+.row9 .note{text-align: center;color: #ee6225;font-size: 18px;text-transform: uppercase;margin-top: 25px;}
+.row9 .sendmail{text-align: center;margin-top: 25px;}
 .row9 .sendmail input{width: 402px;height: 38px;outline: none;border:1px solid #fff;background-color: #dedddd;color: #a2a2a2;padding-left: 10px;}
 .row9 .sendmail button{outline: none;border:1px solid #fff;background-color: #ee6225;color: #fff;width: 185px;text-align: center;height: 38px;}
-.row9 .lists{margin-top: 50px;}
+.row9 .lists{margin-top: 25px;}
 .row9 .lists i{color: #794033;}
 .row9 .lists a{margin-left: 10px;}
-
+.row9 .lists a:nth-child(1){margin-left: 35px;}
 /*effect*/
 .row1 a.link:hover{text-decoration: underline;background-color: #43b3a3;}
 .global2 .border1 a.table1:hover,.global2 .border1 a.table2:hover{background-color: #43b3a3;}
@@ -210,11 +212,12 @@
 
 footer{margin-top: 0px;}
 
+/*add css*/
+.row3 .overflow{width: 100%;background-color: #666;opacity: 0.5;height: 183px;top:0px;left: 0px;transition: height 2s;position: absolute;}
+.row3 .pos-relative:hover .overflow{height:0px;}
 
-
-
-
-
+.row2 .overflow{width: 100%;background-color: #666;opacity: 0.5;height: 225px;top:0px;left: 0px;transition: height 2s;position: absolute;}
+.row2 .pos-relative:hover .overflow{height:0px;}
 
 
 

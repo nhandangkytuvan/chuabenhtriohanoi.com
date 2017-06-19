@@ -143,7 +143,10 @@
 		<div class="container">
 			<div class="flex flex1 justify-content-between">
 				<div class="flex1col1">
-					<img src="{{ asset('public/css/chuyende1/chuyende-9.png') }}" alt="">
+					<div class="pos-relative">
+						<img src="{{ asset('public/css/chuyende1/chuyende-9.png') }}" alt="">
+						<div class="overflow"></div>
+					</div>
 					<div class="text-uppercase name">TRĨ NỘI</div>
 					<div class="padding">
 						<table>
@@ -163,7 +166,10 @@
 					</div>
 				</div>
 				<div class="flex1col1">
-					<img src="{{ asset('public/css/chuyende1/chuyende-10.png') }}" alt="">
+					<div class="pos-relative">
+						<img src="{{ asset('public/css/chuyende1/chuyende-10.png') }}" alt="">
+						<div class="overflow"></div>
+					</div>
 					<div class="text-uppercase name">TRĨ NGOẠI</div>
 					<div class="padding">
 						<table>
@@ -183,7 +189,10 @@
 					</div>
 				</div>
 				<div class="flex1col1">
-					<img src="{{ asset('public/css/chuyende1/chuyende-11.png') }}" alt="">
+					<div class="pos-relative">
+						<img src="{{ asset('public/css/chuyende1/chuyende-11.png') }}" alt="">
+						<div class="overflow"></div>
+					</div>
 					<div class="text-uppercase name">TRĨ HỖN HỢP</div>
 					<div class="padding">
 						<table>
@@ -238,7 +247,10 @@
 		<div class="container">
 			<div class="flex flex1 justify-content-between flex-wrap-wrap">
 				<div class="flex1col1">
-					<img src="{{ asset('public/css/chuyende1/chuyende-12.png') }}" alt="" class="center-block">
+					<div class="pos-relative">
+						<img src="{{ asset('public/css/chuyende1/chuyende-12.png') }}" alt="" class="center-block">
+						<div class="overflow"></div>
+					</div>
 					<div class="name text-uppercase text-center">Trĩ nội giai đoạn 1</div>
 					<div class="border text-center" onclick="open_tuvan()">
 						<table>
@@ -250,7 +262,10 @@
 					</div>
 				</div>
 				<div class="flex1col1">
-					<img src="{{ asset('public/css/chuyende1/chuyende-13.png') }}" alt="" class="center-block">
+					<div class="pos-relative">
+						<img src="{{ asset('public/css/chuyende1/chuyende-13.png') }}" alt="" class="center-block">
+						<div class="overflow"></div>
+					</div>
 					<div class="name text-uppercase text-center">Trĩ nội giai đoạn 2</div>
 					<div class="border text-center" onclick="open_tuvan()">
 						<table>
@@ -262,7 +277,10 @@
 					</div>
 				</div>
 				<div class="flex1col1">
-					<img src="{{ asset('public/css/chuyende1/chuyende-14.png') }}" alt="" class="center-block">
+					<div class="pos-relative">
+						<img src="{{ asset('public/css/chuyende1/chuyende-14.png') }}" alt="" class="center-block">
+						<div class="overflow"></div>
+					</div>
 					<div class="name text-uppercase text-center">Trĩ nội giai đoạn 3</div>
 					<div class="border text-center" onclick="open_tuvan()">
 						<table>
@@ -274,7 +292,10 @@
 					</div>
 				</div>
 				<div class="flex1col1">
-					<img src="{{ asset('public/css/chuyende1/chuyende-15.png') }}" alt="" class="center-block">
+					<div class="pos-relative">
+						<img src="{{ asset('public/css/chuyende1/chuyende-15.png') }}" alt="" class="center-block">
+						<div class="overflow"></div>
+					</div>
 					<div class="name text-uppercase text-center">Trĩ nội giai đoạn 4</div>
 					<div class="border text-center" onclick="open_tuvan()">
 						<table>
@@ -287,7 +308,10 @@
 				</div>
 				<!--  -->
 				<div class="flex1col1">
-					<img src="{{ asset('public/css/chuyende1/chuyende-16.png') }}" alt="" class="center-block">
+					<div class="pos-relative">
+						<img src="{{ asset('public/css/chuyende1/chuyende-16.png') }}" alt="" class="center-block">
+						<div class="overflow"></div>
+					</div>
 					<div class="name text-uppercase text-center">Trĩ ngoại do viêm</div>
 					<div class="border text-center" onclick="open_tuvan()">
 						<table>
@@ -299,7 +323,10 @@
 					</div>
 				</div>
 				<div class="flex1col1">
-					<img src="{{ asset('public/css/chuyende1/chuyende-17.png') }}" alt="" class="center-block">
+					<div class="pos-relative">
+						<img src="{{ asset('public/css/chuyende1/chuyende-17.png') }}" alt="" class="center-block">
+						<div class="overflow"></div>
+					</div>
 					<div class="name text-uppercase text-center">Trĩ ngoại do tĩnh mạch phình to</div>
 					<div class="border text-center" onclick="open_tuvan()">
 						<table>
@@ -311,7 +338,10 @@
 					</div>
 				</div>
 				<div class="flex1col1">
-					<img src="{{ asset('public/css/chuyende1/chuyende-18.png') }}" alt="" class="center-block">
+					<div class="pos-relative">
+						<img src="{{ asset('public/css/chuyende1/chuyende-18.png') }}" alt="" class="center-block">
+						<div class="overflow"></div>
+					</div>
 					<div class="name text-uppercase text-center">Trĩ ngoại huyết khối</div>
 					<div class="border text-center" onclick="open_tuvan()">
 						<table>
@@ -323,7 +353,10 @@
 					</div>
 				</div>
 				<div class="flex1col1">
-					<img src="{{ asset('public/css/chuyende1/chuyende-19.png') }}" alt="" class="center-block">
+					<div class="pos-relative">
+						<img src="{{ asset('public/css/chuyende1/chuyende-19.png') }}" alt="" class="center-block">
+						<div class="overflow"></div>
+					</div>
 					<div class="name text-uppercase text-center">Trĩ ngoại do tổ chức kết đế</div>
 					<div class="border text-center" onclick="open_tuvan()">
 						<table>
@@ -336,7 +369,10 @@
 				</div>
 				<!--  -->
 				<div class="flex1col1">
-					<img src="{{ asset('public/css/chuyende1/chuyende-20.png') }}" alt="" class="center-block">
+					<div class="pos-relative">
+						<img src="{{ asset('public/css/chuyende1/chuyende-20.png') }}" alt="" class="center-block">
+						<div class="overflow"></div>
+					</div>
 					<div class="name text-uppercase text-center">Trĩ hỗn hợp thường</div>
 					<div class="border text-center" onclick="open_tuvan()">
 						<table>
@@ -348,7 +384,10 @@
 					</div>
 				</div>
 				<div class="flex1col1">
-					<img src="{{ asset('public/css/chuyende1/chuyende-21.png') }}" alt="" class="center-block">
+					<div class="pos-relative">
+						<img src="{{ asset('public/css/chuyende1/chuyende-21.png') }}" alt="" class="center-block">
+						<div class="overflow"></div>
+					</div>
 					<div class="name text-uppercase text-center">Trĩ hỗn hợp đa phát</div>
 					<div class="border text-center" onclick="open_tuvan()">
 						<table>
@@ -360,7 +399,10 @@
 					</div>
 				</div>
 				<div class="flex1col1">
-					<img src="{{ asset('public/css/chuyende1/chuyende-22.png') }}" alt="" class="center-block">
+					<div class="pos-relative">
+						<img src="{{ asset('public/css/chuyende1/chuyende-22.png') }}" alt="" class="center-block">
+						<div class="overflow"></div>
+					</div>
 					<div class="name text-uppercase text-center">Trĩ hỗn hợp vòng</div>
 					<div class="border text-center" onclick="open_tuvan()">
 						<table>
@@ -372,7 +414,10 @@
 					</div>
 				</div>
 				<div class="flex1col1">
-					<img src="{{ asset('public/css/chuyende1/chuyende-23.png') }}" alt="" class="center-block">
+					<div class="pos-relative">
+						<img src="{{ asset('public/css/chuyende1/chuyende-23.png') }}" alt="" class="center-block">
+						<div class="overflow"></div>
+					</div>
 					<div class="name text-uppercase text-center">Trĩ hỗn hợp phức tạp</div>
 					<div class="border text-center" onclick="open_tuvan()">
 						<table>
@@ -639,7 +684,7 @@
 									<td><i class="bg3"></i> <span>Kiểm tra chính xác</span></td>
 								</tr>
 								<tr>
-									<td><i class="bg4"></i><span>Chi phí hợp lý</span></td>
+									<td><i class="bg5"></i><span>Chi phí hợp lý</span></td>
 									<td><i class="bg4"></i><span>Phù hợp cho cả người già và trẻ</span></td>
 								</tr>
 							</table>
@@ -721,7 +766,7 @@
 						<img src="{{ asset('public/css/chuyende1/chuyende-36.png') }}" alt="">
 					</div>
 					<div class="number">
-						<span>1</span>
+						<span>2</span>
 						<span class="text-uppercase">Thuốc đắp bên ngoài</span>
 					</div>
 					<div class="des">
@@ -734,8 +779,8 @@
 						<img src="{{ asset('public/css/chuyende1/chuyende-37.png') }}" alt="">
 					</div>
 					<div class="number">
-						<span>1</span>
-						<span class="text-uppercase">Thuốc uống</span>
+						<span>3</span>
+						<span class="text-uppercase">Phẫu thuật truyền thống</span>
 					</div>
 					<div class="des">
 						<p><span>Hiệu quả:</span> Thông thường sẽ không tái phát trong 1-2 năm.</p>
