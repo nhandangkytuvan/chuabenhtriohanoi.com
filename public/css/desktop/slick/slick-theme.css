@@ -39,7 +39,7 @@
     color: transparent;
     border: none;
     outline: none;
-    background-image: url('../../../images/desktop/icon-3.png');
+    background-image: url('icon-3.png');
     background-repeat: no-repeat;
     opacity: 0.6;
 }

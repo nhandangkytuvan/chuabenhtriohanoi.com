@@ -14,7 +14,7 @@ menu .table1 .cell2{color: #fff;text-align: center;}
 menu .container{padding:15px 0px;background-image: url('imghome/home-4.jpg');background-repeat: no-repeat;}
 menu .table1 a{display: block;}
 menu .table1 a:hover{text-decoration: underline;}
-
+.hvr-sweep-to-right:before{background-color: #a2917f;}
 
 
 

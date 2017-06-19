@@ -182,11 +182,31 @@ div.row6 .flex1>.flex1col2 .footer .hotline{color: #5e3c19;}
 div.row6 .flex1>.flex1col2 .footer .phone{color: #5e3c19;font-weight: bold;font-size: 22px;}
 div.row6 .flex1>.flex1col2 .footer tr td:nth-child(2){padding-left: 10px;}
 
+/*effect*/
 
 
-
-
-
+/* Flashing */
+.slick-slide:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
 
 
