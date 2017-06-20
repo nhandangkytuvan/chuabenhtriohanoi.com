@@ -3,6 +3,7 @@ body{font-size: 14px;background-color: #e7e6e4;}
 a,a:hover,a:focus{color: inherit;}
 a{text-decoration: none;}
 .container{width: 1200px;margin:0px auto;}
+.container2{width: 1000px;margin:0px auto;}
 .center-block{display: block;margin:0px auto;}
 /*display*/
 .dis-block{display: block!important;}

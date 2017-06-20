@@ -83,7 +83,7 @@
 									<td class="text-left"><a href="{{ APITerm::getUrlByID(13) }}"><i class="fa fa-circle"></i> Nứt kẽ hậu môn</a></td>
 								</tr>
 								<tr>
-									<td class="text-left"><a href="{{ APITerm::getUrlByID(14) }}"><i class="fa fa-circle"></i> Sa hậu môn</a></td>
+									<td class="text-left"><a href="{{ APITerm::getUrlByID(14) }}"><i class="fa fa-circle"></i> Sa trực tràng</a></td>
 								</tr>
 							</table>
 						</div>

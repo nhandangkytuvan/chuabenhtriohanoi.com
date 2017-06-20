@@ -627,7 +627,7 @@
 										<td class="active arrow_box"><div>Chấn thương<br>hậu môn</div></td>
 										<td><div><span>Rò hậu môn</span></div></td>
 										<td><div><span>Nứt kẽ hậu môn</span></div></td>
-										<td><div><span>Sa hậu môn</span></div></td>
+										<td><div><span>Sa trực tràng</span></div></td>
 										<td><div><span>Đi ngoài ra máu</span></div></td>
 									</tr>
 								</table>
@@ -713,7 +713,7 @@
 								</div>
 								<div>
 									<div class="bg">
-										<div class="title text-uppercase">Sa hậu môn hiện búi thịt là làm sao?</div>
+										<div class="title text-uppercase">Sa trực tràng hiện búi thịt là làm sao?</div>
 										<div class="des1 text-justify">
 											Hâu môn là một trong những khu vực chịu nhiều tác động từ môi trường bên trong cơ thể lẫn môi trường bên ngoài. Ngoài ra, hậu môn không chỉ là nơi cuối cùng tiếp xúc trực tiếp với chất thải của cơ thể mà còn tiếp ... <a href="#">(chi tiết)</a>
 										</div>

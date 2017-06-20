@@ -33,7 +33,7 @@
 					</td>
 					<td>
 						<div><a href="{{ APITerm::getUrlByID(14) }}"><img src="{{ asset('public/css/mobile/imghome/home-14.png') }}" alt="" class="img-responsive"></a></div>
-						<div class="text-center"><a href="{{ APITerm::getUrlByID(14) }}">Sa hậu môn</a></div>
+						<div class="text-center"><a href="{{ APITerm::getUrlByID(14) }}">Sa trực tràng</a></div>
 					</td>
 					<td>
 						<div><a href="{{ APITerm::getUrlByID(8) }}"><img src="{{ asset('public/css/mobile/imghome/home-15.png') }}" alt="" class="img-responsive"></a></div>

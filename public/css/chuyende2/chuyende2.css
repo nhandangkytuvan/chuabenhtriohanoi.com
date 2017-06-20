@@ -1,0 +1,136 @@
+div.global1 .line1,div.global1 .line2{font-weight: bold;font-size: 24px;}
+div.global1 .line2{margin-top: 2px;}
+div.global1 .line3{font-size: 14px;color: #787878;margin-top: 10px;}
+/**/
+div.row1{background-color: #fff;padding-top: 25px;padding-bottom: 70px;}
+div.row1 .flex1{margin-top: 35px;}
+div.row1 .flex1col1{width: 447px;}
+div.row1 .flex1col1 .bg{background-color: #981d32;color: #fff;padding:35px 25px;}
+div.row1 .flex1col1 .bg a{width: 262px;height: 45px;line-height: 45px;border:1px solid #fff;border-radius: 5px;margin-top: 25px;vertical-align: middle;}
+div.row1 .flex1col1 .bg a .bg1{display: inline-block;width: 21px;height: 21px;background-image: url('chuyende-3.png');background-repeat: no-repeat;background-position: 0px -27px;vertical-align: -5px;margin-left: 10px;}
+div.row1 .flex1col2{width: 530px;}
+div.row1 .flex1col2 .label1{background-color: #424242;color: #fff;text-align: center;height: 34px;width: 320px;line-height: 34px;text-transform: uppercase;}
+div.row1 .flex1col2 .text1{color: #404040;margin-top: 25px;}
+div.row1 .flex1col2 .text2{margin-top: 25px;color: #404040;}
+div.row1 .flex1col2 .text2 label{width: 146px;height: 24px;line-height: 24px;background-color: #981d32;border-radius: 20px;color: #fff;}
+div.row1 .flex1col2 .label2{width: 310px;height: 35px;line-height: 35px;color: #fff;margin-top: 35px;background-color: #981d32;}
+div.row1 .flex1col2 .text3{margin-top: 25px;}
+div.row1 .flex1col2 .text4{margin-top: 25px;}
+div.row1 .flex1col2 .text4 table{border-spacing: 0px;width: 100%;}
+div.row1 .flex1col2 .text4 a{background-color: #981d32;color: #fff;display: block;height: 38px;line-height: 38px;text-align: center;width: 100%;}
+div.row1 .flex1col2 .text4 a.bg2{background-color: #978466;}
+div.row1 .flex1col2 .text4 td{padding-bottom: 10px;}
+div.row1 .flex1col2 .text4 td:nth-child(1){padding-right: 10px;}
+div.row1 .flex1col2 .label3{margin-top: 35px;}
+div.row1 .flex1col2 .text5{line-height: 16px;color: #404040;margin-top: 15px;}
+div.row1 .flex1col2 .label4{margin-top: 15px;}
+div.row1 .flex1col2 .table{margin-top: 15px;}
+div.row1 .flex1col2 .table table{border-spacing: 0px;}
+div.row1 .flex1col2 .table table td{border:1px solid #b8b8b8;padding:3px 5px;text-align: center;}
+div.row1 .flex1col2 .table table td input{border:none;height: 30px;width: 100%;}
+div.row1 .flex1col2 .table table td textarea{border:none;width: 100%;}
+div.row1 .flex1col2 .table table td input:focus,div.row1 .flex1col2 .table table td textarea:focus{outline: none;}
+div.row1 .flex1col2 .table table td:nth-child(n+2){border-left: none;}
+div.row1 .flex1col2 .table table tr:nth-child(n+2) td{border-top: none;}
+div.row1 .flex1col2 .label5{margin-top:25px;height: 46px;line-height: 46px;background-color: #981d32;width: 100%;}
+/**/
+div.row2{background-color: #f6eaec;padding-top: 35px;padding-bottom: 33px;}
+div.row2 .table{margin-top: 32px;}
+div.row2 .table table{border-spacing: 0px;color: #}
+div.row2 .table table tr td:nth-child(1){padding-right: 55px;}
+div.row2 .table table tr td{padding-bottom:25px;}
+div.row2 .table table tr td >div{position: relative;padding-left: 40px;}
+div.row2 .table i{position: absolute;top:-5px;left: 0px;display: inline-block;width: 29px;height: 29px;background-image: url('chuyende-3.png');background-position: 0px 0px;}
+div.row2 .table i.bg1{background-position: 0px -53px;}
+div.row2 .table i.bg2{background-position: 0px -82px;}
+div.row2 .table .line2{margin-top: 30px;border-bottom: 1px dashed #d1cbcc;padding-bottom: 15px;}
+div.row2 .btn{margin-top: 20px;text-align: center;}
+div.row2 .btn a{width: 565px;height: 43px;border:1px solid #797979;border-radius: 10px;line-height: 43px;}
+div.row2 .btn a i{background-image: url('chuyende-3.png');background-repeat: no-repeat;width: 21px;height: 21px;display: inline-block;background-repeat: no-repeat;background-position: 0px 0px;vertical-align: -5px;margin-left: 10px;}
+/**/
+div.row3{background-color: #fff;padding-top:35px;padding-bottom: 45px;}
+div.row3 .flex1{margin-top: 30px;}
+div.row3 .flex1col1{width: 243px;}
+div.row3 .flex1col2{width: 660px;}
+div.row3 .flex1col2 .label{background-color: #981d32;color: #fff;text-align: center;height: 33px;width: 250px;line-height: 33px;display: inline-block;}
+div.row3 .flex1col2 .table{margin-top: 20px;margin-bottom: 20px;}
+div.row3 .flex1col2 .table input{margin-right: 10px;vertical-align: -2px;}
+div.row3 .btn{margin-top: 30px;}
+div.row3 .btn a{width: 270px;height: 43px;border:1px solid #797979;border-radius: 10px;line-height: 43px;}
+div.row3 .btn a i{background-image: url('chuyende-3.png');background-repeat: no-repeat;width: 21px;height: 21px;display: inline-block;background-repeat: no-repeat;background-position: 0px 0px;vertical-align: -5px;margin-left: 10px;}
+/**/
+div.row4{background-color: #f7f7f7;padding-top:35px;padding-bottom: 35px;}
+div.row4 table{border-spacing: 0px;}
+div.row4 table td{border:1px solid #e18386;padding:30px 15px;text-align: center;width: 16.67%;vertical-align: top;}
+div.row4 .table{margin-top: 40px;}
+div.row4 table td:nth-child(n+2){border-left:none;}
+div.row4 table .title{font-weight: bold;margin-top: 40px;}
+div.row4 table .des{margin-top: 48px;}
+div.row4 table .number{width: 61px;height: 61px;border-radius: 50%;border:2px solid #c9171d;color: #c9171d;text-align: center;display: inline-block;vertical-align: middle;line-height: 61px;font-size: 30px;}
+div.row4 .btn{margin-top: 45px;text-align: center;}
+div.row4 .btn a{width: 570px;height: 43px;border:1px solid #797979;border-radius: 10px;line-height: 43px;}
+div.row4 .btn a i{background-image: url('chuyende-3.png');background-repeat: no-repeat;width: 21px;height: 21px;display: inline-block;background-repeat: no-repeat;background-position: 0px 0px;vertical-align: -5px;margin-left: 10px;}
+/**/
+div.row5{background-color: #981d32;padding-top:35px;padding-bottom: 35px;}
+div.row5 .global1{color: #fff;}
+div.row5 .global1 .line3{color: #d2d2d2;}
+div.row5 .flex1{margin-top: 40px;}
+div.row5 .flex1col1{width: 460px;background-color: #fff;}
+div.row5 .flex1col2{width: 468px;background-color: #fff;}
+div.row5 .flex1col1{padding:47px 40px;}
+div.row5 .title1{color: #333333;display: inline-block;padding-bottom: 10px;border-bottom: 1px solid #333333;}
+div.row5 .flex1col1 .name{color: #191919;margin-top: 25px;}
+div.row5 .flex1col1 .img{margin-top: 5px;}
+div.row5 .flex1col1 .btn{margin-top: 45px;text-align: center;}
+div.row5 .flex1col1 .btn a{width: 355px;height: 43px;border:1px solid #797979;border-radius: 10px;line-height: 43px;}
+div.row5 .flex1col1 .btn a i{background-image: url('chuyende-3.png');background-repeat: no-repeat;width: 21px;height: 21px;display: inline-block;background-repeat: no-repeat;background-position: 0px 0px;vertical-align: -5px;margin-left: 10px;}
+div.row5 .flex1col2{padding:40px 40px;}
+div.row5 .flex2{margin-top: 22px;}
+div.row5 .flex2col1{width: 215px;}
+div.row5 .flex2col2{width: 152px;padding-top: 20px;}
+div.row5 .flex2col1 .label{background-color: #981d32;color: #fff;height: 33px;line-height: 33px;padding:0px 15px;border-radius: 20px;}
+div.row5 .flex2col1 .des{color: #4e4d4d;margin-top: 5px;}
+div.row5 .flex1col2 .btn{margin-top: 45px;text-align: center;}
+div.row5 .flex1col2 .btn a{width: 162px;height: 43px;border:1px solid #797979;border-radius: 10px;line-height: 43px;}
+div.row5 .flex1col2 .btn a i{background-image: url('chuyende-3.png');background-repeat: no-repeat;width: 21px;height: 21px;display: inline-block;background-repeat: no-repeat;background-position: 0px 0px;vertical-align: -5px;margin-left: 10px;}
+div.row5 .container2 >.btn{margin-top: 45px;text-align: center;}
+div.row5 .container2 >.btn a{width: 520px;height: 43px;border:1px solid #fff;border-radius: 10px;line-height: 43px;color: #fff;}
+div.row5 .container2 >.btn a i{background-image: url('chuyende-3.png');background-repeat: no-repeat;width: 21px;height: 21px;display: inline-block;background-repeat: no-repeat;background-position: 0px -27px;vertical-align: -5px;margin-left: 10px;}
+div.row5 .container2 >.pos-absolute{top:320px;left: calc(50% - 68px);}
+/**/
+div.row6{background-color: #fff;padding-top:35px;padding-bottom: 70px;}
+div.row6 .table{margin-top:30px;}
+div.row6 .table table{margin:0px auto;border-spacing: 20px;}
+div.row6 .table table img{vertical-align: middle;margin-right: 10px;}
+div.row6 .table span.color1{color: #981d32;}
+div.row6 .img{margin-top: 35px;}
+div.row6 .table2{margin-top: 30px;}
+div.row6 .table2 tr td{width: 20%;}
+/**/
+.row9{background-image: url('../chuyende1/chuyende-48.png');background-repeat: no-repeat;height: 484px;padding-top: 70px;}
+.row9 .container{background-image: url('../chuyende1/chuyende-50.png');background-repeat: no-repeat;height: 322px;}
+.row9 .name{text-align: center;color: #2a2a2a;font-size: 30px;padding-top: 35px;text-transform: uppercase;}
+.row9 .img{margin-top: 20px;}
+.row9 .des{margin-top: 25px;}
+.row9 .note{text-align: center;color: #ee6225;font-size: 18px;text-transform: uppercase;margin-top: 25px;}
+.row9 .sendmail{text-align: center;margin-top: 25px;}
+.row9 .sendmail input{width: 402px;height: 38px;outline: none;border:1px solid #fff;background-color: #dedddd;color: #a2a2a2;padding-left: 10px;}
+.row9 .sendmail button{outline: none;border:1px solid #fff;background-color: #ee6225;color: #fff;width: 185px;text-align: center;height: 38px;}
+.row9 .lists{margin-top: 25px;}
+.row9 .lists i{color: #794033;}
+.row9 .lists a{margin-left: 10px;}
+.row9 .lists a:nth-child(1){margin-left: 35px;}
+.row9 .pos-absolute{left: calc(50% - 99px);top:-133px;}
+/*effect*/
+footer{margin-top: 0px;}
+.btn a:hover{background-color: #424242;border-color: #424242;color: #fff;}
+.btn a:hover i{background-position: 0px -27px!important;}
+div.row1 .flex1col1 .bg a:hover{background-color: #424242;color: #fff;}
+div.row6 .table a:hover{text-decoration: underline;}
+div.row6 .table2 tr td a:hover{text-decoration: underline;color: #971e31;}
+
+/*popup*/
+/*.mypopup2 {border:1px solid #282828;border-radius: 5px;padding:15px 25px;color: #313131;width: 450px;position: fixed;top:0px;left: calc(50% - 225px);background-color: #fff;}
+.mypopup2 .content{margin-top: 25px;color: #313131}
+.mypopup2 .name button{border:none;box-shadow: none;outline: none;right: 0px;top:-5px;background-color: transparent;font-size: 20px;cursor: pointer;}
+.mypopup2 .close button{border:1px solid #e0e0e0;border-radius: 3px;height: 31px;width: 73px;text-align: center;text-transform: uppercase;background-color: transparent;cursor: pointer;}*/
