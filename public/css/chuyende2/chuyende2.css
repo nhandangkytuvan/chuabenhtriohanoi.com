@@ -1,3 +1,15 @@
+.myBanner .btn{height: 50px;width: 150px;line-height: 50px;border:1px solid #79551c;color: #79551c;border-radius: 5px;display: inline-block;background-color: transparent;}
+.myBanner .btn.pos1{top:360px;left: 421px;}
+.myBanner .btn.pos2{top:360px;left: 580px;}
+.myBanner .btn.pos3{top:360px;left: 738px;}
+.myBanner .btn.pos4{top:360px;left: 896px;}
+.myBanner{background-image: url('chuyende-1.png');background-repeat: no-repeat;height: 632px;}
+.myBanner .btn2{height: 53px;line-height: 53px;background-color: #981d32;width: 281px;color: #fff;font-size: 16px;font-weight: bold;}
+.myBanner .btn2{left: 421px;top:495px;border-radius: 5px;}
+.myBanner .btn:hover{background-color: #79551c;color: #fff;}
+.myBanner .btn2:hover{background-color: #79551c;color: #fff;}
+
+/**/
 div.global1 .line1,div.global1 .line2{font-weight: bold;font-size: 24px;}
 div.global1 .line2{margin-top: 2px;}
 div.global1 .line3{font-size: 14px;color: #787878;margin-top: 10px;}
@@ -36,7 +48,7 @@ div.row1 .flex1col2 .label5{margin-top:25px;height: 46px;line-height: 46px;backg
 /**/
 div.row2{background-color: #f6eaec;padding-top: 35px;padding-bottom: 33px;}
 div.row2 .table{margin-top: 32px;}
-div.row2 .table table{border-spacing: 0px;color: #}
+div.row2 .table table{border-spacing: 0px;}
 div.row2 .table table tr td:nth-child(1){padding-right: 55px;}
 div.row2 .table table tr td{padding-bottom:25px;}
 div.row2 .table table tr td >div{position: relative;padding-left: 40px;}
@@ -54,6 +66,7 @@ div.row3 .flex1col1{width: 243px;}
 div.row3 .flex1col2{width: 660px;}
 div.row3 .flex1col2 .label{background-color: #981d32;color: #fff;text-align: center;height: 33px;width: 250px;line-height: 33px;display: inline-block;}
 div.row3 .flex1col2 .table{margin-top: 20px;margin-bottom: 20px;}
+div.row3 .flex1col2 .table td{width: 33.33%}
 div.row3 .flex1col2 .table input{margin-right: 10px;vertical-align: -2px;}
 div.row3 .btn{margin-top: 30px;}
 div.row3 .btn a{width: 270px;height: 43px;border:1px solid #797979;border-radius: 10px;line-height: 43px;}
@@ -79,7 +92,7 @@ div.row5 .flex1col1{width: 460px;background-color: #fff;}
 div.row5 .flex1col2{width: 468px;background-color: #fff;}
 div.row5 .flex1col1{padding:47px 40px;}
 div.row5 .title1{color: #333333;display: inline-block;padding-bottom: 10px;border-bottom: 1px solid #333333;}
-div.row5 .flex1col1 .name{color: #191919;margin-top: 25px;}
+div.row5 .flex1col1 .name{color: #191919;margin-top: 50px;}
 div.row5 .flex1col1 .img{margin-top: 5px;}
 div.row5 .flex1col1 .btn{margin-top: 45px;text-align: center;}
 div.row5 .flex1col1 .btn a{width: 355px;height: 43px;border:1px solid #797979;border-radius: 10px;line-height: 43px;}
@@ -120,7 +133,6 @@ div.row6 .table2 tr td{width: 20%;}
 .row9 .lists i{color: #794033;}
 .row9 .lists a{margin-left: 10px;}
 .row9 .lists a:nth-child(1){margin-left: 35px;}
-.row9 .pos-absolute{left: calc(50% - 99px);top:-133px;}
 /*effect*/
 footer{margin-top: 0px;}
 .btn a:hover{background-color: #424242;border-color: #424242;color: #fff;}
@@ -128,9 +140,6 @@ footer{margin-top: 0px;}
 div.row1 .flex1col1 .bg a:hover{background-color: #424242;color: #fff;}
 div.row6 .table a:hover{text-decoration: underline;}
 div.row6 .table2 tr td a:hover{text-decoration: underline;color: #971e31;}
-
-/*popup*/
-/*.mypopup2 {border:1px solid #282828;border-radius: 5px;padding:15px 25px;color: #313131;width: 450px;position: fixed;top:0px;left: calc(50% - 225px);background-color: #fff;}
-.mypopup2 .content{margin-top: 25px;color: #313131}
-.mypopup2 .name button{border:none;box-shadow: none;outline: none;right: 0px;top:-5px;background-color: transparent;font-size: 20px;cursor: pointer;}
-.mypopup2 .close button{border:1px solid #e0e0e0;border-radius: 3px;height: 31px;width: 73px;text-align: center;text-transform: uppercase;background-color: transparent;cursor: pointer;}*/
+.row9 .lists a:hover{text-decoration: underline;color: #794033;}
+.row9 .sendmail button{cursor: pointer;}
+.row9 .sendmail button:hover{background-color: #43b3a3;}

@@ -7,8 +7,12 @@
 @endsection('css')
 @section('banner')
 	<div class="myBanner">
-		<div>
-			<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyende2/chuyende-1.png') }}" alt="" class="center-block"></a>
+		<div class="pos-relative container2">
+			<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="btn text-center pos-absolute pos1">Đại tiện kèm máu</a>
+			<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="btn text-center pos-absolute pos2">Sau đại tiện có máu</a>
+			<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="btn text-center pos-absolute pos3">Lau chùi ra máu</a>
+			<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="btn text-center pos-absolute pos4">Phân màu đỏ sẫm</a>
+			<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="btn2 text-center text-uppercase pos-absolute pos5">Tư vấn trực tuyến ngay</a>
 		</div>
 	</div>
 @endsection('banner')
@@ -226,18 +230,6 @@
 				</div>
 			</div>
 		</div>
-		<!-- <div class="mypopup2">
-			<div class="name pos-relative">
-				Hiển thị .comchuabenhtriohanoi
-				<button class="pos-absolute">x</button>
-			</div>
-			<div class="content text-justify">
-				Triệu chứng đại tiện ra máu của bạn là gì: <span>Máu màu nâu đậm, khi đại tiện nhỏ máu, không đau đớn, hậu môn ngứa ngáy;</span> những triệu chứng này cho thấy bạn đã mắc các chứng bệnh ở các giai đoạn khác nhau của bệnh hậu môn trực tràng! Hỏi thăm bác sĩ xem sao!
-			</div>
-			<div class="close text-right">
-				<button>OK</button>
-			</div>
-		</div> -->
 		<script>
 		function openswt(){
 		    window.open('http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en');
@@ -337,7 +329,7 @@
 								03
 							</div>
 							<div class="title text-center text-uppercase">Polyp trực tràng<br>,đại tràng</div>
-							<div class="text-justify des">
+							<div class="text-justify des" style="margin-top: 15px;">
 								Đại tiện ra máu, bên ngoài phân có dính lượng máu nhỏ, có khi kèm theo chất nhầy, thi thoảng có thịt thừa lồi ra.
 							</div>
 						</td>
@@ -346,7 +338,7 @@
 								04
 							</div>
 							<div class="title text-center text-uppercase">Viêm lỗ<br>hậu môn</div>
-							<div class="text-justify des">
+							<div class="text-justify des" style="margin-top: 33px;">
 								Đại tiện ra ít máu kèm theo mủ, khi đại tiện cảm giác đau đớn vô cùng rõ ràng
 							</div>
 						</td>
@@ -355,7 +347,7 @@
 								05
 							</div>
 							<div class="title text-center text-uppercase">Viêm loét<br>đại tràng</div>
-							<div class="text-justify des">
+							<div class="text-justify des" style="margin-top: 33px;">
 								Khi đại tiện ra máu có lẫn chất nhầy hoặc mủ, kèm theo hiện tượng đau bụng, sốt, đại tiện nhiều lần...
 							</div>
 						</td>
@@ -364,7 +356,7 @@
 								06
 							</div>
 							<div class="title text-center text-uppercase">Ung thư<br>đại trực tràng</div>
-							<div class="text-justify des">
+							<div class="text-justify des" style="margin-top: 33px;">
 								Đi đại tiện máu có màu đỏ sẫm hoặc đỏ tươi, lẫn vào phân hoặc dính bên ngoài, kèm theo chất nhầy, đệm hậu môn vô cùng khó chịu.
 							</div>
 						</td>
@@ -561,7 +553,7 @@
 		</div>
 	</div>
 	<div class="row9">
-		<div class="container pos-relative">
+		<div class="container">
 			<div class="name">Tư vấn nhanh qua đường dây nóng (miễn phí)</div>
 			<div class="img">
 				<img src="{{ asset('public/css/chuyende1/chuyende-49.png') }}" alt="" class="center-block">
@@ -581,9 +573,6 @@
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Chuyên gia điều trị, xây dựng phương án điều trị</a>
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Tư vấn từ xa, tiết kiệm thời gian công sức</a>
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Nghe điện miễn phí, xin hãy yên tâm</a>
-			</div>
-			<div class="pos-absolute">
-				<img src="{{ asset('public/css/chuyende2/chuyende-20.png') }}" alt="">
 			</div>
 		</div>
 	</div>
