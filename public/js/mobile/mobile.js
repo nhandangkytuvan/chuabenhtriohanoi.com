@@ -27,6 +27,7 @@ $(document).ready(function() {
     });
     // 
     $('.footer-toolbar').scrollToFixed( { bottom: 0} );
+    $('.topheader').scrollToFixed();
     //
     inter1 = setInterval(alertFunc, 5000);
     //
