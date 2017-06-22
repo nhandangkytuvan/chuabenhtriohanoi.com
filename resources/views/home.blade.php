@@ -52,93 +52,60 @@
 					</div>
 					<div class="posts">
 						<div class="active">
+							@if(isset($post_clicks[0]))
 							<div class="post-first">
-								<div class="name text-uppercase text-center">Bệnh trĩ là gì?</div>
+								<div class="name text-uppercase text-center"><a title="{{ $post_clicks[0]->name }}" href="{{ APIPost::getUrlByObj($post_clicks[0]) }}">{{ $post_clicks[0]->name }}</a></div>
 								<div class="des1 text-justify">
-									Bệnh trĩ hay còn gọi là bệnh lòi dom, là bệnh rất thường gặp ở đường hậu môn trực tràng, bệnh có thể gặp ở cả nam và nữ, nhất là những người thường xuyên bị táo bón, người làm những ... <a href="#">Chi tiết</a>
+									{{ APIPost::getDescription($post_clicks[0]->description,40) }}... <a href="{{ APIPost::getUrlByObj($post_clicks[0]) }}">Chi tiết</a>
 								</div>
 							</div>
+							@php unset($post_clicks[0]); @endphp
+							@endif
 							<table class="width-100">
+								@foreach($post_clicks as $post)
 								<tr>
 									<td>[ Click nhiều ]</td>
-									<td><a href="#">Nguyên nhân bệnh trĩ</a></td>
+									<td><a href="{{ APIPost::getUrlByObj($post) }}" title="{{ $post->name }}">{{ $post->name }}</a></td>
 								</tr>
-								<tr>
-									<td>[ Click nhiều ]</td>
-									<td><a href="#">Nguyên nhân bệnh trĩ</a></td>
-								</tr>
-								<tr>
-									<td>[ Click nhiều ]</td>
-									<td><a href="#">Nguyên nhân bệnh trĩ</a></td>
-								</tr>
-								<tr>
-									<td>[ Click nhiều ]</td>
-									<td><a href="#">Nguyên nhân bệnh trĩ</a></td>
-								</tr>
-								<tr>
-									<td>[ Click nhiều ]</td>
-									<td><a href="#">Nguyên nhân bệnh trĩ</a></td>
-								</tr>
+								@endforeach
 							</table>
 						</div>
 						<div>
+							@if(isset($post_kythuats[0]))
 							<div class="post-first">
-								<div class="name text-uppercase text-center">Kỹ thuật chuẩn đoán là gì?</div>
+								<div class="name text-uppercase text-center"><a title="{{ $post_kythuats[0]->name }}" href="{{ APIPost::getUrlByObj($post_kythuats[0]) }}">{{ $post_kythuats[0]->name }}</a></div>
 								<div class="des1 text-justify">
-									Bệnh trĩ hay còn gọi là bệnh lòi dom, là bệnh rất thường gặp ở đường hậu môn trực tràng, bệnh có thể gặp ở cả nam và nữ, nhất là những người thường xuyên bị táo bón, người làm những ... <a href="#">Chi tiết</a>
+									{{ APIPost::getDescription($post_kythuats[0]->description,40) }}... <a href="{{ APIPost::getUrlByObj($post_kythuats[0]) }}">Chi tiết</a>
 								</div>
 							</div>
+							@php unset($post_kythuats[0]); @endphp
+							@endif
 							<table class="width-100">
+								@foreach($post_kythuats as $post)
 								<tr>
 									<td>[ Kỹ thuật ]</td>
-									<td><a href="#">Nguyên nhân bệnh trĩ</a></td>
+									<td><a href="{{ APIPost::getUrlByObj($post) }}" title="{{ $post->name }}">{{ $post->name }}</a></td>
 								</tr>
-								<tr>
-									<td>[ Kỹ thuật ]</td>
-									<td><a href="#">Nguyên nhân bệnh trĩ</a></td>
-								</tr>
-								<tr>
-									<td>[ Kỹ thuật ]</td>
-									<td><a href="#">Nguyên nhân bệnh trĩ</a></td>
-								</tr>
-								<tr>
-									<td>[ Kỹ thuật ]</td>
-									<td><a href="#">Nguyên nhân bệnh trĩ</a></td>
-								</tr>
-								<tr>
-									<td>[ Kỹ thuật ]</td>
-									<td><a href="#">Nguyên nhân bệnh trĩ</a></td>
-								</tr>
+								@endforeach
 							</table>
 						</div>
 						<div>
+							@if(isset($post_shares[0]))
 							<div class="post-first">
-								<div class="name text-uppercase text-center">Chia sẻ nhiều là gì?</div>
+								<div class="name text-uppercase text-center"><a title="{{ $post_shares[0]->name }}" href="{{ APIPost::getUrlByObj($post_shares[0]) }}">{{ $post_shares[0]->name }}</a></div>
 								<div class="des1 text-justify">
-									Bệnh trĩ hay còn gọi là bệnh lòi dom, là bệnh rất thường gặp ở đường hậu môn trực tràng, bệnh có thể gặp ở cả nam và nữ, nhất là những người thường xuyên bị táo bón, người làm những ... <a href="#">Chi tiết</a>
+									{{ APIPost::getDescription($post_shares[0]->description,40) }}... <a href="{{ APIPost::getUrlByObj($post_shares[0]) }}">Chi tiết</a>
 								</div>
 							</div>
+							@php unset($post_shares[0]); @endphp
+							@endif
 							<table class="width-100">
+								@foreach($post_shares as $post)
 								<tr>
 									<td>[ Chia sẻ ]</td>
-									<td><a href="#">Nguyên nhân bệnh trĩ</a></td>
+									<td><a href="{{ APIPost::getUrlByObj($post) }}" title="{{ $post->name }}">{{ $post->name }}</a></td>
 								</tr>
-								<tr>
-									<td>[ Chia sẻ ]</td>
-									<td><a href="#">Nguyên nhân bệnh trĩ</a></td>
-								</tr>
-								<tr>
-									<td>[ Chia sẻ ]</td>
-									<td><a href="#">Nguyên nhân bệnh trĩ</a></td>
-								</tr>
-								<tr>
-									<td>[ Chia sẻ ]</td>
-									<td><a href="#">Nguyên nhân bệnh trĩ</a></td>
-								</tr>
-								<tr>
-									<td>[ Chia sẻ ]</td>
-									<td><a href="#">Nguyên nhân bệnh trĩ</a></td>
-								</tr>
+								@endforeach
 							</table>
 						</div>
 					</div>

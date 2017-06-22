@@ -38,10 +38,10 @@ div.row3 .flex1col2 .img1{margin:10px auto;}
 div.row3 .flex1col2 .posts >div{display: none;}
 div.row3 .flex1col2 .posts >div.active{display: block;}
 div.row3 .flex1col2 .posts .post-first .name{color: #5e3c19;}
-div.row3 .flex1col2 .posts .post-first .des1{color: #3d3d3d;margin:0px 25px;margin-top: 10px;border-bottom: 1px dashed #3d3d3d;padding-bottom: 15px;}
+div.row3 .flex1col2 .posts .post-first .des1{color: #3d3d3d;margin:0px 0px;margin-top: 10px;border-bottom: 1px dashed #3d3d3d;padding-bottom: 15px;}
 div.row3 .flex1col2 .posts .post-first .des1 a{color: red;}
 div.row3 .flex1col2 .posts .post-first .des1 a:hover{text-decoration: underline;}
-div.row3 .flex1col2 .posts table{margin:0px 25px;}
+div.row3 .flex1col2 .posts table{margin:0px 0px;}
 div.row3 .flex1col2 .posts table tr td{padding-top: 15px;color: #5e3c19;}
 div.row3 .flex1col2 .posts table tr td:nth-child(1){width: 100px;}
 div.row3 .flex1col2 .posts table tr td a:hover{text-decoration: underline;}
