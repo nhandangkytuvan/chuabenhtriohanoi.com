@@ -26,10 +26,10 @@
 			</div>
 			<div class="my_pagination text-center">
 				@if($posts->previousPageUrl())
-				<a href="{{ $posts->previousPageUrl() }}" class="text-uppercase">Trang trước</a>
+				<a href="{{ $posts->previousPageUrl() }}" class="text-uppercase"><i class="fa fa-arrow-left"></i> Trang trước</a>
 				@endif
 				@if($posts->nextPageUrl())
-				<a href="{{ $posts->nextPageUrl() }}" class="text-uppercase">Trang sau</a>
+				<a href="{{ $posts->nextPageUrl() }}" class="text-uppercase"><i class="fa fa-arrow-right"></i> Trang sau</a>
 				@endif
 			</div>
 		</div>

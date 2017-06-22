@@ -34,7 +34,7 @@ Route::resource('users', 'UserController');
 Route::resource('medias', 'MediaController');
 Route::get('medias/{media}/delete','MediaController@delete');
 // mails
-Route::get('sendmail','MyMailController@sendmail');
+Route::post('sendmail','MyMailController@sendmail');
 //
 Route::get('mydb/terms','MydbController@terms');
 Route::get('mydb/posts','MydbController@posts');

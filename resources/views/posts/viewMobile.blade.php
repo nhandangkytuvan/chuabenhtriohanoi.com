@@ -66,23 +66,24 @@
 				<span class="">Tự động đăng ký hẹn nhanh chóng</span>
 			</div>
 			<div class="bg">
-				<form action="#">
+				<form action="{{ url('sendmail') }}" method="post" id="formMailSend">
+					{{ csrf_field() }}
 					<table class="width-100">
 						<tr>
 							<td>Tên :</td>
-							<td><input type="text" placeholder="Mời nhập họ và tên"></td>
+							<td><input name="ho_va_ten" required type="text" placeholder="Mời nhập họ và tên"></td>
 						</tr>
 						<tr>
 							<td>Số điện thoại :</td>
-							<td><input type="text" placeholder="Mời nhập số điện thoại của bạn"></td>
+							<td><input name="phone" required type="number" placeholder="Mời nhập số điện thoại của bạn"></td>
 						</tr>
 						<tr>
 							<td>Ngày tháng :</td>
-							<td><input type="text" placeholder="Mời nhập ngày tới khám"></td>
+							<td><input name="thoigian" type="date" placeholder="Mời nhập ngày tới khám"></td>
 						</tr>
 						<tr>
 							<td>Loại bệnh :</td>
-							<td><input type="text" placeholder="Mời nhập triệu trứng"></td>
+							<td><input name="mieutabenh" type="text" placeholder="Mời nhập triệu trứng"></td>
 						</tr>
 					</table>
 					<div class="button text-center">
@@ -90,6 +91,22 @@
 						<button type="reset">Thiết lập lại</button>
 					</div>
 				</form>
+				<script>
+					$(document).ready(function() 
+					{
+						$('#formMailSend').ajaxForm(
+						{
+							beforeSubmit:function(){
+								$("#myloadding").show();
+							},
+							success:function(){
+				                alert("Cảm ơn bạn đã đăng ký!");
+				                $("#myloadding").hide(); 
+				                $('#formMailSend').resetForm();
+							}
+						});
+					});
+				</script>
 			</div>
 		</div>
 	</div>
