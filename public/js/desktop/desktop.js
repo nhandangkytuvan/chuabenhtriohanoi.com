@@ -11,7 +11,7 @@ $(document).ready(function() {
     var gio = d.getHours();
     var phut = d.getMinutes();
     if((7<gio&&gio<22)||(gio==22&&phut<=30)||(gio==7&&phut>=30)){
-        //setTimeout(showchat, 20000);
+        setTimeout(showchat, 20000);
     }
     //
     $(".tabs2 tr td").hover(function() {
