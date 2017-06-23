@@ -73,6 +73,13 @@ $(document).ready(function() {
         $('#popup-desktop').removeClass('active');
         setTimeout(showchat, 20000);
     });
+    //
+    $(".row1 td a").each(function(index, el) {
+        if($(el).attr('href') == location.href){
+            $(el).css('color', '#5e3c19');
+            $(el).parents('div.item').addClass('active').siblings('div.item').removeClass('active');
+        }  
+    });
 });
 //
 function open_tuvan(){
