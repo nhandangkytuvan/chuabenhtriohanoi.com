@@ -1,4 +1,8 @@
 @extends('layouts.desktop')
+@section('title')
+	<title>{{ $configs[3]->content }}</title>
+	@include('seo.seo_home')
+@endsection('title')
 @section('css')
 	<link rel="stylesheet" href="{{ asset('public/css/desktop/desktop-home.css') }}">
 @endsection('css')
