@@ -113,7 +113,7 @@
 				<div class="flex1col3">
 					<div><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/desktop/imghome/home-12.png') }}" alt="" class="center-block hvr-glow"></a></div>
 					<div class="des1 text-justify">
-						Phòng khám Nam Khang Hà Nội là cơ sở y tế chuyên điều trị nam khoa hiếm có ở khu vực Hà Nội, phòng khám đạt tiêu chuẩn y tế JCI quốc tế, hội tụ đội ngũ chuyên gia cao cấp trong và ngoài nước, dịch vụ chất lượng cao, môi trường khám chữa bệnh ấm cúng đạt chất lượng 5 sao ... <a href="#">tìm hiểu thêm</a>
+						Phòng khám Nam Khang Hà Nội là cơ sở y tế chuyên điều trị nam khoa hiếm có ở khu vực Hà Nội, phòng khám đạt tiêu chuẩn y tế JCI quốc tế, hội tụ đội ngũ chuyên gia cao cấp trong và ngoài nước, dịch vụ chất lượng cao, môi trường khám chữa bệnh ấm cúng đạt chất lượng 5 sao ... <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">tìm hiểu thêm</a>
 					</div>
 					<div class="bg">
 						<table>
@@ -196,107 +196,99 @@
 							</div>
 							<div class="contents2">
 								<div class="active">
+									@if(isset($post_chuyenkhoatris[0]))
 									<div class="bg">
-										<div class="title text-uppercase">Bệnh trĩ là gì?</div>
+										<div class="title text-uppercase">
+											<a href="{{ APIPost::getUrlByObj($post_chuyenkhoatris[0]) }}" title="{{ $post_chuyenkhoatris[0]->name }}">{{ $post_chuyenkhoatris[0]->name }}</a>
+										</div>
 										<div class="des1 text-justify">
-											Bệnh trĩ hay còn gọi là bệnh lòi dom, là bệnh rất thường gặp ở đường hậu môn trực tràng, bệnh có thể gặp ở cả nam và nữ, nhất là những người thường xuyên bị táo bón, người làm những công việc phải đứng, ngồi quá  <a href="#">(chi tiết)</a>
+											{{ APIPost::getDescription($post_chuyenkhoatris[0]->description,45) }}...<a href="{{ APIPost::getUrlByObj($post_chuyenkhoatris[0]) }}">(chi tiết)</a>
 										</div>
 									</div>
+									@php unset($post_chuyenkhoatris[0]); @endphp
+									@endif
 									<table>
+										@foreach($post_chuyenkhoatris as $key => $post)
+										@if($key%2 == 1)
 										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+										@endif
+											<td><i class="fa fa-circle"></i> <a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></td>
+										@if($key%2 == 0 || $key == (count($post_chuyenkhoatris) ))
 										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
+										@endif
+										@endforeach
 									</table>
 								</div>
 								<div>
+									@if(isset($post_trinois[0]))
 									<div class="bg">
-										<div class="title text-uppercase">Trĩ nội là gì?</div>
+										<div class="title text-uppercase">
+											<a href="{{ APIPost::getUrlByObj($post_trinois[0]) }}" title="{{ $post_trinois[0]->name }}">{{ $post_trinois[0]->name }}</a>
+										</div>
 										<div class="des1 text-justify">
-											Trĩ nội hay còn gọi là bệnh lòi dom, là bệnh rất thường gặp ở đường hậu môn trực tràng, bệnh có thể gặp ở cả nam và nữ, nhất là những người thường xuyên bị táo bón, người làm những công việc phải đứng, ngồi quá  <a href="#">(chi tiết)</a>
+											{{ APIPost::getDescription($post_trinois[0]->description,45) }}...<a href="{{ APIPost::getUrlByObj($post_trinois[0]) }}">(chi tiết)</a>
 										</div>
 									</div>
+									@php unset($post_trinois[0]); @endphp
+									@endif
 									<table>
+										@foreach($post_trinois as $key => $post)
+										@if($key%2 == 1)
 										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+										@endif
+											<td><i class="fa fa-circle"></i> <a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></td>
+										@if($key%2 == 0 || $key == (count($post_trinois) ))
 										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
+										@endif
+										@endforeach
 									</table>
 								</div>
 								<div>
+									@if(isset($post_tringoais[0]))
 									<div class="bg">
-										<div class="title text-uppercase">Trĩ ngoại là gì?</div>
+										<div class="title text-uppercase">
+											<a href="{{ APIPost::getUrlByObj($post_tringoais[0]) }}" title="{{ $post_tringoais[0]->name }}">{{ $post_tringoais[0]->name }}</a>
+										</div>
 										<div class="des1 text-justify">
-											Trĩ ngoại hay còn gọi là bệnh lòi dom, là bệnh rất thường gặp ở đường hậu môn trực tràng, bệnh có thể gặp ở cả nam và nữ, nhất là những người thường xuyên bị táo bón, người làm những công việc phải đứng, ngồi quá  <a href="#">(chi tiết)</a>
+											{{ APIPost::getDescription($post_tringoais[0]->description,45) }}...<a href="{{ APIPost::getUrlByObj($post_tringoais[0]) }}">(chi tiết)</a>
 										</div>
 									</div>
+									@php unset($post_tringoais[0]); @endphp
+									@endif
 									<table>
+										@foreach($post_tringoais as $key => $post)
+										@if($key%2 == 1)
 										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+										@endif
+											<td><i class="fa fa-circle"></i> <a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></td>
+										@if($key%2 == 0 || $key == (count($post_tringoais) ))
 										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
+										@endif
+										@endforeach
 									</table>
 								</div>
 								<div>
+									@if(isset($post_trihonhops[0]))
 									<div class="bg">
-										<div class="title text-uppercase">Trĩ hỗn hợp là gì?</div>
+										<div class="title text-uppercase">
+											<a href="{{ APIPost::getUrlByObj($post_trihonhops[0]) }}" title="{{ $post_trihonhops[0]->name }}">{{ $post_trihonhops[0]->name }}</a>
+										</div>
 										<div class="des1 text-justify">
-											Trĩ hỗn hợp hay còn gọi là bệnh lòi dom, là bệnh rất thường gặp ở đường hậu môn trực tràng, bệnh có thể gặp ở cả nam và nữ, nhất là những người thường xuyên bị táo bón, người làm những công việc phải đứng, ngồi quá  <a href="#">(chi tiết)</a>
+											{{ APIPost::getDescription($post_trihonhops[0]->description,45) }}...<a href="{{ APIPost::getUrlByObj($post_trihonhops[0]) }}">(chi tiết)</a>
 										</div>
 									</div>
+									@php unset($post_trihonhops[0]); @endphp
+									@endif
 									<table>
+										@foreach($post_trihonhops as $key => $post)
+										@if($key%2 == 1)
 										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+										@endif
+											<td><i class="fa fa-circle"></i> <a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></td>
+										@if($key%2 == 0 || $key == (count($post_trihonhops) ))
 										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
+										@endif
+										@endforeach
 									</table>
 								</div>
 							</div>
@@ -367,185 +359,147 @@
 							</div>
 							<div class="contents2">
 								<div class="active">
+									@if(isset($post_haumons[0]))
 									<div class="bg">
-										<div class="title text-uppercase">Ngứa hậu môn là gì?</div>
+										<div class="title text-uppercase">
+											<a href="{{ APIPost::getUrlByObj($post_haumons[0]) }}" title="{{ $post_haumons[0]->name }}">{{ $post_haumons[0]->name }}</a>
+										</div>
 										<div class="des1 text-justify">
-											Theo các bác sĩ Phòng khám đa khoa Giải Phóng, bệnh ngứa hậu môn là tình trạng bị ngứa quanh vùng hậu môn vì đây cũng là lối thoát cho trực tràng. Vị trí ngứa hậu môn thường nằm trên da xung ... <a href="#">(chi tiết)</a>
+											{{ APIPost::getDescription($post_haumons[0]->description,45) }}...<a href="{{ APIPost::getUrlByObj($post_haumons[0]) }}">(chi tiết)</a>
 										</div>
 									</div>
+									@php unset($post_haumons[0]); @endphp
+									@endif
 									<table>
+										@foreach($post_haumons as $key => $post)
+										@if($key%2 == 1)
 										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+										@endif
+											<td><i class="fa fa-circle"></i> <a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></td>
+										@if($key%2 == 0 || $key == (count($post_haumons) ))
 										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
+										@endif
+										@endforeach
 									</table>
 								</div>
 								<div>
+									@if(isset($post_apxes[0]))
 									<div class="bg">
-										<div class="title text-uppercase">Áp xe hậu môn là gì?</div>
+										<div class="title text-uppercase">
+											<a href="{{ APIPost::getUrlByObj($post_apxes[0]) }}" title="{{ $post_apxes[0]->name }}">{{ $post_apxes[0]->name }}</a>
+										</div>
 										<div class="des1 text-justify">
-											Theo các bác sĩ Phòng khám đa khoa Giải Phóng, bệnh ngứa hậu môn là tình trạng bị ngứa quanh vùng hậu môn vì đây cũng là lối thoát cho trực tràng. Vị trí ngứa hậu môn thường nằm trên da xung ... <a href="#">(chi tiết)</a>
+											{{ APIPost::getDescription($post_apxes[0]->description,45) }}...<a href="{{ APIPost::getUrlByObj($post_apxes[0]) }}">(chi tiết)</a>
 										</div>
 									</div>
+									@php unset($post_apxes[0]); @endphp
+									@endif
 									<table>
+										@foreach($post_apxes as $key => $post)
+										@if($key%2 == 1)
 										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+										@endif
+											<td><i class="fa fa-circle"></i> <a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></td>
+										@if($key%2 == 0 || $key == (count($post_apxes) ))
 										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
+										@endif
+										@endforeach
 									</table>
 								</div>
 								<div>
+									@if(isset($post_nguarats[0]))
 									<div class="bg">
-										<div class="title text-uppercase">Ngứa rát hậu môn là gì?</div>
+										<div class="title text-uppercase">
+											<a href="{{ APIPost::getUrlByObj($post_nguarats[0]) }}" title="{{ $post_nguarats[0]->name }}">{{ $post_nguarats[0]->name }}</a>
+										</div>
 										<div class="des1 text-justify">
-											Theo các bác sĩ Phòng khám đa khoa Giải Phóng, bệnh ngứa hậu môn là tình trạng bị ngứa quanh vùng hậu môn vì đây cũng là lối thoát cho trực tràng. Vị trí ngứa hậu môn thường nằm trên da xung ... <a href="#">(chi tiết)</a>
+											{{ APIPost::getDescription($post_nguarats[0]->description,45) }}...<a href="{{ APIPost::getUrlByObj($post_nguarats[0]) }}">(chi tiết)</a>
 										</div>
 									</div>
+									@php unset($post_nguarats[0]); @endphp
+									@endif
 									<table>
+										@foreach($post_nguarats as $key => $post)
+										@if($key%2 == 1)
 										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+										@endif
+											<td><i class="fa fa-circle"></i> <a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></td>
+										@if($key%2 == 0 || $key == (count($post_nguarats) ))
 										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
+										@endif
+										@endforeach
 									</table>
 								</div>
 								<div>
+									@if(isset($post_polyps[0]))
 									<div class="bg">
-										<div class="title text-uppercase">Polyp hậu môn là gì?</div>
+										<div class="title text-uppercase">
+											<a href="{{ APIPost::getUrlByObj($post_polyps[0]) }}" title="{{ $post_polyps[0]->name }}">{{ $post_polyps[0]->name }}</a>
+										</div>
 										<div class="des1 text-justify">
-											Theo các bác sĩ Phòng khám đa khoa Giải Phóng, bệnh ngứa hậu môn là tình trạng bị ngứa quanh vùng hậu môn vì đây cũng là lối thoát cho trực tràng. Vị trí ngứa hậu môn thường nằm trên da xung ... <a href="#">(chi tiết)</a>
+											{{ APIPost::getDescription($post_polyps[0]->description,45) }}...<a href="{{ APIPost::getUrlByObj($post_polyps[0]) }}">(chi tiết)</a>
 										</div>
 									</div>
+									@php unset($post_polyps[0]); @endphp
+									@endif
 									<table>
+										@foreach($post_polyps as $key => $post)
+										@if($key%2 == 1)
 										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+										@endif
+											<td><i class="fa fa-circle"></i> <a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></td>
+										@if($key%2 == 0 || $key == (count($post_polyps) ))
 										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
+										@endif
+										@endforeach
 									</table>
 								</div>
 								<div>
+									@if(isset($post_daus[0]))
 									<div class="bg">
-										<div class="title text-uppercase">Đau hậu môn là gì?</div>
+										<div class="title text-uppercase">
+											<a href="{{ APIPost::getUrlByObj($post_daus[0]) }}" title="{{ $post_daus[0]->name }}">{{ $post_daus[0]->name }}</a>
+										</div>
 										<div class="des1 text-justify">
-											Theo các bác sĩ Phòng khám đa khoa Giải Phóng, bệnh ngứa hậu môn là tình trạng bị ngứa quanh vùng hậu môn vì đây cũng là lối thoát cho trực tràng. Vị trí ngứa hậu môn thường nằm trên da xung ... <a href="#">(chi tiết)</a>
+											{{ APIPost::getDescription($post_daus[0]->description,45) }}...<a href="{{ APIPost::getUrlByObj($post_daus[0]) }}">(chi tiết)</a>
 										</div>
 									</div>
+									@php unset($post_daus[0]); @endphp
+									@endif
 									<table>
+										@foreach($post_daus as $key => $post)
+										@if($key%2 == 1)
 										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+										@endif
+											<td><i class="fa fa-circle"></i> <a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></td>
+										@if($key%2 == 0 || $key == (count($post_daus) ))
 										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
+										@endif
+										@endforeach
 									</table>
 								</div>
 								<div>
+									@if(isset($post_vathes[0]))
 									<div class="bg">
-										<div class="title text-uppercase">Hậu môn có vật thể lạ là gì?</div>
+										<div class="title text-uppercase">
+											<a href="{{ APIPost::getUrlByObj($post_vathes[0]) }}" title="{{ $post_vathes[0]->name }}">{{ $post_vathes[0]->name }}</a>
+										</div>
 										<div class="des1 text-justify">
-											Theo các bác sĩ Phòng khám đa khoa Giải Phóng, bệnh ngứa hậu môn là tình trạng bị ngứa quanh vùng hậu môn vì đây cũng là lối thoát cho trực tràng. Vị trí ngứa hậu môn thường nằm trên da xung ... <a href="#">(chi tiết)</a>
+											{{ APIPost::getDescription($post_vathes[0]->description,45) }}...<a href="{{ APIPost::getUrlByObj($post_vathes[0]) }}">(chi tiết)</a>
 										</div>
 									</div>
+									@php unset($post_vathes[0]); @endphp
+									@endif
 									<table>
+										@foreach($post_vathes as $key => $post)
+										@if($key%2 == 1)
 										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+										@endif
+											<td><i class="fa fa-circle"></i> <a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></td>
+										@if($key%2 == 0 || $key == (count($post_vathes) ))
 										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-									</table>
-								</div>
-								<div>
-									<div class="bg">
-										<div class="title text-uppercase">Hậu môn phình to là gì?</div>
-										<div class="des1 text-justify">
-											Theo các bác sĩ Phòng khám đa khoa Giải Phóng, bệnh ngứa hậu môn là tình trạng bị ngứa quanh vùng hậu môn vì đây cũng là lối thoát cho trực tràng. Vị trí ngứa hậu môn thường nằm trên da xung ... <a href="#">(chi tiết)</a>
-										</div>
-									</div>
-									<table>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
+										@endif
+										@endforeach
 									</table>
 								</div>
 							</div>
@@ -575,11 +529,9 @@
 					</div>
 					<div class="posts">
 						<ul>
-							<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
-							<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
-							<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
-							<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
-							<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
+							@foreach($post_tructrangs as $post)
+							<li><a href="{{ APIPost::getUrlByObj($post) }}"><i class="fa fa-circle"></i> {{ $post->name }}</a></li>
+							@endforeach
 						</ul>
 					</div>
 				</div>
@@ -601,133 +553,123 @@
 							</div>
 							<div class="contents2">
 								<div class="active">
+									@if(isset($post_chanthuongs[0]))
 									<div class="bg">
-										<div class="title text-uppercase">Hậu môn xuất hiện búi thịt là làm sao?</div>
+										<div class="title text-uppercase">
+											<a href="{{ APIPost::getUrlByObj($post_chanthuongs[0]) }}" title="{{ $post_chanthuongs[0]->name }}">{{ $post_chanthuongs[0]->name }}</a>
+										</div>
 										<div class="des1 text-justify">
-											Hâu môn là một trong những khu vực chịu nhiều tác động từ môi trường bên trong cơ thể lẫn môi trường bên ngoài. Ngoài ra, hậu môn không chỉ là nơi cuối cùng tiếp xúc trực tiếp với chất thải của cơ thể mà còn tiếp ... <a href="#">(chi tiết)</a>
+											{{ APIPost::getDescription($post_chanthuongs[0]->description,45) }}...<a href="{{ APIPost::getUrlByObj($post_chanthuongs[0]) }}">(chi tiết)</a>
 										</div>
 									</div>
+									@php unset($post_chanthuongs[0]); @endphp
+									@endif
 									<table>
+										@foreach($post_chanthuongs as $key => $post)
+										@if($key%2 == 1)
 										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+										@endif
+											<td><i class="fa fa-circle"></i> <a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></td>
+										@if($key%2 == 0 || $key == (count($post_chanthuongs) ))
 										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
+										@endif
+										@endforeach
 									</table>
 								</div>
 								<div>
+									@if(isset($post_ros[0]))
 									<div class="bg">
-										<div class="title text-uppercase">Rò hậu môn hiện búi thịt là làm sao?</div>
+										<div class="title text-uppercase">
+											<a href="{{ APIPost::getUrlByObj($post_ros[0]) }}" title="{{ $post_ros[0]->name }}">{{ $post_ros[0]->name }}</a>
+										</div>
 										<div class="des1 text-justify">
-											Hâu môn là một trong những khu vực chịu nhiều tác động từ môi trường bên trong cơ thể lẫn môi trường bên ngoài. Ngoài ra, hậu môn không chỉ là nơi cuối cùng tiếp xúc trực tiếp với chất thải của cơ thể mà còn tiếp ... <a href="#">(chi tiết)</a>
+											{{ APIPost::getDescription($post_ros[0]->description,45) }}...<a href="{{ APIPost::getUrlByObj($post_ros[0]) }}">(chi tiết)</a>
 										</div>
 									</div>
+									@php unset($post_ros[0]); @endphp
+									@endif
 									<table>
+										@foreach($post_ros as $key => $post)
+										@if($key%2 == 1)
 										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+										@endif
+											<td><i class="fa fa-circle"></i> <a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></td>
+										@if($key%2 == 0 || $key == (count($post_ros) ))
 										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
+										@endif
+										@endforeach
 									</table>
 								</div>
 								<div>
+									@if(isset($post_nuts[0]))
 									<div class="bg">
-										<div class="title text-uppercase">Nứt kẽ hậu môn hiện búi thịt là làm sao?</div>
+										<div class="title text-uppercase">
+											<a href="{{ APIPost::getUrlByObj($post_nuts[0]) }}" title="{{ $post_nuts[0]->name }}">{{ $post_nuts[0]->name }}</a>
+										</div>
 										<div class="des1 text-justify">
-											Hâu môn là một trong những khu vực chịu nhiều tác động từ môi trường bên trong cơ thể lẫn môi trường bên ngoài. Ngoài ra, hậu môn không chỉ là nơi cuối cùng tiếp xúc trực tiếp với chất thải của cơ thể mà còn tiếp ... <a href="#">(chi tiết)</a>
+											{{ APIPost::getDescription($post_nuts[0]->description,45) }}...<a href="{{ APIPost::getUrlByObj($post_nuts[0]) }}">(chi tiết)</a>
 										</div>
 									</div>
+									@php unset($post_nuts[0]); @endphp
+									@endif
 									<table>
+										@foreach($post_nuts as $key => $post)
+										@if($key%2 == 1)
 										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+										@endif
+											<td><i class="fa fa-circle"></i> <a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></td>
+										@if($key%2 == 0 || $key == (count($post_nuts) ))
 										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
+										@endif
+										@endforeach
 									</table>
 								</div>
 								<div>
+									@if(isset($post_sas[0]))
 									<div class="bg">
-										<div class="title text-uppercase">Sa trực tràng hiện búi thịt là làm sao?</div>
+										<div class="title text-uppercase">
+											<a href="{{ APIPost::getUrlByObj($post_sas[0]) }}" title="{{ $post_sas[0]->name }}">{{ $post_sas[0]->name }}</a>
+										</div>
 										<div class="des1 text-justify">
-											Hâu môn là một trong những khu vực chịu nhiều tác động từ môi trường bên trong cơ thể lẫn môi trường bên ngoài. Ngoài ra, hậu môn không chỉ là nơi cuối cùng tiếp xúc trực tiếp với chất thải của cơ thể mà còn tiếp ... <a href="#">(chi tiết)</a>
+											{{ APIPost::getDescription($post_sas[0]->description,45) }}...<a href="{{ APIPost::getUrlByObj($post_sas[0]) }}">(chi tiết)</a>
 										</div>
 									</div>
+									@php unset($post_sas[0]); @endphp
+									@endif
 									<table>
+										@foreach($post_sas as $key => $post)
+										@if($key%2 == 1)
 										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+										@endif
+											<td><i class="fa fa-circle"></i> <a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></td>
+										@if($key%2 == 0 || $key == (count($post_sas) ))
 										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
+										@endif
+										@endforeach
 									</table>
 								</div>
 								<div>
+									@if(isset($post_diramaus[0]))
 									<div class="bg">
-										<div class="title text-uppercase">Đi ngoài ra máu hiện búi thịt là làm sao?</div>
+										<div class="title text-uppercase">
+											<a href="{{ APIPost::getUrlByObj($post_diramaus[0]) }}" title="{{ $post_diramaus[0]->name }}">{{ $post_diramaus[0]->name }}</a>
+										</div>
 										<div class="des1 text-justify">
-											Hâu môn là một trong những khu vực chịu nhiều tác động từ môi trường bên trong cơ thể lẫn môi trường bên ngoài. Ngoài ra, hậu môn không chỉ là nơi cuối cùng tiếp xúc trực tiếp với chất thải của cơ thể mà còn tiếp ... <a href="#">(chi tiết)</a>
+											{{ APIPost::getDescription($post_diramaus[0]->description,45) }}...<a href="{{ APIPost::getUrlByObj($post_diramaus[0]) }}">(chi tiết)</a>
 										</div>
 									</div>
+									@php unset($post_diramaus[0]); @endphp
+									@endif
 									<table>
+										@foreach($post_diramaus as $key => $post)
+										@if($key%2 == 1)
 										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
+										@endif
+											<td><i class="fa fa-circle"></i> <a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></td>
+										@if($key%2 == 0 || $key == (count($post_diramaus) ))
 										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-											<td><i class="fa fa-circle"></i> <a href="#">Nguyên nhân gây bệnh trĩ</a></td>
-										</tr>
+										@endif
+										@endforeach
 									</table>
 								</div>
 							</div>
@@ -757,11 +699,9 @@
 					</div>
 					<div class="posts">
 						<ul>
-							<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
-							<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
-							<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
-							<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
-							<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
+							@foreach($post_taobons as $post)
+							<li><a href="{{ APIPost::getUrlByObj($post) }}"><i class="fa fa-circle"></i> {{ $post->name }}</a></li>
+							@endforeach
 						</ul>
 					</div>
 				</div>
