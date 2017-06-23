@@ -53,7 +53,11 @@
                             <a href="{{ url('/') }}"><img src="{{ asset('public/css/desktop/imghome/home-1.png') }}" alt=""></a>
                         </div>
                         <div class="table-cell cell2">
+                            @if(Request::url()==url('/'))
                             <h1><a href="{{ url('/') }}">PHÒNG KHÁM CHUYÊN KHOA NAM KHANG</a></h1>
+                            @else
+                            <div><a href="{{ url('/') }}">PHÒNG KHÁM CHUYÊN KHOA NAM KHANG</a></div>
+                            @endif
                             <address>SỐ 193C1 BÀ TRIỆU - HAI BÀ TRƯNG - HÀ NỘI</address>
                         </div>
                     </div>
