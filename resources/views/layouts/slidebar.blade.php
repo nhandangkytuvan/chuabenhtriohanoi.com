@@ -104,11 +104,9 @@
 	</div>
 	<div class="posts">
 		<ul>
-			<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
-			<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
-			<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
-			<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
-			<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
+			@foreach($post_tructrangs as $post)
+			<li><a href="{{ APIPost::getUrlByObj($post) }}"><i class="fa fa-circle"></i> {{ $post->name }}</a></li>
+			@endforeach
 		</ul>
 	</div>
 </div>
@@ -126,11 +124,9 @@
 	</div>
 	<div class="posts">
 		<ul>
-			<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
-			<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
-			<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
-			<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
-			<li><a href="#"><i class="fa fa-circle"></i> Ngứa hậu môn là gì ?</a></li>
+			@foreach($post_taobons as $post)
+			<li><a href="{{ APIPost::getUrlByObj($post) }}"><i class="fa fa-circle"></i> {{ $post->name }}</a></li>
+			@endforeach
 		</ul>
 	</div>
 </div>

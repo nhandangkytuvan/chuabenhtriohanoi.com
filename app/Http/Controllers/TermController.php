@@ -185,7 +185,9 @@ class TermController extends Controller
         // -----------
         $agent = new Agent();
         if($agent->isDesktop()){
-            return view('terms.view',['term'=>$term]); 
+            $post_taobons = App\Post::whereIn('type',[1,2,3,4,5])->whereTermId(17)->limit(4)->get();
+            $post_tructrangs = App\Post::whereIn('type',[1,2,3,4,5])->whereIn('term_id',[6,8,9,10])->limit(4)->get();
+            return view('terms.view',['term'=>$term,'post_taobons'=>$post_taobons,'post_tructrangs'=>$post_tructrangs]); 
         }else{
             return view('terms.viewMobile',['term'=>$term]);
         }

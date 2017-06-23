@@ -753,53 +753,72 @@
 							</tr>
 							<tr>
 								<td>
-									<table class="table3">
-										<tr>
-											<td class="text"><span class="red">*</span> Họ tên :</td>
-											<td><input type="text"></td>
-											<td class="text"><span class="red">*</span> Giới tính :</td>
-											<td>
-												<select name="">
-													<option value="Nam">Nam</option>	
-													<option value="Nữ">Nữ</option>	
-												</select>
-											</td>
-										</tr>
-										<tr>
-											<td class="text"><span class="red">*</span> Tuổi :</td>
-											<td><input type="number"></td>
-											<td class="text"><span class="red">*</span> Điện thoại :</td>
-											<td><input type="number"></td>
-										</tr>
-										<tr>
-											<td class="text"><span class="red">*</span> <span class="text-center dis-inline-block">Nội dung<br>đặt hẹn</span></td>
-											<td colspan="3">
-												<textarea name="" rows="10" class="width-100"></textarea>
-											</td>
-										</tr>
-										<tr>
-											<td class="text-center"><span class="red">*</span> <span class="text-center  dis-inline-block">Thời gian<br>đặt hẹn</span></td>
-											<td colspan="2">
-												<input type="date">
-											</td>
-											<td>
-												<button>Đăng ký thành công</button>
-											</td>
-										</tr>
-									</table>
+									<form action="{{ url('sendmail') }}" method="post" id="formMailSendDesktop">
+										{{ csrf_field() }}
+										<table class="table3">
+											<tr>
+												<td class="text"><span class="red">*</span> Họ tên :</td>
+												<td><input type="text" name="ho_va_ten" required></td>
+												<td class="text"><span class="red">*</span> Giới tính :</td>
+												<td>
+													<select name="gioi_tinh">
+														<option value="Nam">Nam</option>	
+														<option value="Nữ">Nữ</option>	
+													</select>
+												</td>
+											</tr>
+											<tr>
+												<td class="text"><span class="red">*</span> Tuổi :</td>
+												<td><input type="number" name="tuoi"></td>
+												<td class="text"><span class="red">*</span> Điện thoại :</td>
+												<td><input type="number" name="phone" required></td>
+											</tr>
+											<tr>
+												<td class="text"><span class="red">*</span> <span class="text-center dis-inline-block">Nội dung<br>đặt hẹn</span></td>
+												<td colspan="3">
+													<textarea name="mieutabenh" rows="10" class="width-100"></textarea>
+												</td>
+											</tr>
+											<tr>
+												<td class="text-center"><span class="red">*</span> <span class="text-center  dis-inline-block">Thời gian<br>đặt hẹn</span></td>
+												<td colspan="2">
+													<input type="date" name="thoigian">
+												</td>
+												<td>
+													<button type="submit">Đăng ký thành công</button>
+												</td>
+											</tr>
+										</table>
+									</form>
+									<script>
+										$(document).ready(function() 
+										{
+											$('#formMailSendDesktop').ajaxForm(
+											{
+												beforeSubmit:function(){
+													$("#myloadding").show();
+												},
+												success:function(){
+									                alert("Cảm ơn bạn đã đăng ký!");
+									                $("#myloadding").hide(); 
+									                $('#formMailSendDesktop').resetForm();
+												}
+											});
+										});
+									</script>
 								</td>
 								<td>
 									<ul class="posts">
-										<li><a href="#"> Đi ngoài ra máu là bị làm sao?</a></li>
-										<li><a href="#"> Đi ngoài ra máu là bị làm sao?</a></li>
-										<li><a href="#"> Bên trong hậu môn cảm giác có vật thể lạ là bị trĩ phải không?</a></li>
-										<li><a href="#"> Ngứa hậu môn là bị làm sao?</a></li>
-										<li><a href="#"> Phòng khám nam khoa mổ trĩ giá cao không?</a></li>
-										<li><a href="#"> Mổ trĩ có đau không?</a></li>
-										<li><a href="#"> Đi ngoài ra máu là bị làm sao?</a></li>
-										<li><a href="#"> Đi ngoài ra máu là bị làm sao?</a></li>
-										<li><a href="#"> Đi ngoài ra máu là bị làm sao?</a></li>
-										<li><a href="#"> Đi ngoài ra máu là bị làm sao?</a></li>
+										<li><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"> Bệnh trĩ phân thành mấy loại?</a></li>
+										<li><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"> Đại tiện ra máu là triệu chứng của bệnh gì?</a></li>
+										<li><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"> Các phương pháp điều trị bệnh trĩ gồm những phương pháp nào?</a></li>
+										<li><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"> Thói quen ăn uống ảnh hưởng như thế nào tới tình trạng bệnh trĩ?</a></li>
+										<li><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"> Trĩ hỗn hợp là gì? Làm sao để phân biệt?</a></li>
+										<li><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"> Bệnh trĩ liên tục tái phát, phải chữa trị như thế nào?</a></li>
+										<li><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"> Kết hợp phương pháp Đông - Tây để chữa trĩ là gì?</a></li>
+										<li><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"> Triệu chứng của tôi thích hợp điều trị bằng phương pháp nào?</a></li>
+										<li><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"> Kỹ thuật chữa trĩ xâm lấn tối thiểu là gì?</a></li>
+										<li><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"> Tôi mắc bệnh trĩ đã lâu, giờ phải làm sao?</a></li>
 									</ul>
 								</td>
 							</tr>

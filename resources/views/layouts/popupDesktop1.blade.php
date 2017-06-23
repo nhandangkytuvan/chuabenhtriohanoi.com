@@ -17,16 +17,33 @@
 			Bác sĩ khuyên:<br>Hỏi bệnh qua điện thoại   Nhanh, chính xác, toàn diện
 		</div>
 		<div class="nhapsodienthoai">
-			<form action="" method="post">
+			<form action="{{ url('sendmail') }}" method="post" id="formMailSendPopUpDesktop">
+				{{ csrf_field() }}
 				<table class="width-100">
 					<tr>
 						<td>
-							<input type="text" placeholder="Hãy nhập số điện thoại của bạn">
+							<input type="number" placeholder="Hãy nhập số điện thoại của bạn" required name="phone">
 						</td>
-						<td><button class="">Gửi đi</button></td>
+						<td><button type="submit">Gửi đi</button></td>
 					</tr>
 				</table>
 			</form>
+			<script>
+				$(document).ready(function() 
+				{
+					$('#formMailSendPopUpDesktop').ajaxForm(
+					{
+						beforeSubmit:function(){
+							$("#myloadding").show();
+						},
+						success:function(){
+			                alert("Cảm ơn bạn đã đăng ký!");
+			                $("#myloadding").hide(); 
+			                $('#formMailSendPopUpDesktop').resetForm();
+						}
+					});
+				});
+			</script>
 		</div>
 	</div>
 	<div class="my_close"><a href="javascript:;" class="popup_desktop_close">X</a></div>
