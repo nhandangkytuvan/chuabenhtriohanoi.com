@@ -114,6 +114,7 @@ class TermController extends Controller
      */
     public function update(UpdateTerm $request, Term $term)
     {
+        $this->authorize('update', $term);
         foreach ($term->fillable as $key => $value) {
             if($request->has($value)){
                 $term->$value = $request->input($value);

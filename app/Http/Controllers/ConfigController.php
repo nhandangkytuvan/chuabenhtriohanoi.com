@@ -34,6 +34,7 @@ class ConfigController extends Controller
      */
     public function create()
     {
+        $this->authorize('create', Config::class);
         return view('configs.create');
     }
 
@@ -92,6 +93,7 @@ class ConfigController extends Controller
      */
     public function update(Request $request, Config $config)
     {
+        $this->authorize('update', $config);
         foreach ($config->fillable as $key => $value) {
             if($request->has($value)){
                 $config->$value = $request->input($value);
@@ -115,6 +117,7 @@ class ConfigController extends Controller
      */
     public function destroy(Config $config)
     {
+        $this->authorize('delete', $config);
         $config->delete();
         DB::statement('ALTER TABLE configs AUTO_INCREMENT = 1');
         return redirect('configs');
