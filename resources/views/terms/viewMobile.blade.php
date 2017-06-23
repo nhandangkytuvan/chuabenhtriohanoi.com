@@ -1,4 +1,8 @@
 @extends('layouts.mobileTerm')
+@section('title')
+	<title>{{ $term->name }}</title>
+	@include('seo.seo_term')
+@endsection('title')
 @section('css')
 	<link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-term.css') }}">
 @endsection('css')

@@ -1,4 +1,8 @@
 @extends('layouts.mobilePost')
+@section('title')
+	<title>{{ $post->name }}</title>
+	@include('seo.seo_post')
+@endsection('title')
 @section('css')
 	<link href="{{ asset('public/css/mobile/post-detail.css') }}" rel="stylesheet">
 	<link rel="stylesheet" href="{{ asset('public/css/mobile/mobile-post.css') }}">

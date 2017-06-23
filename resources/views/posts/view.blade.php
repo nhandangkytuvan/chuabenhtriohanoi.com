@@ -1,6 +1,7 @@
 @extends('layouts.desktop')
 @section('title')
 	<title>{{ $post->name }}</title>
+	@include('seo.seo_post')
 @endsection('title')
 @section('css')
 	<link rel="canonical" href="{{ APIPost::getUrlByObj($post) }}" />

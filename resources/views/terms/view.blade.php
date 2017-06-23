@@ -1,6 +1,7 @@
 @extends('layouts.desktop')
 @section('title')
 	<title>{{ $term->name }}</title>
+	@include('seo.seo_term')
 @endsection('title')
 @section('css')
 	<link rel="canonical" href="{{ APITerm::getUrlByObj($term) }}" />
