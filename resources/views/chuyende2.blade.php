@@ -68,22 +68,41 @@
 						Phòng Khám Chuyên Khoa Nam Khang Hà Nội<br> 
 						SỐ 193C1 BÀ TRIỆU - HAI BÀ TRƯNG - HÀ NỘI 
 					</div>
-					<div class="label1 dis-inline-block label4">Đặt hẹn trực tuyến ngay</div>
+					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="label1 dis-inline-block label4">Đặt hẹn trực tuyến ngay</a>
 					<div class="table">
-						<table class="width-100">
-							<tr>
-								<td>Họ tên</td>
-								<td><input type="text"></td>
-								<td>Số điện thoại</td>
-								<td><input type="text"></td>
-							</tr>
-							<tr>
-								<td>Triệu trứng bệnh</td>
-								<td colspan="3"><textarea name="" rows="4"></textarea></td>
-							</tr>
-						</table>
+						<form action="{{ url('sendmail') }}" method="post" id="formMailSendCD2">
+							{{ csrf_field() }}
+							<table class="width-100">
+								<tr>
+									<td>Họ tên</td>
+									<td><input type="text" name="ho_va_ten" placeholder="Họ tên" required></td>
+									<td>Số điện thoại</td>
+									<td><input type="number" name="phone" required placeholder="Số điện thoại"></td>
+								</tr>
+								<tr>
+									<td>Triệu trứng bệnh</td>
+									<td colspan="3"><textarea name="mieutabenh" rows="4" placeholder="Triệu trứng bệnh"></textarea></td>
+								</tr>
+							</table>
+							<button type="submit" class="label1 dis-inline-block label5">Đặt hẹn ngay (Đã có 7852 người đặt hẹn thành công)</button>
+						</form>
+						<script>
+							$(document).ready(function() 
+							{
+								$('#formMailSendCD2').ajaxForm(
+								{
+									beforeSubmit:function(){
+										$("#myloadding").show();
+									},
+									success:function(){
+						                alert("Cảm ơn bạn đã đăng ký!");
+						                $("#myloadding").hide(); 
+						                $('#formMailSendCD2').resetForm();
+									}
+								});
+							});
+						</script>
 					</div>
-					<div class="label1 dis-inline-block label5">Đặt hẹn ngay (Đã có 7852 người đặt hẹn thành công)</div>
 				</div>
 			</div>
 		</div>
@@ -565,8 +584,27 @@
 				Lưu ý: Bác sĩ gọi lại, nghe điện miễn phí, bạn cứ yên tâm!
 			</div>
 			<div class="sendmail">
-				<input type="text" placeholder="Mời nhập số điện thoại của bạn">
-				<button type="submit">Trò chuyện ngay</button>
+				<form action="{{ url('sendmail') }}" method="post" id="formMailSendCD1">
+					{{ csrf_field() }}
+					<input type="number" placeholder="Mời nhập số điện thoại của bạn" name="phone" required>
+					<button type="submit">Trò chuyện ngay</button>
+				</form>
+				<script>
+					$(document).ready(function() 
+					{
+						$('#formMailSendCD1').ajaxForm(
+						{
+							beforeSubmit:function(){
+								$("#myloadding").show();
+							},
+							success:function(){
+				                alert("Cảm ơn bạn đã đăng ký!");
+				                $("#myloadding").hide(); 
+				                $('#formMailSendCD1').resetForm();
+							}
+						});
+					});
+				</script>
 			</div>
 			<div class="lists">
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Trò chuyện tại nhà cùng bác sĩ</a>

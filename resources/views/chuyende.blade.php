@@ -1007,8 +1007,27 @@
 				Lưu ý: Bác sĩ gọi lại, nghe điện miễn phí, bạn cứ yên tâm!
 			</div>
 			<div class="sendmail">
-				<input type="text" placeholder="Mời nhập số điện thoại của bạn">
-				<button type="submit">Trò chuyện ngay</button>
+				<form action="{{ url('sendmail') }}" method="post" id="formMailSendCD1">
+					{{ csrf_field() }}
+					<input type="number" placeholder="Mời nhập số điện thoại của bạn" name="phone" required>
+					<button type="submit">Trò chuyện ngay</button>
+				</form>
+				<script>
+					$(document).ready(function() 
+					{
+						$('#formMailSendCD1').ajaxForm(
+						{
+							beforeSubmit:function(){
+								$("#myloadding").show();
+							},
+							success:function(){
+				                alert("Cảm ơn bạn đã đăng ký!");
+				                $("#myloadding").hide(); 
+				                $('#formMailSendCD1').resetForm();
+							}
+						});
+					});
+				</script>
 			</div>
 			<div class="lists">
 				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Trò chuyện tại nhà cùng bác sĩ</a>
