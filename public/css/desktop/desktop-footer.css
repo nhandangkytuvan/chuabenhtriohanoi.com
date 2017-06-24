@@ -44,6 +44,7 @@ footer div.toolbar2 .bg td.td2{padding-top: 75px;padding-left: 10px;color: #fff;
 footer div.toolbar2 .bg td.td2 input{border:none;width: 100%;text-align: center;height: 20px;margin-top: 3px;color: #333;border-radius: 1px;}
 footer div.toolbar2 .bg td.td2 input:focus{outline: none;}
 footer div.toolbar2 .bg td.td3 button{width: 35px;height: 35px;border-radius: 3px;color: #5e3c19;background-image: linear-gradient(#fff,#cdd5e5);outline: none;border:none;}
+footer div.toolbar2 .bg td.td3 button:hover{cursor: pointer;background-color: #519a04;color: #fff;background-image: none;}
 footer div.toolbar2 .bg td.td3{padding-left: 30px;padding-top: 80px;}
 footer div.toolbar2 .bg td.td4{padding-top: 80px;padding-left: 40px;color: #fff;}
 footer div.toolbar2 .bg td.td4 span{font-size: 20px;font-weight: bold;}

@@ -164,38 +164,57 @@
         <div class="toolbar2">
             <div class="container">
                 <div class="bg">
-                    <table>
-                        <tr>
-                            <td class="td1"><img src="{{ asset('public/css/desktop/imghome/home-34.png') }}" alt=""></td>
-                            <td class="td2">
-                                <div>
-                                    <p>Nhận cuộc gọi miễn phí từ chuyên gia</p>
-                                    <p><input type="text" class="dis-block" placeholder="Hãy nhập số điện thoại của bạn"></p>
-                                </div>
-                            </td>
-                            <td class="td3">
-                                <button>Gửi</button>
-                            </td>
-                            <td class="td4">
-                                Hoặc gọi: <span>1800 - 6181</span>
-                            </td>
-                            <td class="td5">
-                                <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn<br>kĩ thuật<br>điều trị</a>
-                            </td>
-                            <td class="td6">
-                                <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn<br>chi phí<br>điều trị</a>
-                            </td>
-                            <td class="td7">
-                                <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table">
-                                    <i class="fa fa-user table-cell"></i>
-                                    <span class="table-cell">
-                                        Hỏi bệnh trực tuyến<br>
-                                        Hỏi nhanh đáp nhanh
-                                    </span>
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
+                    <form action="{{ url('sendmail') }}" method="post" id="formMailSendDesktopBottom">
+                    {{ csrf_field() }}
+                        <table>
+                            <tr>
+                                <td class="td1"><img src="{{ asset('public/css/desktop/imghome/home-34.png') }}" alt=""></td>
+                                <td class="td2">
+                                    <div>
+                                        <p>Nhận cuộc gọi miễn phí từ chuyên gia</p>
+                                        <p><input type="text" class="dis-block" placeholder="Hãy nhập số điện thoại của bạn" name="phone" required></p>
+                                    </div>
+                                </td>
+                                <td class="td3">
+                                    <button type="submit">Gửi</button>
+                                </td>
+                                <td class="td4">
+                                    Hoặc gọi: <span>1800 - 6181</span>
+                                </td>
+                                <td class="td5">
+                                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn<br>kĩ thuật<br>điều trị</a>
+                                </td>
+                                <td class="td6">
+                                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn<br>chi phí<br>điều trị</a>
+                                </td>
+                                <td class="td7">
+                                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table">
+                                        <i class="fa fa-user table-cell"></i>
+                                        <span class="table-cell">
+                                            Hỏi bệnh trực tuyến<br>
+                                            Hỏi nhanh đáp nhanh
+                                        </span>
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                    <script>
+                        $(document).ready(function() 
+                        {
+                            $('#formMailSendDesktopBottom').ajaxForm(
+                            {
+                                beforeSubmit:function(){
+                                    $("#myloadding").show();
+                                },
+                                success:function(){
+                                    alert("Cảm ơn bạn đã đăng ký!");
+                                    $("#myloadding").hide(); 
+                                    $('#formMailSendDesktopBottom').resetForm();
+                                }
+                            });
+                        });
+                    </script>
                 </div>
             </div>
         </div>

@@ -47,7 +47,7 @@ div.row4 .flex1col1 .line3 .bg .table2 tr td a:hover{text-decoration: underline;
 div.row4 .flex1col1 .line3 .bg .footer{margin-top: 10px;}
 div.row4 .flex1col1 .line3 .bg .footer a{background-color: #4d4844;text-align: center;color: #fff;height: 30px;line-height: 30px;display: inline-block;margin-right: 20px;padding:0px 10px;}
 div.row4 .flex1col1 .line3 .bg .footer a:nth-child(2){background-color: #5f3d18;}
-div.row4 .flex1col1 .line3 .bg .footer a:hover{text-decoration: underline;}
+div.row4 .flex1col1 .line3 .bg .footer a:hover{background-color: #519a04;}
 /**/
 div.row4 .flex1col1 .line4{padding-bottom: 10px;border-bottom:1px dashed #a39280;width: 749px;margin:0px auto;margin-top: 20px;}
 div.row4 .flex1col1 .line4 a:hover{text-decoration: underline;}
