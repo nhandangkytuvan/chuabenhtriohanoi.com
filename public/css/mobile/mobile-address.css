@@ -1,7 +1,7 @@
 div.post h1{text-align: center;text-transform: uppercase;font-size: 15px;font-weight: bold;padding:0px 15px;margin:0px 15px;margin-top: 20px;padding-top: 20px;border-top:2px solid #1e64ae;}
 div.post .detail img{width: auto;display: initial;vertical-align: middle;}
-div.post .detail table td{vertical-align: top;}
-div.post .detail table td:nth-child(1){width: 100px;padding-bottom: 20px;vertical-align: top;}
+div.post .detail table td{vertical-align: top;padding-bottom: 10px;}
+div.post .detail table td:nth-child(1){width: 75px;vertical-align: top;}
 div.post .detail >h3{margin:20px auto; margin-right: 20px; }
 div.post .detail >h2{font-size: 16px; margin:10px auto; font-weight: bold; font-size: 12px; }
 div.post .detail .address-bus{padding:20px 0px; border-top: 1px solid #eaeaea; }

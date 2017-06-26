@@ -85,7 +85,7 @@
                        <span><img src="{{ asset('public/css/mobile/imghome/home-5.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Tư vấn<br>trực tuyến</span>
                     </a>
-                    <a href="https://goo.gl/maps/YP8cFNyYZFP2" class="table-cell cell5">
+                    <a href="{{ url('dia-chi-phong-kham.html') }}" class="table-cell cell5">
                         <span><img src="{{ asset('public/css/mobile/imghome/home-6.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Hướng dẫn<br>chỉ đường</span>
                     </a>
@@ -131,7 +131,7 @@
                         </table>
                     </div>
                     <div class="line3">
-                        <a href="https://goo.gl/maps/YP8cFNyYZFP2">Địa chỉ phòng khám : Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</a>
+                        <a href="{{ url('dia-chi-phong-kham.html') }}">Địa chỉ phòng khám : Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</a>
                     </div>
                 </div>
                 <div class="goTop">

@@ -96,7 +96,7 @@
                         </table>
                     </div>
                     <div class="line3">
-                        <a href="#">Địa chỉ phòng khám : Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</a>
+                        <a href="{{ url('dia-chi-phong-kham.html') }}">Địa chỉ phòng khám : Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</a>
                     </div>
                 </div>
                 <div class="goTop">
