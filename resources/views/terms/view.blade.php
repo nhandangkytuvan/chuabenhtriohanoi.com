@@ -50,7 +50,7 @@
 								<td>
 									<h1><a href="{{ APIPost::getUrlByObj($posts[0]) }}">{{ $posts[0]->name }}</a></h1>
 									<p>
-										{!! APIPost::getDescription($posts[0]->description,60) !!}... <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chi tiết</a>
+										{!! APIPost::getDescription($posts[0]->description,45) !!}... <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chi tiết</a>
 									</p>
 								</td>
 							</tr>
