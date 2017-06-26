@@ -17,13 +17,20 @@
 		<div class="more">
 			<div>Bài đọc thêm</div>
 			<ul>
-				@php $post_pre = $term->post()->where('id','<',$post->id)->orderBy('id','desc')->first(); @endphp
-				@if($post_pre)
-				<li><i class="fa fa-arrow-right"></i> <a href="{{ APIPost::getUrlByObj($post_pre) }}">Bài trước : {{ $post_pre->name }}</a></li>
-				@endif
-				@php $post_next = $term->post()->where('id','>',$post->id)->orderBy('id','asc')->first(); @endphp
-				@if($post_next)
-				<li><i class="fa fa-arrow-right"></i> <a href="{{ APIPost::getUrlByObj($post_next) }}">Bài sau : {{ $post_next->name }}</a></li>
+				@if($post->id != 19)
+					@php $post_pre = $term->post()->where('id','<',$post->id)->orderBy('id','desc')->first(); @endphp
+					@if($post_pre)
+					<li><i class="fa fa-arrow-right"></i> <a href="{{ APIPost::getUrlByObj($post_pre) }}">Bài trước : {{ $post_pre->name }}</a></li>
+					@endif
+					@php $post_next = $term->post()->where('id','>',$post->id)->orderBy('id','asc')->first(); @endphp
+					@if($post_next)
+					<li><i class="fa fa-arrow-right"></i> <a href="{{ APIPost::getUrlByObj($post_next) }}">Bài sau : {{ $post_next->name }}</a></li>
+					@endif
+				@else
+					@php $post_kythuats = App\Post::whereTermId('18')->limit(5)->get();@endphp
+					@foreach($post_kythuats as $post)
+					<li><i class="fa fa-arrow-right"></i> <a href="{{ APIPost::getUrlByObj($post) }}">{{ $post->name }}</a></li>
+					@endforeach
 				@endif
 			</ul>
 		</div>
