@@ -48,4 +48,11 @@ Route::get('/chuyen-de-mobile',function(){return view('chuyendeMobile');});
 // Term
 Route::get('/{term_link?}', 'TermController@view')->where(['term_link'=>'[-a-z0-9]+']);
 // Post
+Route::get('/dia-chi-phong-kham.html',
+	function(){
+		$post_taobons = App\Post::whereIn('type',[1,2,3,4,5])->whereTermId(17)->limit(4)->get();
+        $post_tructrangs = App\Post::whereIn('type',[1,2,3,4,5])->whereIn('term_id',[6,8,9,10])->limit(4)->get();
+		return view('posts.address',['post_taobons'=>$post_taobons,'post_tructrangs'=>$post_tructrangs]);
+	}
+);
 Route::get('/{post_link?}.html', 'PostController@view')->where(['post_link'=>'[-a-z0-9]+']);
