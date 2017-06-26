@@ -320,7 +320,11 @@
 					<div class="dathen">
 						<div id="demo">
 							<div id="demo1">
-								{!! APIGlobal::getRandomeName() !!}
+								@if(Session::has('random_names'))
+									{!! Session::get('random_names') !!}
+								@else
+									{!! APIGlobal::getRandomeName() !!}
+								@endif
 							</div>
 						</div>
 						<script type="text/javascript">

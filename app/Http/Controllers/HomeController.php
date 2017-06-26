@@ -34,8 +34,8 @@ class HomeController extends Controller
             // get post term 
             // chuyen khoa tri
             $post_chuyenkhoatris = App\Post::whereIn('term_id',[2,3,4])->whereIn('type',[1,2,3,4,5])->limit(7)->inRandomOrder()->get();
-            $post_trinois = App\Post::whereTermId(2)->whereIn('type',[1,2,3,4,5])->limit(7)->get();
-            $post_tringoais = App\Post::whereTermId(3)->whereIn('type',[1,2,3,4,5])->limit(7)->get();
+            $post_trinois = App\Post::whereTermId(3)->whereIn('type',[1,2,3,4,5])->limit(7)->get();
+            $post_tringoais = App\Post::whereTermId(2)->whereIn('type',[1,2,3,4,5])->limit(7)->get();
             $post_trihonhops = App\Post::whereTermId(4)->whereIn('type',[1,2,3,4,5])->limit(7)->get();
             // benh hau mon
             $post_haumons = App\Post::whereIn('term_id',[6,7,8,9,10])->whereIn('type',[1,2,3,4,5])->limit(7)->inRandomOrder()->get();
