@@ -137,7 +137,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a class="text-center dis-block" href="https://goo.gl/maps/YP8cFNyYZFP2">
+                                        <a class="text-center dis-block" href="{{ url('dia-chi-phong-kham.html') }}">
                                             <i class="dis-inline-block bg4"></i>
                                             <span class="dis-block">Chỉ đường <br>&nbsp;</span>
                                         </a>

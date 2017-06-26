@@ -98,6 +98,7 @@
 						<div class="table-cell bg2">
 							<ul>
 								<li><a href="{{ APIPost::getUrlByID(19) }}" title="Sơ lược về phòng khám">Sơ lược về phòng khám</a></li>
+								<li><a href="{{ url('dia-chi-phong-kham.html') }}" title="Địa chỉ phòng khám Nam Khang">Địa chỉ phòng khám Nam Khang</a></li>
 							</ul>
 						</div>
 					</div>

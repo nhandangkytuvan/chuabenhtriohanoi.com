@@ -33,8 +33,8 @@
 		<tr>
 			<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="bg7"></i></a></td>
 			<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Ý kiến khiếu nại</a></td>
-			<td><a href="https://goo.gl/maps/YP8cFNyYZFP2"><i class="bg8"></i></a></td>
-			<td><a href="https://goo.gl/maps/YP8cFNyYZFP2">Chỉ đường</a></td>
+			<td><a href="{{ url('dia-chi-phong-kham.html') }}"><i class="bg8"></i></a></td>
+			<td><a href="{{ url('dia-chi-phong-kham.html') }}">Chỉ đường</a></td>
 		</tr>
 	</table>
 	<script>
