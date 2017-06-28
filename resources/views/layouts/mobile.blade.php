@@ -40,6 +40,7 @@
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery.popupoverlay.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery-scrolltofixed-min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/desktop/slick/slick.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('public/js/mobile/shake.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/mobile/mobile.js') }}"></script>
     @yield('js')
 </head>
@@ -175,7 +176,13 @@
             </div>
         </div>
     </footer>
+    <div id="my_popup">
+        <p>Bác sỹ đang yêu cầu được chát với bạn</p>
+        <a class="my_popup_close btn-cancel">Từ chối</a>
+        <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="btn-agree">Đồng ý</a>
+    </div>
     <div id="myloadding"><div id="mytext">Xin chờ chút...</div></div>
     <script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
+
 </body>
 </html>
