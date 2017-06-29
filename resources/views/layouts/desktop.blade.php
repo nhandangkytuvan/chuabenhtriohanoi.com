@@ -106,7 +106,7 @@
                     <td class="td2">
                         <div>
                             <p class="p1">Thời gian mở cửa:  <span>8:00 - 20:00</span></p>
-                            <p class="p2">Hotline:  <span>1800 - 6181 . 043 - 9656999</span></p>
+                            <p class="p2">Hotline:  <span>1800 - 6181 . 0243 - 9656999</span></p>
                             <p class="p3">
                                 Các thông tin trên trang web mang tính chất tham khảo, không thể làm
                                 căn cứ để chuẩn đoán hay chữa trị, hãy làm theo sự chuẩn đoán của bác sĩ.

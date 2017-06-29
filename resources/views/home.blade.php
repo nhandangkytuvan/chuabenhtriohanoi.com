@@ -850,7 +850,7 @@
 									<td><a href="tel:1800 6181"></a><img src="{{ asset('public/css/desktop/imghome/home-31.png') }}" alt=""></td>
 									<td>
 										<div class="hotline">Hotline sức khỏe :</div>
-										<div class="phone">1800 - 6181 . 043 - 9656999</div>
+										<div class="phone">1800 - 6181 . 0243 - 9656999</div>
 									</td>
 								</tr>
 							</table>

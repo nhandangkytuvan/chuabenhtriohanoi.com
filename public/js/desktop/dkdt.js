@@ -40,7 +40,7 @@ var str_html='<div class="dangkysdt" id="dangkysdt">' +
         '<form name="popup_dangkysdt" id="goilaisodienthoai">' +
         '<div class="input">' +
         '<input type="text" name="dienthoai" value="Nhập số điện thoại" onfocus="(this.value == '+"'Nhập số điện thoại'"+') && (this.value ='+"''"+' )"'+' onblur="(this.value =='+"''"+" ) && (this.value = 'Nhập số điện thoại')"+'"'+'onkeypress="return event.charCode >= 48 &amp;&amp; event.charCode <= 57" maxlength="13"></div></form>' +
-        '<button type="button" class="popup_dangkysdt_dangky">Click để được gọi lại'+'</button><p style="text-align:center;margin-top:15px;font-size:16px;">Trực tiếp gọi tới số : <a href="tel:1800 6181"><strong style="font-weight:bold;">1800 6181</strong></a> hoặc <a href="tel:043 - 9656999"><strong style="font-weight:bold;">043 - 9656999</strong></a>   sẽ càng thuận tiện hơn !</p>' +
+        '<button type="button" class="popup_dangkysdt_dangky">Click để được gọi lại'+'</button><p style="text-align:center;margin-top:15px;font-size:16px;">Trực tiếp gọi tới số : <a href="tel:1800 6181"><strong style="font-weight:bold;">1800 6181</strong></a> hoặc <a href="tel:0243 - 9656999"><strong style="font-weight:bold;">0243 - 9656999</strong></a>   sẽ càng thuận tiện hơn !</p>' +
 '</div></div>';
 var str=str_html+str_html2;
 document.writeln(str);
@@ -90,7 +90,7 @@ $(document).ready(function(){
                 /* stop form from submitting normally */
                 // event.preventDefault();
                 // /* get some values from elements on the page: */
-                var url = 'http://localhost/cty_chuabenhtriohanoi.com/sendmail';
+                var url = 'http://chuabenhtriohanoi.com/sendmail';
                 /* Send the data using post */
                 $.post(url,{phone:dienthoai}, function(data, status){
                     $('.popup_dangkysdt_tb').css('display','none');
