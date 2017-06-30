@@ -40,6 +40,7 @@
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery.popupoverlay.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery-scrolltofixed-min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/desktop/slick/slick.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('public/js/desktop/right.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/desktop/dkdt.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/desktop/desktop.js') }}"></script>
     @yield('js')

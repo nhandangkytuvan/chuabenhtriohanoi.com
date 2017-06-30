@@ -58,8 +58,8 @@ div.row4 .flex1col2 .line1{background-color: #fff;padding:15px 15px;}
 div.row4 .flex1col2 .line1 .des1{color: #535353;margin:0px 5px;margin-top: 15px;}
 div.row4 .flex1col2 .line1 .des1 a{color: red;}
 div.row4 .flex1col2 .line1 .des1 a:hover{text-decoration: underline;}
-div.row4 .flex1col2 .line1 .bg{background-color: #5e3c19;margin:0px -15px;margin-top: 10px;color: #fff;padding:5px;}
-div.row4 .flex1col2 .line1 .bg table{margin:0px auto;}
+div.row4 .flex1col2 .line1 .bg{background-color: #5e3c19;margin:0px -15px;margin-top: 10px;color: #fff;padding:5px;padding-left: 50px;}
+div.row4 .flex1col2 .line1 .bg table td{padding:0px 5px;}
 /**/
 div.row4 .flex1col2 .line1 table.footer{margin:0px auto;width: 100%;margin-top: 5px;}
 div.row4 .flex1col2 .line1 table.footer tr td{border-bottom: 1px dashed #c9c9c9;height: 47px;}
@@ -86,8 +86,8 @@ div.row4 .flex1col2 .line1 table tr td i.bg8.active{background-position: -43px -
 div.row4 .flex1col2 .line1 table tr td i.bg8{background-position: -150px -139px;}
 /**/
 div.row4 .flex1col2 .line2{background-color: #fff;padding:0px 15px;margin-top: 27px;}
-div.row4 .flex1col2 .line2 .bg{background-color: #5e3c19;margin:0px -15px;}
-div.row4 .flex1col2 .line2 .bg table{margin:0px auto;height: 47px;color: #fff;}
+div.row4 .flex1col2 .line2 .bg{background-color: #5e3c19;margin:0px -15px;padding-left: 50px;}
+div.row4 .flex1col2 .line2 .bg table{height: 47px;color: #fff;}
 div.row4 .flex1col2 .line2 .bg table tr td{padding:0px 5px;}
 div.row4 .flex1col2 .line2 table tr td i{background-image: url('imghome/home-14.png');background-repeat: no-repeat;width: 32px;height: 32px;display: inline-block;}
 div.row4 .flex1col2 .line2 .bg table tr td i{background-image: url('imghome/home-24.png');background-repeat: no-repeat;background-position: 0px 0px;width: 30px;height: 30px;display: inline-block;}
@@ -97,8 +97,9 @@ div.row4 .flex1col2 .line2 .dathen table tr td{padding:5px 0px;}
 div.row4 .flex1col2 .line2 .footer{background-color: #cabfb3;color: #5e3c19;text-align: center;height:30px;line-height: 30px;margin:0px -15px;}
 /**/
 div.row4 .flex1col2 .line3{margin-top: 30px;background-color: #fff;padding:0px 15px;margin-top: 27px;padding-bottom: 15px;}
-div.row4 .flex1col2 .line3 .bg{background-color: #5e3c19;margin:0px -15px;}
-div.row4 .flex1col2 .line3 .bg table{margin:0px auto;height: 47px;color: #fff;}
+div.row4 .flex1col2 .line3 .bg{background-color: #5e3c19;margin:0px -15px;padding-left: 50px;}
+div.row4 .flex1col2 .line3 .bg table{height: 47px;color: #fff;}
+div.row4 .flex1col2 .line3 .bg table tr td{padding:0px 5px;}
 div.row4 .flex1col2 .line3 .bg table tr td i{background-image: url('imghome/home-24.png');background-repeat: no-repeat;background-position: 0px 0px;width: 30px;height: 30px;display: inline-block;}
 div.row4 .flex1col2 .line3 .bg table tr td i.bg2{background-position: -36px 0px;}
 div.row4 .flex1col2 .line3 .img1{margin-top: 15px;}
@@ -109,8 +110,9 @@ div.row4 .flex1col2 .line3 .posts ul li a i{font-size: 6px;vertical-align: 3px;}
 div.row4 .flex1col2 .line3 .posts ul li a:hover{text-decoration: underline;color: #5e3c19;}
 /**/
 div.row4 .flex1col2 .line4{margin-top: 30px;background-color: #fff;padding:0px 15px;margin-top: 27px;padding-bottom: 15px;}
-div.row4 .flex1col2 .line4 .bg{background-color: #5e3c19;margin:0px -15px;}
-div.row4 .flex1col2 .line4 .bg table{margin:0px auto;height: 47px;color: #fff;}
+div.row4 .flex1col2 .line4 .bg{background-color: #5e3c19;margin:0px -15px;padding-left: 50px;}
+div.row4 .flex1col2 .line4 .bg table{height: 47px;color: #fff;}
+div.row4 .flex1col2 .line4 .bg table tr td{padding:0px 5px;}
 div.row4 .flex1col2 .line4 .bg table tr td i{background-image: url('imghome/home-24.png');background-repeat: no-repeat;background-position: 0px 0px;width: 30px;height: 30px;display: inline-block;}
 div.row4 .flex1col2 .line4 .bg table tr td i{background-position: -73px 0px;}
 div.row4 .flex1col2 .line4 .img1{margin-top: 15px;}
@@ -119,6 +121,10 @@ div.row4 .flex1col2 .line4 .posts ul{list-style: none;}
 div.row4 .flex1col2 .line4 .posts ul li{margin-top: 10px;color: #343434;}
 div.row4 .flex1col2 .line4 .posts ul li a i{font-size: 6px;vertical-align: 3px;}
 div.row4 .flex1col2 .line4 .posts ul li a:hover{text-decoration: underline;color: #5e3c19;}
+
+/**/
+div.row4 .line2  .footer a{display: inline-block;height: 20px;line-height:20px;padding:0px 10px;border-radius: 2px;background-color: #519a04;color: #fff;margin-left: 10px; }
+div.row4 .line2  .footer a:hover{background-color: #0273a4;}
 
 
 

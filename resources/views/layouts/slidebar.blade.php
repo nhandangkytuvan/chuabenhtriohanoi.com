@@ -91,7 +91,7 @@
 	    </script>
 	</div>
 	<div class="footer">
-		Hôm nay đã có <span style="color: red;">46</span> người đặt lịch hẹn
+		Hôm nay đã có <span style="color: red;">46</span> người đặt hẹn <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tôi muốn đặt hẹn</a>
 	</div>
 </div>
 <div class="line3">
