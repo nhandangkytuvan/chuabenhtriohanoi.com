@@ -45,6 +45,7 @@ Route::get('mydb/users','MydbController@users');
 Route::get('/chuyen-de',function(){return view('chuyende');});
 Route::get('/chuyen-de-2',function(){return view('chuyende2');});
 Route::get('/chuyen-de-mobile',function(){return view('chuyendeMobile');});
+Route::get('/chuyen-de-mobile-2',function(){return view('chuyendeMobile2');});
 // Term
 Route::get('/{term_link?}', 'TermController@view')->where(['term_link'=>'[-a-z0-9]+']);
 // Post

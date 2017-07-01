@@ -39,6 +39,7 @@
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery.popupoverlay.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery-scrolltofixed-min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/desktop/slick/slick.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('public/js/mobile/shake.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/mobile/mobile.js') }}"></script>
     @yield('js')
 </head>
@@ -147,5 +148,6 @@
     </div>
     <div id="myloadding"><div id="mytext">Xin chờ chút...</div></div>
     <script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
+    <img src="{{ asset('public/images/mobile/shake.gif') }}" alt="" style="position: fixed; top: 15%;right: 0px;z-index: 999;width:55px;">
 </body>
 </html>

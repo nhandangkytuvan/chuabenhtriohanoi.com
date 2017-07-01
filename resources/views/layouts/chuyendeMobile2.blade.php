@@ -26,14 +26,12 @@
     @yield('title')
     @yield('keyword')
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/font-awesome/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/css/chuyendeMobile2/glyphicon-bootstrap/glyphicon-bootstrap.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/slick/slick.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/slick/slick-theme.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/hover/css/hover.css') }}">
-
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/mobile/mobile.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/mobile/mobilePost-header.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('public/css/mobile/mobileTerm-footer.css') }}">
-    <link href="{{ asset('public/css/app/codepen.min.css') }}" rel="stylesheet">
     @yield('css')
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery-1.12.3.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery.form.min.js') }}"></script>
@@ -72,6 +70,7 @@
             </div>
         </div>
     </header>
+    @yield('banner')
     <menu>
         <div class="container">
             <div class="row1">
@@ -96,7 +95,7 @@
                        <span><img src="{{ asset('public/css/mobile/imghome/home-5.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Tư vấn<br>trực tuyến</span>
                     </a>
-                    <a href="{{ url('dia-chi-phong-kham.html') }}" class="table-cell cell5">
+                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell cell5">
                         <span><img src="{{ asset('public/css/mobile/imghome/home-6.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Hướng dẫn<br>chỉ đường</span>
                     </a>
@@ -104,72 +103,39 @@
             </div>
         </div>
     </menu>
-    @yield('banner')
     @yield('menu')
     @yield('content')
     <footer>
         <div class="container">
-            <div class="bg">
-                <div class="logo dis-table width-100 table1">
-                    <span class="table-cell"><a href="{{ url('/') }}"><img src="{{ asset('public/css/mobile/imghome/home-1.png') }}" alt="" class="img-responsive"></a></span>
-                    <span class="text-uppercase table-cell"><a href="{{ url('/') }}">PHÒNG KHÁM CHUYÊN KHOA NAM KHANG</a></span>
-                </div>
-                <div class="bg2">
-                    <div class="line1">
-                        <span class="table-cell text-center"><a href="tel:1800 - 6181"><img src="{{ asset('public/css/mobile/imghome/home-24.png') }}" alt=""></a></span>
-                        <span class="table-cell text-center cell2"><a href="tel:1800 - 6181">1800 - 6181</a></span>
-                        <a href="tel:1800 - 6181" class="table-cell text-uppercase text-center cell3">Bấm để gọi</a>
-                    </div>
-                    <div class="line2">
-                        <table class="width-100 table2">
-                            <tr>
-                                <td><img src="{{ asset('public/css/mobile/imghome/home-25.png') }}" alt=""></td>
-                                <td>8:00 - 20:00</td>
-                                <td class="text-uppercase">( không nghỉ lễ tết cuối tuần)</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="line3">
-                        <a href="{{ url('dia-chi-phong-kham.html') }}">Địa chỉ phòng khám : Số 193c1 Bà Triệu, Hai Bà Trưng, Hà Nội</a>
+            <p>Điện thoại tư vấn đặt hẹn: <a href="tel:18006181">1800 6181</a> - <a href="tel:02439.656.999">02439.656.999</a></p>
+            <p>Thời gian mở cửa: <a href="tel:18006181">8:00 - 20:00</a></p>
+            <p>Địa chỉ phòng khám: <a href="tel:18006181">193C1 BÀ TRIỆU – HAI BÀ TRƯNG – HÀ NỘI</a></p>
+        </div>
+        <div class="container footer-toolbar">
+            <div class="dis-table width-100 forHome">
+                <div class="table-cell">
+                    <div class="">
+                        <h3 class="text-center"><a href="tel:18006181"><i class="glyphicon glyphicon-phone-alt"></i></a></h3>
+                        <h4 class="text-center"><a href="tel:18006181">Gọi điện</a></h4>
                     </div>
                 </div>
-                <div class="goTop">
-                    <table class="width-100">
-                        <tr>
-                            <td>
-                                <table class="width-100">
-                                    <tr>
-                                        <td><a href="#"><img src="{{ asset('public/css/mobile/imghome/home-26.png') }}" alt=""></a></td>
-                                        <td><a href="#" class="text-uppercase">Về đầu trang</a></td>
-                                    </tr>
-                                </table>
-                            </td>
-                            <td>
-                                <table class="width-100">
-                                    <tr>
-                                        <td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/mobile/imghome/home-27.png') }}" alt=""></a></td>
-                                        <td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-uppercase">Bác sĩ tư vấn</a></td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
+                <div class="table-cell">
+                    <div class="">
+                        <h3 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-calendar"></i></a></h3>
+                        <h4 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn</a></h4>
+                    </div>
                 </div>
-            </div>
-            <div class="toolbar">
-                <div class="dis-table width-100 table1">
-                    <a href="tel:1800 6181" class="table-cell">
-                        <div class="dis-table width-100">
-                            <span class="table-cell"><img src="{{ asset('public/css/mobile/imghome/home-28.png') }}" alt=""></span>
-                            <span class="table-cell">1800-6181</span>
-                        </div>
-                    </a>
-                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell">
-                        <div class="dis-table width-100">
-                            <span class="table-cell"><img src="{{ asset('public/css/mobile/imghome/tttf.gif') }}" alt=""></span>
-                            <span class="text-uppercase table-cell">Thông tin của bạn</span>
-                        </div>
-                    </a>
+                <div class="table-cell">
+                    <div class="">
+                        <h3 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-comment"></i></a></h3>
+                        <h4 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn</a></h4>
+                    </div>
+                </div>
+                <div class="table-cell">
+                    <div class="">
+                        <h3 class="text-center"><a href="{{ url('/dia-chi-phong-kham.html') }}"><i class="fa fa-map-marker"></i></a></h3>
+                        <h4 class="text-center"><a href="{{ url('/dia-chi-phong-kham.html') }}">Địa chỉ</a></h4>
+                    </div>
                 </div>
             </div>
         </div>
