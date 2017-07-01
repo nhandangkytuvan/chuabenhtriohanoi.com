@@ -480,7 +480,7 @@
 	<div class="row5">
 		<div class="container">
 			<div class="global1">
-				<div class="line1 text-uppercase dis-table"><span class="table-cell">Kiểm tra đại tiện ra máu quan trọng đến mức nào
+				<div class="line1 text-uppercase dis-table"><span class="table-cell">Kiểm tra đại tiện ra máu quan trọng đến mức nào<br>
 				những câu chuyện dưới đây sẽ chỉ rõ cho bạn</span></div>
 			</div>
 			<div class="padlr15">
@@ -631,7 +631,7 @@
 			</div>
 			<div class="global2">
 				<div class="line1 text-uppercase text-center">
-					<span>Để đảm bảo chất lượng khám chữa
+					<span>Để đảm bảo chất lượng khám chữa<br>
 					mỗi ngày chỉ giới hạn chăm sóc 10 bệnh nhân</span>
 				</div>
 				<div class="line2">
