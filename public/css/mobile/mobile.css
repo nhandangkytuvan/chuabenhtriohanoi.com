@@ -56,7 +56,7 @@ a{text-decoration: none;}
 /**/
 .img-responsive{width: 100%;}
 /*livechat*/
-#LRfloater0{display: none!important;}
+#LRfloater0,#LR-BUBBLE,#LRMINIBar,#LRfloater1,#LRdiv2{display: none!important;}
 /**/
 .sbtn.cf a:hover {color: #c50707;border-color:#c50707!important;}
 /**/

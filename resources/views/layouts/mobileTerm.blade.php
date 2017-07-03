@@ -39,6 +39,7 @@
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery.popupoverlay.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery-scrolltofixed-min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/desktop/slick/slick.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('public/js/chuyende/swt_div.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/mobile/shake.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/mobile/mobile.js') }}"></script>
     @yield('js')
@@ -123,20 +124,38 @@
                     </table>
                 </div>
             </div>
-            <div class="toolbar">
-                <div class="dis-table width-100 table1">
-                    <a href="tel:1800 6181" class="table-cell">
+            <div class="footer-toolbar toolbarTerm">
+                <div class="dis-table width-100">
+                    <div class="table-cell cell1">
                         <div class="dis-table width-100">
-                            <span class="table-cell"><img src="{{ asset('public/css/mobile/imghome/home-28.png') }}" alt=""></span>
-                            <span class="table-cell">1800-6181</span>
+                            <div class="table-cell">
+                                <h3 class="text-center"><a href="tel:18006181"><i class="bg bg1"></i></a></h3>
+                            </div>
+                            <div class="table-cell">
+                                <h4 class="text-center"><a href="tel:18006181">Điện thoại tư vấn</a></h4>
+                            </div>
                         </div>
-                    </a>
-                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell">
+                    </div>
+                    <div class="table-cell cell2">
                         <div class="dis-table width-100">
-                            <span class="table-cell"><img src="{{ asset('public/css/mobile/imghome/tttf.gif') }}" alt=""></span>
-                            <span class="text-uppercase table-cell">Thông tin của bạn</span>
+                            <div class="table-cell">
+                                <h3 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="bg bg2"></i></a></h3>
+                            </div>
+                            <div class="table-cell">
+                                <h4 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a></h4>
+                            </div>
                         </div>
-                    </a>
+                    </div>
+                    <div class="table-cell cell1">
+                        <div class="dis-table width-100">
+                            <div class="table-cell">
+                                <h3 class="text-center"><a href="#top"><i class="bg bg3"></i></a></h3>
+                            </div>
+                            <div class="table-cell">
+                                <h4 class="text-center"><a href="{{ url('/') }}">Quay lại</a></h4>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

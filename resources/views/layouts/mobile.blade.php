@@ -25,6 +25,7 @@
     <link rel="shortcut icon" href="{{ asset('public/upload/'.$configs[0]->avatar) }}" type="image/x-icon">
     @yield('title')
     @yield('keyword')
+    <link rel="stylesheet" type="text/css" href="{{ asset('public/css/global/glyphicon-bootstrap/glyphicon-bootstrap.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/font-awesome/css/font-awesome.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/slick/slick.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('public/css/desktop/slick/slick-theme.css') }}">
@@ -40,6 +41,7 @@
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery.popupoverlay.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery-scrolltofixed-min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/desktop/slick/slick.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('public/js/chuyende/swt_div.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/mobile/shake.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/mobile/mobile.js') }}"></script>
     @yield('js')
@@ -158,20 +160,32 @@
                     </table>
                 </div>
             </div>
-            <div class="toolbar">
-                <div class="dis-table width-100 table1">
-                    <a href="tel:1800 6181" class="table-cell">
-                        <div class="dis-table width-100">
-                            <span class="table-cell"><img src="{{ asset('public/css/mobile/imghome/home-28.png') }}" alt=""></span>
-                            <span class="table-cell">1800-6181</span>
+            <div class="footer-toolbar toolbarHome">
+                <div class="dis-table width-100 forHome">
+                    <div class="table-cell">
+                        <div class="">
+                            <h3 class="text-center"><a href="tel:18006181"><i class="glyphicon glyphicon-phone-alt"></i></a></h3>
+                            <h4 class="text-center"><a href="tel:18006181">Gọi điện</a></h4>
                         </div>
-                    </a>
-                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell">
-                        <div class="dis-table width-100">
-                            <span class="table-cell"><img src="{{ asset('public/css/mobile/imghome/tttf.gif') }}" alt=""></span>
-                            <span class="text-uppercase table-cell">Thông tin của bạn</span>
+                    </div>
+                    <div class="table-cell">
+                        <div class="">
+                            <h3 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-calendar"></i></a></h3>
+                            <h4 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn</a></h4>
                         </div>
-                    </a>
+                    </div>
+                    <div class="table-cell">
+                        <div class="">
+                            <h3 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-comment"></i></a></h3>
+                            <h4 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn</a></h4>
+                        </div>
+                    </div>
+                    <div class="table-cell">
+                        <div class="">
+                            <h3 class="text-center"><a href="{{ url('dia-chi-phong-kham.html') }}"><i class="fa fa-map-marker"></i></a></h3>
+                            <h4 class="text-center"><a href="{{ url('dia-chi-phong-kham.html') }}">Địa chỉ</a></h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

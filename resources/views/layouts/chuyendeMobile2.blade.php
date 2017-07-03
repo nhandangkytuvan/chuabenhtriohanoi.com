@@ -38,6 +38,7 @@
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery.popupoverlay.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/desktop/jquery-scrolltofixed-min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/desktop/slick/slick.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('public/js/chuyende/swt_div.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/mobile/shake.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/mobile/mobile.js') }}"></script>
     @yield('js')
