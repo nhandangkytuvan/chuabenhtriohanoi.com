@@ -13,7 +13,15 @@
 <script type="text/javascript" src="{{ asset('public/js/global/MSClass.js') }}"></script>
 @endsection('js')
 @section('banner')
-	@include('layouts.bannerDesktop')
+	@if(isset($pcBanner[$term->id]))
+		<div>
+			<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+				<img src="{{ asset('public/pc-banner/'.$pcBanner[$term->id]) }}" alt="" class="center-block">
+			</a>
+		</div>
+	@else
+		@include('layouts.bannerDesktop')
+	@endif
 @endsection('banner')
 @section('menu')
 	@include('layouts.menuDesktop')

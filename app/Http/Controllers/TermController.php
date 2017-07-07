@@ -186,9 +186,26 @@ class TermController extends Controller
         // -----------
         $agent = new Agent();
         if($agent->isDesktop()){
+
+            $pcBanner = [
+                2=>'tri-ngoai.png',
+                3=>'tri-noi.png',
+                4=>'tri-hon-hop.png',
+                6=>'apxe-hau-mon.png',
+                7=>'ngua-hau-mon.png',
+                8=>'polyp-hau-mon.png',
+                9=>'dau-hau-mon.png',
+                10=>'hau-mon-co-vat-the-la.png',
+                12=>'ro-hau-mon.png',
+                13=>'nut-ke-hau-mon.png',
+                14=>'sa-truc-trang.png',
+                16=>'đai-tien-ra-mau.png',
+                17=>'tao-bon.png'
+            ];
+
             $post_taobons = App\Post::whereIn('type',[1,2,3,4,5])->whereTermId(17)->limit(4)->get();
             $post_tructrangs = App\Post::whereIn('type',[1,2,3,4,5])->whereIn('term_id',[6,8,9,10])->limit(4)->get();
-            return view('terms.view',['term'=>$term,'post_taobons'=>$post_taobons,'post_tructrangs'=>$post_tructrangs]); 
+            return view('terms.view',['term'=>$term,'post_taobons'=>$post_taobons,'post_tructrangs'=>$post_tructrangs,'pcBanner'=>$pcBanner]); 
         }else{
             return view('terms.viewMobile',['term'=>$term]);
         }
