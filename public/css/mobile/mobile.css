@@ -77,3 +77,4 @@ a{text-decoration: none;}
 #my_popup a{display: inline-block;padding: 5px 20px;border-radius: 2px;text-align: center;}
 #my_popup a.btn-cancel{background: #2facbe;color: #fff;font-size: 14px;}
 #my_popup a.btn-agree{background: #0163b2;color: #fff;margin-left: 10px;font-size: 14px;}
+#my_popup span.pos-absolute{top:-3px;right: -2px;font-size: 18px;color: #0498ff;}
