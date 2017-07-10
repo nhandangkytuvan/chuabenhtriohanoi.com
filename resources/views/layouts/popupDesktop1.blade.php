@@ -1,6 +1,6 @@
 <div id="popup-desktop" class="">
 	<div class="content-popup">
-		<div class="name text-uppercase">Cổng tư vấn và đặt hẹn trực tuyến</div>
+		<div class="name text-uppercase">Dịch vụ tư vấn đặt hẹn</div>
 		<div class="linktv">
 			<table class="width-100 table1">
 				<tr>
