@@ -13,7 +13,7 @@
 	<div class="baner">
 		<div class="slick-home">
 			<div>
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+				<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
 					<img src="{{ asset('public/css/desktop/img/slide-1.png') }}" alt="Nam khang - Bảo vệ sức khỏe nam giới" class="center-block">
 				</a>
 			</div>

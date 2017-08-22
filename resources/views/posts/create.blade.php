@@ -32,12 +32,17 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-8">
-                        <div class="form-group">
+                        <div class="form-group{{ $errors->has('term_id') ? ' has-error' : '' }}">
                             <label for="">Chọn danh mục</label>
                             <select name="term_id" class="form-control">
-                                <option value="0">Chọn cấp danh mục</option>
+                                <option value="">Chọn cấp danh mục</option>
                                 {!! APITerm::getOptionSelectBladePost($terms) !!}
                             </select>
+                            @if ($errors->has('term_id'))
+                                <span class="help-block">
+                                    <strong>{{ $errors->first('term_id') }}</strong>
+                                </span>
+                            @endif
                         </div>
                     </div>
                     <div class="col-sm-4">

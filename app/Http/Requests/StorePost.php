@@ -23,9 +23,25 @@ class StorePost extends FormRequest
      */
     public function rules()
     {
-        return [
-            'name' => 'required',
-        ];
+    	switch($this->method())
+        {
+            case "POST":
+                return [
+                    'name' => 'required|unique:posts,name',
+                    'term_id' =>'required'
+                ];
+            case "PUT":
+                return [
+                    'name' => 'required|unique:posts,name,'.$this->post->id,
+                    'term_id' =>'required'
+                ];
+            default:
+                break;
+        }
+        // return [
+        //     'name' => 'required',
+        //     'term_id' =>'required'
+        // ];
     }
     /**
      * Get the error messages for the defined validation rules.
@@ -36,6 +52,8 @@ class StorePost extends FormRequest
     {
         return [
             'name.required' => 'Tên bài viết yêu cầu nhập...',
+            'name.unique' => 'Tên bài viết đã tồn tại...',
+            'term_id.required' => 'Chọn mục cho bài...',
         ];
     }
 }

@@ -49,24 +49,24 @@
 			<div class="table1">
 				<table class="width-100">
 					<tr>
-						<td class="bg1"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">{{ $meta[0] }}</a></td>
-						<td class="bg2"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">{{ $meta[1] }}</a></td>
+						<td class="bg1"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">{{ $meta[0] }}</a></td>
+						<td class="bg2"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">{{ $meta[1] }}</a></td>
 					</tr>
 				</table>
 			</div>
 			<div class="table2">
 				<table class="width-100">
 					<tr>
-						<td class="bg3"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">{{ $meta[2] }}</a></td>
-						<td class="bg4"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">{{ $meta[3] }}</a></td>
+						<td class="bg3"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">{{ $meta[2] }}</a></td>
+						<td class="bg4"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">{{ $meta[3] }}</a></td>
 					</tr>
 				</table>
 			</div>
 			<div class="table2">
 				<table class="width-100">
 					<tr>
-						<td class="bg5"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">{{ $meta[4] }}</a></td>
-						<td class="bg6"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">{{ $meta[5] }}</a></td>
+						<td class="bg5"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">{{ $meta[4] }}</a></td>
+						<td class="bg6"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">{{ $meta[5] }}</a></td>
 					</tr>
 				</table>
 			</div>

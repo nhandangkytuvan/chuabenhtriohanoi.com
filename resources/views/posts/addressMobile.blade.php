@@ -22,7 +22,7 @@
 			<div class="address-bus">
 				<h4>
 					<img src="{{ asset('public/css/desktop/imghome/icon-10.jpg') }}" alt=""> 
-					Đi xe bus nào đến phòng khám? <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bấm vào tư vấn >></a>
+					Đi xe bus nào đến phòng khám? <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Bấm vào tư vấn >></a>
 				</h4>
 				<h3>Tuyến xe</h3>
 				<table class="width-100">
@@ -81,10 +81,10 @@
 				<h4>
 					<img src="{{ asset('public/css/desktop/imghome/icon-11.jpg') }}" alt=""> 
 					Làm thế nào để đi taxi hoặc tự lái xe đến phòng khám.Cung cấp chỗ đỗ xe miễn phí.? 
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bấm vào tư vấn >></a>
+					<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Bấm vào tư vấn >></a>
 				</h4>
 				<h3>Đi taxi hoặc tự lái xe</h3>
-				<p>Hãy trực tiếp đến 193C1 Bà Triệu- Quận Hai Bà Trưng- Hà Nội, nếu như không biết đường, có thể gọi đến điện thoại tư vấn 1800-6181 để hỏi, phòng khám có chỗ đỗ xe miễn phí, thuận tiện cho bạn đỗ xe.</p>
+				<p>Hãy trực tiếp đến 193C1 Bà Triệu- Quận Hai Bà Trưng- Hà Nội, nếu như không biết đường, có thể gọi đến điện thoại tư vấn 0868608106 để hỏi, phòng khám có chỗ đỗ xe miễn phí, thuận tiện cho bạn đỗ xe.</p>
 			</div>
 		</div>
 		<div class="more">

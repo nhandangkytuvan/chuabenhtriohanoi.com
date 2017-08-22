@@ -25,18 +25,28 @@
                         @endif
                     </div>
                 </div>
-                <div class="form-group">
+                <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
                     <label class="control-label">Tên</label>
                     <input type="text" class="form-control" name="name" value="{{ $post->name }}">
+                    @if ($errors->has('name'))
+                        <span class="help-block">
+                            <strong>{{ $errors->first('name') }}</strong>
+                        </span>
+                    @endif
                 </div>
                 <div class="row">
                     <div class="col-sm-8">
-                        <div class="form-group">
+                        <div class="form-group{{ $errors->has('term_id') ? ' has-error' : '' }}">
                             <label for="">Chọn danh mục</label>
                             <select name="term_id" class="form-control">
-                                <option value="0">Chọn cấp danh mục</option>
+                                <option value="">Chọn cấp danh mục</option>
                                 {!! APITerm::getOptionSelectBladePost($terms,$post->term_id) !!}
                             </select>
+                            @if ($errors->has('term_id'))
+                                <span class="help-block">
+                                    <strong>{{ $errors->first('term_id') }}</strong>
+                                </span>
+                            @endif
                         </div>
                     </div>
                     <div class="col-sm-4">

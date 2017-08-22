@@ -44,11 +44,37 @@
     <script type="text/javascript" src="{{ asset('public/js/mobile/shake.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/mobile/mobile.js') }}"></script>
     @yield('js')
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-104641575-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '265984533895012', {
+    em: 'insert_email_variable,'
+    });
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=265984533895012&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
 </head>
 <body>
     <div class="topheader">
         <div class="container">
-            <a href="tel:1800 6181"><img src="{{ asset('public/css/mobile/imghome/topheader.gif') }}" alt="" class="center-block img-responsive"></a>
+            <a href="tel:0868608106"><img src="{{ asset('public/css/mobile/imghome/topheader.gif') }}" alt="" class="center-block img-responsive"></a>
         </div>
     </div>
     <header>
@@ -81,7 +107,7 @@
                         <span><img src="{{ asset('public/css/mobile/imghome/home-2.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Giới thiệu phòng khám</span>
                     </a>
-                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell cell2">
+                    <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="table-cell cell2">
                         <span><img src="{{ asset('public/css/mobile/imghome/home-3.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Đội ngũ chuyên gia</span>
                     </a>
@@ -89,11 +115,11 @@
             </div>
             <div class="row1">
                 <div class="dis-table width-100">
-                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell cell3">
+                    <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="table-cell cell3">
                         <span><img src="{{ asset('public/css/mobile/imghome/home-4.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Đăng ký<br>đặt hẹn</span>
                     </a>
-                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell cell4">
+                    <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="table-cell cell4">
                        <span><img src="{{ asset('public/css/mobile/imghome/home-5.png') }}" alt="" class="img-responsive"></span>
                         <span class="text-uppercase">Tư vấn<br>trực tuyến</span>
                     </a>
@@ -117,9 +143,9 @@
                 </div>
                 <div class="bg2">
                     <div class="line1">
-                        <span class="table-cell text-center"><a href="tel:1800 - 6181"><img src="{{ asset('public/css/mobile/imghome/home-24.png') }}" alt=""></a></span>
-                        <span class="table-cell text-center cell2"><a href="tel:1800 - 6181">1800 - 6181</a></span>
-                        <a href="tel:1800 - 6181" class="table-cell text-uppercase text-center cell3">Bấm để gọi</a>
+                        <span class="table-cell text-center"><a href="tel:0868608106"><img src="{{ asset('public/css/mobile/imghome/home-24.png') }}" alt=""></a></span>
+                        <span class="table-cell text-center cell2"><a href="tel:0868608106">0868608106</a></span>
+                        <a href="tel:0868608106" class="table-cell text-uppercase text-center cell3">Bấm để gọi</a>
                     </div>
                     <div class="line2">
                         <table class="width-100 table2">
@@ -148,8 +174,8 @@
                             <td>
                                 <table class="width-100">
                                     <tr>
-                                        <td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/mobile/imghome/home-27.png') }}" alt=""></a></td>
-                                        <td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-uppercase">Bác sĩ tư vấn</a></td>
+                                        <td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/mobile/imghome/home-27.png') }}" alt=""></a></td>
+                                        <td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="text-uppercase">Bác sĩ tư vấn</a></td>
                                     </tr>
                                 </table>
                             </td>
@@ -162,20 +188,20 @@
                     <div class="table-cell cell1">
                         <div class="dis-table width-100">
                             <div class="table-cell">
-                                <h3 class="text-center"><a href="tel:18006181"><i class="bg bg1"></i></a></h3>
+                                <h3 class="text-center"><a href="tel:0868608106"><i class="bg bg1"></i></a></h3>
                             </div>
                             <div class="table-cell">
-                                <h4 class="text-center"><a href="tel:18006181">Điện thoại tư vấn</a></h4>
+                                <h4 class="text-center"><a href="tel:0868608106">Điện thoại tư vấn</a></h4>
                             </div>
                         </div>
                     </div>
                     <div class="table-cell cell2">
                         <div class="dis-table width-100">
                             <div class="table-cell">
-                                <h3 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="bg bg2"></i></a></h3>
+                                <h3 class="text-center"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><i class="bg bg2"></i></a></h3>
                             </div>
                             <div class="table-cell">
-                                <h4 class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a></h4>
+                                <h4 class="text-center"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a></h4>
                             </div>
                         </div>
                     </div>
@@ -197,9 +223,9 @@
             </div>
         </div>
     </footer>
-    @include('layouts.popupMobile1')
     <div id="myloadding"><div id="mytext">Xin chờ chút...</div></div>
     <script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
     <img src="{{ asset('public/images/mobile/shake.gif') }}" alt="" style="position: fixed; top: 15%;right: 0px;z-index: 999;width:55px;">
+    @include('layouts.popupMobile1')
 </body>
 </html>

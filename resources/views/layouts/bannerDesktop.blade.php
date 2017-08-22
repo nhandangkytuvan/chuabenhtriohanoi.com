@@ -1,12 +1,6 @@
 <div class="myBanner">
 	<div>
-		<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/desktop/imghome/home-3.png') }}" alt="" class="center-block"></a>
-	</div>
-	<div>
-		<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/desktop/imghome/banner1.png') }}" alt="" class="center-block"></a>
-	</div>
-	<div>
-		<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/desktop/imghome/banner2.png') }}" alt="" class="center-block"></a>
+		<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/desktop/imghome/home-3.png') }}" alt="" class="center-block"></a>
 	</div>
 </div>
 <script>

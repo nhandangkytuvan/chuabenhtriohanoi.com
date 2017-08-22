@@ -5,7 +5,7 @@
 @endsection('css')
 @section('banner')
 	<div class="container">
-		<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+		<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
 			<img src="{{ asset('public/css/chuyendeMobile2/chuyende-1.png') }}" alt="" class="center-block img-responsive">
 		</a>
 	</div>
@@ -24,18 +24,18 @@
 								<td onclick="open_tuvan();">
 									<table class="table9">
 										<tr>
-											<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-9.png') }}" alt=""></a></td>
-											<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-uppercase text-center fontsize1">Click tư vấn trực tuyến</a></td>
+											<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-9.png') }}" alt=""></a></td>
+											<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="text-uppercase text-center fontsize1">Click tư vấn trực tuyến</a></td>
 										</tr>
 									</table>
 								</td>
 								<td onclick="open_call();">
 									<table class="table9">
 										<tr>
-											<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-10.png') }}" alt=""></a></td>
+											<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-10.png') }}" alt=""></a></td>
 											<td>
 												
-												<div class="el2 text-center"><a href="tel:1800 6181" class="fontsize2">1800 - 6181</a></div>
+												<div class="el2 text-center"><a href="tel:0868608106" class="fontsize2">0868608106</a></div>
 											</td>
 										</tr>
 									</table>
@@ -53,7 +53,7 @@
 				<div class="line1 text-uppercase dis-table"><span class="table-cell">Quan niệm sai lầm: Đại tiện ra máu là bị trĩ</span></div>
 			</div>
 			<div class="text1 text-justify padlr15">
-				Hiện tượng đại tiện ra máu cũng giống bệnh trĩ và các bệnh lý hậu môn trực tràng thường gặp khác, thông thường mọi người khó phân biệt được sự khác nhau giữa chúng, càng không coi trọng. Nhưng điều đáng cảnh báo là, các bệnh về đường tiêu hóa và các căn bệnh khác trên cơ thể người đều có thể dẫn tới “đại tiện ra máu” <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">【Chi tiết】</a>
+				Hiện tượng đại tiện ra máu cũng giống bệnh trĩ và các bệnh lý hậu môn trực tràng thường gặp khác, thông thường mọi người khó phân biệt được sự khác nhau giữa chúng, càng không coi trọng. Nhưng điều đáng cảnh báo là, các bệnh về đường tiêu hóa và các căn bệnh khác trên cơ thể người đều có thể dẫn tới “đại tiện ra máu” <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">【Chi tiết】</a>
 			</div>
 			<div class="padlr15">
 				<div class="label label1 dis-table">Chú ý lượng máu mất đi khi đại tiện và tình trạng của phân</div>
@@ -69,7 +69,7 @@
 						<td><span>6</span> Phân lỏng có máu</td>
 					</tr>
 				</table>
-				<p class="text-uppercase link link1"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tôi có những triệu chứng trên, là bệnh gì? >></a></p>
+				<p class="text-uppercase link link1"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tôi có những triệu chứng trên, là bệnh gì? >></a></p>
 				<div class="label label1 dis-table">Chú ý triệu chứng kèm theo chứng đại tiện ra máu</div>
 				<table class="width-100 table1 table2">
 					<tr>
@@ -87,7 +87,7 @@
 						<td><span>8</span> Hậu môn có mụn nhọt</td>
 					</tr>
 				</table>
-				<p class="text-uppercase link link1"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Có những triệu chứng kèm theo này, là bệnh gì?</a></p>
+				<p class="text-uppercase link link1"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Có những triệu chứng kèm theo này, là bệnh gì?</a></p>
 			</div>
 			<div class="global2">
 				<div class="line1 text-uppercase text-center">
@@ -100,18 +100,18 @@
 								<td onclick="open_tuvan();">
 									<table class="table9">
 										<tr>
-											<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-9.png') }}" alt=""></a></td>
-											<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-uppercase text-center fontsize1">Click tư vấn trực tuyến</a></td>
+											<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-9.png') }}" alt=""></a></td>
+											<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="text-uppercase text-center fontsize1">Click tư vấn trực tuyến</a></td>
 										</tr>
 									</table>
 								</td>
 								<td onclick="open_call();">
 									<table class="table9">
 										<tr>
-											<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-10.png') }}" alt=""></a></td>
+											<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-10.png') }}" alt=""></a></td>
 											<td>
 												
-												<div class="el2 text-center"><a href="tel:1800 6181" class="fontsize2">1800 - 6181</a></div>
+												<div class="el2 text-center"><a href="tel:0868608106" class="fontsize2">0868608106</a></div>
 											</td>
 										</tr>
 									</table>
@@ -148,7 +148,7 @@
 							</span>
 						</div>
 						<div class="getlink">
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn chi tiết >></a>
+							<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tư vấn chi tiết >></a>
 						</div>
 					</div>
 					<div class="col-xs-6 col-sm-4 post">
@@ -168,7 +168,7 @@
 							</span>
 						</div>
 						<div class="getlink">
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn chi tiết >></a>
+							<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tư vấn chi tiết >></a>
 						</div>
 					</div>
 					<div class="col-xs-6 col-sm-4 post">
@@ -189,7 +189,7 @@
 							</span>
 						</div>
 						<div class="getlink">
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn chi tiết >></a>
+							<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tư vấn chi tiết >></a>
 						</div>
 					</div>
 					<div class="col-xs-6 col-sm-4 post">
@@ -209,7 +209,7 @@
 							</span>
 						</div>
 						<div class="getlink">
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn chi tiết >></a>
+							<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tư vấn chi tiết >></a>
 						</div>
 					</div>
 					<div class="col-xs-6 col-sm-4 post">
@@ -231,7 +231,7 @@
 							</span>
 						</div>
 						<div class="getlink">
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn chi tiết >></a>
+							<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tư vấn chi tiết >></a>
 						</div>
 					</div>
 					<div class="col-xs-6 col-sm-4 post">
@@ -251,7 +251,7 @@
 							</span>
 						</div>
 						<div class="getlink">
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn chi tiết >></a>
+							<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tư vấn chi tiết >></a>
 						</div>
 					</div>
 					<div class="col-xs-6 col-sm-4 post">
@@ -271,7 +271,7 @@
 							</span>
 						</div>
 						<div class="getlink">
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn chi tiết >></a>
+							<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tư vấn chi tiết >></a>
 						</div>
 					</div>
 					<div class="col-xs-6 col-sm-4 post">
@@ -293,7 +293,7 @@
 							</span>
 						</div>
 						<div class="getlink">
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn chi tiết >></a>
+							<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tư vấn chi tiết >></a>
 						</div>
 					</div>
 					<div class="col-xs-6 col-sm-4 post">
@@ -313,7 +313,7 @@
 							</span>
 						</div>
 						<div class="getlink">
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn chi tiết >></a>
+							<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tư vấn chi tiết >></a>
 						</div>
 					</div>
 				</div>
@@ -329,18 +329,18 @@
 								<td onclick="open_tuvan();">
 									<table class="table9">
 										<tr>
-											<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-9.png') }}" alt=""></a></td>
-											<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-uppercase text-center fontsize1">Click tư vấn trực tuyến</a></td>
+											<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-9.png') }}" alt=""></a></td>
+											<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="text-uppercase text-center fontsize1">Click tư vấn trực tuyến</a></td>
 										</tr>
 									</table>
 								</td>
 								<td onclick="open_call();">
 									<table class="table9">
 										<tr>
-											<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-10.png') }}" alt=""></a></td>
+											<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-10.png') }}" alt=""></a></td>
 											<td>
 												
-												<div class="el2 text-center"><a href="tel:1800 6181" class="fontsize2">1800 - 6181</a></div>
+												<div class="el2 text-center"><a href="tel:0868608106" class="fontsize2">0868608106</a></div>
 											</td>
 										</tr>
 									</table>
@@ -367,7 +367,7 @@
 							<div class="cell2">
 								<label class="text-uppercase text-center">Giai đoạn đầu</label>
 								<p class="description">Hiện tượng đại tiện ra máu thi thoảng xuất hiện, viêm nhiễm hậu môn lây lan hoặc cục bộ.</p>
-								<p class="link">Giai đoạn đầu<br><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Làm thế nào để xác định chính xác tình hình bệnh? 》》</a></p>
+								<p class="link">Giai đoạn đầu<br><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Làm thế nào để xác định chính xác tình hình bệnh? 》》</a></p>
 							</div>
 						</td>
 					</tr>
@@ -379,7 +379,7 @@
 							<div class="cell2">
 								<label class="text-uppercase text-center">Giai đoạn giữa</label>
 								<p class="description">Hiện tượng đại tiện ra máu thi thoảng xuất hiện, lượng máu tăng nhiều, viêm nhiễm hậu môn lây lan hoặc cục bộ.</p>
-								<p class="link">Đến giai đoạn giữa<br><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Làm thế nào để phòng ngữa bệnh tình phát triển? 》》</a></p>
+								<p class="link">Đến giai đoạn giữa<br><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Làm thế nào để phòng ngữa bệnh tình phát triển? 》》</a></p>
 							</div>
 						</td>
 					</tr>
@@ -391,7 +391,7 @@
 							<div class="cell2">
 								<label class="text-uppercase text-center">Giai đoạn giữa và cuối</label>
 								<p class="description">Trong một năm mà số lần đại tiện ra máu tăng lên nhiều, xuất hiện hiện tượng thiếu máu thiếu sắt, bệnh nhân nữ xuất hiện tình trạng viêm nhiễm phụ khoa.</p>
-								<p class="link">Tôi đang ở giai đoạn này<br><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Làm thế nào để ngăn chặn bệnh tình chuyển hướng ác tính 》》</a></p>
+								<p class="link">Tôi đang ở giai đoạn này<br><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Làm thế nào để ngăn chặn bệnh tình chuyển hướng ác tính 》》</a></p>
 							</div>
 						</td>
 					</tr>
@@ -403,7 +403,7 @@
 							<div class="cell2">
 								<label class="text-uppercase text-center">Giai đoạn cuối</label>
 								<p class="description">Nhiều năm nay bị đại tiện ra máu, thời gian mỗi lần cũng phải 7 ngày mới đi hoặc hơn, xuất hiện nhiều biến chứng, thậm chí là ác tính.</p>
-								<p class="link">Phát triển tới giai đoạn cuối<br><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn bác sĩ về phương pháp điều trị 》》</a></p>
+								<p class="link">Phát triển tới giai đoạn cuối<br><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tư vấn bác sĩ về phương pháp điều trị 》》</a></p>
 							</div>
 						</td>
 					</tr>
@@ -419,7 +419,7 @@
 										Tuần này xuất hiện hiện tượng đại tiện ra máu, không có thời gian kiểm tra, thi thoảng đại tiện ra máu, màu đỏ tươi, lượng máu ít
 									</p>
 									<p class="link">
-										<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Lắng nghe ý kiến bác sĩ >></a>
+										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Lắng nghe ý kiến bác sĩ >></a>
 									</p>
 								</div>
 							</td>
@@ -434,7 +434,7 @@
 										Tình trạng đại tiện ra máu xuất hiện đã lâu, đại tiện ra máu, máu đỏ sẫm, cảm giác có vật lạ, kèm theo đau nhức.
 									</p>
 									<p class="link">
-										<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tôi muốn đặt hẹn kiểm tra >></a>
+										<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tôi muốn đặt hẹn kiểm tra >></a>
 									</p>
 								</div>
 							</td>
@@ -453,18 +453,18 @@
 									<td onclick="open_tuvan();">
 										<table class="table9">
 											<tr>
-												<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-9.png') }}" alt=""></a></td>
-												<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-uppercase text-center fontsize1">Click tư vấn trực tuyến</a></td>
+												<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-9.png') }}" alt=""></a></td>
+												<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="text-uppercase text-center fontsize1">Click tư vấn trực tuyến</a></td>
 											</tr>
 										</table>
 									</td>
 									<td onclick="open_call();">
 										<table class="table9">
 											<tr>
-												<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-10.png') }}" alt=""></a></td>
+												<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-10.png') }}" alt=""></a></td>
 												<td>
 													
-													<div class="el2 text-center"><a href="tel:1800 6181" class="fontsize2">1800 - 6181</a></div>
+													<div class="el2 text-center"><a href="tel:0868608106" class="fontsize2">0868608106</a></div>
 												</td>
 											</tr>
 										</table>
@@ -553,7 +553,7 @@
 					</table>
 				</div>
 				<div class="mylink width-100 dis-table">
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="table-cell text-uppercase text-center">
+					<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="table-cell text-uppercase text-center">
 						Chi phí kiểm tra có cao không? Hỏi bác sĩ >>
 					</a>
 				</div>
@@ -579,18 +579,18 @@
 									<td onclick="open_tuvan();">
 										<table class="table9">
 											<tr>
-												<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-9.png') }}" alt=""></a></td>
-												<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-uppercase text-center fontsize1">Click tư vấn trực tuyến</a></td>
+												<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-9.png') }}" alt=""></a></td>
+												<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="text-uppercase text-center fontsize1">Click tư vấn trực tuyến</a></td>
 											</tr>
 										</table>
 									</td>
 									<td onclick="open_call();">
 										<table class="table9">
 											<tr>
-												<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-10.png') }}" alt=""></a></td>
+												<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-10.png') }}" alt=""></a></td>
 												<td>
 													
-													<div class="el2 text-center"><a href="tel:1800 6181" class="fontsize2">1800 - 6181</a></div>
+													<div class="el2 text-center"><a href="tel:0868608106" class="fontsize2">0868608106</a></div>
 												</td>
 											</tr>
 										</table>
@@ -641,16 +641,16 @@
 								<td onclick="open_tuvan();">
 									<table class="table9">
 										<tr>
-											<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-9.png') }}" alt=""></a></td>
-											<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-uppercase text-center fontsize1">Đặt hẹn bác sĩ nữ</a></td>
+											<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-9.png') }}" alt=""></a></td>
+											<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="text-uppercase text-center fontsize1">Đặt hẹn bác sĩ nữ</a></td>
 										</tr>
 									</table>
 								</td>
 								<td onclick="open_call();">
 									<table class="table9">
 										<tr>
-											<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-9.png') }}" alt=""></a></td>
-											<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-uppercase text-center fontsize1">Đặt hẹn bác sĩ nam</a></td>
+											<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-9.png') }}" alt=""></a></td>
+											<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="text-uppercase text-center fontsize1">Đặt hẹn bác sĩ nam</a></td>
 										</tr>
 									</table>
 								</td>
@@ -660,7 +660,7 @@
 				</div>
 			</div>
 			<div class="link">
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+				<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
 					<img src="{{ asset('public/css/chuyendeMobile2/img29.png') }}" alt="" class="center-block img-responsive">
 				</a>
 			</div>
@@ -672,18 +672,18 @@
 								<td onclick="open_tuvan();">
 									<table class="table9">
 										<tr>
-											<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-9.png') }}" alt=""></a></td>
-											<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="text-uppercase text-center fontsize1">Click tư vấn trực tuyến</a></td>
+											<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-9.png') }}" alt=""></a></td>
+											<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="text-uppercase text-center fontsize1">Click tư vấn trực tuyến</a></td>
 										</tr>
 									</table>
 								</td>
 								<td onclick="open_call();">
 									<table class="table9">
 										<tr>
-											<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-10.png') }}" alt=""></a></td>
+											<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyendeMobile1/chuyende-10.png') }}" alt=""></a></td>
 											<td>
 												
-												<div class="el2 text-center"><a href="tel:1800 6181" class="fontsize2">1800 - 6181</a></div>
+												<div class="el2 text-center"><a href="tel:0868608106" class="fontsize2">0868608106</a></div>
 											</td>
 										</tr>
 									</table>
@@ -697,10 +697,10 @@
 	</div>
 	<script>
 		function open_tuvan(){
-			window.open("http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en");
+			window.open("http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en");
 		}
 		function open_call(){
-			window.open("tel:1800 6181");
+			window.open("tel:0868608106");
 		}
 	</script>
 @endsection('content')

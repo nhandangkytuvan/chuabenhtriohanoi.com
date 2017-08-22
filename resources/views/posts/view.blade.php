@@ -55,20 +55,21 @@
 							</div>
 							<table class="table2 width-100">
 								<tr>
-									<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-angle-right"></i> Không cần xếp hàng để khám</a></td>
-									<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-angle-right"></i> Tư vẫn miến phí</a></td>
-									<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-angle-right"></i> Khám ưu tiên</a></td>
+									<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-angle-right"></i> Không cần xếp hàng để khám</a></td>
+									<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-angle-right"></i> Tư vẫn miến phí</a></td>
+									<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-angle-right"></i> Khám ưu tiên</a></td>
 								</tr>
 							</table>
 							<div class="text-center footer">
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a>
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Liên hệ bác sĩ</a>
+								<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a>
+								<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Liên hệ bác sĩ</a>
 							</div>
 						</div>
 					</div>
 					<div class="line4">
 						<table class="width-100 table1">
 							<tr>
+								@if($term)
 								@php $post_pre = $term->post()->where('id','<',$post->id)->orderBy('id','desc')->first(); @endphp
 								@if($post_pre)
 								<td>Trang trước : <a href="{{ APIPost::getUrlByObj($post_pre) }}">{{ $post_pre->name }}</a></td>
@@ -76,6 +77,7 @@
 								@php $post_next = $term->post()->where('id','>',$post->id)->orderBy('id','asc')->first(); @endphp
 								@if($post_next)
 								<td>Trang sau : <a href="{{ APIPost::getUrlByObj($post_next) }}">{{ $post_next->name }}</a></td>
+								@endif
 								@endif
 							</tr>
 						</table>
@@ -86,8 +88,12 @@
 								@if($post->id==19)
 									@php $posts = App\Post::whereTermId(18)->limit(3)->inRandomOrder()->get();@endphp
 								@else
-									@php  
-										$posts = $term->post()->where('id','<>',$post->id)->limit(3)->get();
+									@php
+										if($term){  
+											$posts = $term->post()->where('id','<>',$post->id)->limit(3)->get();
+										}else{
+											$posts = App\Post::whereTermId(18)->limit(3)->inRandomOrder()->get();
+										}
 									@endphp
 								@endif
 								@foreach($posts as $post)

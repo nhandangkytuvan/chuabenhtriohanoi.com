@@ -8,11 +8,11 @@
 @section('banner')
 	<div class="myBanner">
 		<div class="pos-relative container2">
-			<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="btn text-center pos-absolute pos1">Đại tiện kèm máu</a>
-			<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="btn text-center pos-absolute pos2">Sau đại tiện có máu</a>
-			<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="btn text-center pos-absolute pos3">Lau chùi ra máu</a>
-			<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="btn text-center pos-absolute pos4">Phân màu đỏ sẫm</a>
-			<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="btn2 text-center text-uppercase pos-absolute pos5">Tư vấn trực tuyến ngay</a>
+			<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="btn text-center pos-absolute pos1">Đại tiện kèm máu</a>
+			<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="btn text-center pos-absolute pos2">Sau đại tiện có máu</a>
+			<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="btn text-center pos-absolute pos3">Lau chùi ra máu</a>
+			<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="btn text-center pos-absolute pos4">Phân màu đỏ sẫm</a>
+			<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="btn2 text-center text-uppercase pos-absolute pos5">Tư vấn trực tuyến ngay</a>
 		</div>
 	</div>
 @endsection('banner')
@@ -34,7 +34,7 @@
 							Đại tiện ra máu là triệu chứng điển hình của các bệnh hậu môn trực tràng, bác sĩ kêu gọi mọi người phải coi trọng công tác kiểm tra xét nghiệm, chớ nên xem nhẹ mà bỏ lỡ khoảng thời gian chữa trị đáng quý này.
 						</p>
 						<div class="text-center">
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-uppercase text-center">Click bác sĩ tư vấn <i class="bg1"></i></a>
+							<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-uppercase text-center">Click bác sĩ tư vấn <i class="bg1"></i></a>
 						</div>
 					</div>
 				</div>
@@ -54,12 +54,12 @@
 					<div class="text4">
 						<table>
 							<tr>
-								<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center">Gương soi hậu môn điện tử không đau</a></td>
-								<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center bg2">Thụt rửa trực tràng</a></td>
+								<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center">Gương soi hậu môn điện tử không đau</a></td>
+								<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center bg2">Thụt rửa trực tràng</a></td>
 							</tr>
 							<tr>
-								<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center bg2">Kiểm tra máu thường quy</a></td>
-								<td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center">Kiểm tra điện tim đồ</a></td>
+								<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center bg2">Kiểm tra máu thường quy</a></td>
+								<td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center">Kiểm tra điện tim đồ</a></td>
 							</tr>
 						</table>
 					</div>
@@ -68,7 +68,7 @@
 						Phòng Khám Chuyên Khoa Nam Khang Hà Nội<br> 
 						SỐ 193C1 BÀ TRIỆU - HAI BÀ TRƯNG - HÀ NỘI 
 					</div>
-					<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="label1 dis-inline-block label4">Đặt hẹn trực tuyến ngay</a>
+					<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="label1 dis-inline-block label4">Đặt hẹn trực tuyến ngay</a>
 					<div class="table">
 						<form action="{{ url('sendmail') }}" method="post" id="formMailSendCD2">
 							{{ csrf_field() }}
@@ -175,7 +175,7 @@
 				</table>
 			</div>
 			<div class="btn">
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center text-uppercase">Nếu bạn có những biểu hiện như trên, hãy hỏi bác sĩ tư vấn ngay <i class="bg1"></i></a>
+				<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center text-uppercase">Nếu bạn có những biểu hiện như trên, hãy hỏi bác sĩ tư vấn ngay <i class="bg1"></i></a>
 			</div>
 		</div>
 	</div>
@@ -251,7 +251,7 @@
 		</div>
 		<script>
 		function openswt(){
-		    window.open('http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en');
+		    window.open('http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en');
 		}
 		function checkbox()
 		{
@@ -383,7 +383,7 @@
 				</table>
 			</div>
 			<div class="btn">
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center text-uppercase">Đại tiện ra máu là bị trĩ phải không? Tư vấn trực tuyến ngay <i class="bg1"></i></a>
+				<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center text-uppercase">Đại tiện ra máu là bị trĩ phải không? Tư vấn trực tuyến ngay <i class="bg1"></i></a>
 			</div>
 		</div>
 	</div>
@@ -419,7 +419,7 @@
 						<img src="{{ asset('public/css/chuyende2/chuyende-11.png') }}" alt="" class="center-block">
 					</div>
 					<div class="btn">
-						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center text-uppercase">Không muốn kéo xuống xem tiếp nữa <i class="bg1"></i></a>
+						<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center text-uppercase">Không muốn kéo xuống xem tiếp nữa <i class="bg1"></i></a>
 					</div>
 				</div>
 				<div class="flex1col2">
@@ -467,7 +467,7 @@
 								Về căn bản giải quyết được vấn đề bệnh tái phát, với tiền đề loại bỏ sự phiền nhiễu của bệnh tật, căn bản đã thực hiện được: chữa khỏi bệnh chỉ sau một lần phẫu thuật, bệnh không dễ tái phát sau phẫu thuật.
 							</div>
 							<div class="btn">
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center text-uppercase">Tư vấn ngay <i class="bg1"></i></a>
+								<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center text-uppercase">Tư vấn ngay <i class="bg1"></i></a>
 							</div>
 						</div>
 						<div class="flex2col2">
@@ -477,7 +477,7 @@
 				</div>
 			</div>
 			<div class="btn">
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center text-uppercase">Chi phí chữa trị của Nam Khang có cao không? Hỏi bác sĩ <i class="bg1"></i></a>
+				<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-inline-block text-center text-uppercase">Chi phí chữa trị của Nam Khang có cao không? Hỏi bác sĩ <i class="bg1"></i></a>
 			</div>
 			<div class="pos-absolute">
 				<img src="{{ asset('public/css/chuyende2/chuyende-16.png') }}" alt="">
@@ -496,61 +496,61 @@
 					<tr>
 						<td>
 							<img src="{{ asset('public/css/chuyende2/chuyende-17.png') }}" alt="">
-							<span class="color1"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Rốt cục đại tiện ra máu là bị làm sao?</a></span>
+							<span class="color1"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Rốt cục đại tiện ra máu là bị làm sao?</a></span>
 						</td>
 						<td>
 							<img src="{{ asset('public/css/chuyende2/chuyende-17.png') }}" alt="">
-							<span class="color1"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bé hơn 10 tuổi đại tiện ra máu, là làm sao?</a></span>
+							<span class="color1"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Bé hơn 10 tuổi đại tiện ra máu, là làm sao?</a></span>
 						</td>
 					</tr>
 					<tr>
 						<td>
 							<img src="{{ asset('public/css/chuyende2/chuyende-18.png') }}" alt="">
-							<span class=""><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Kiểm tra đại tiện ra máu gồm mấy mục, là những mục gì?</a></span>
+							<span class=""><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Kiểm tra đại tiện ra máu gồm mấy mục, là những mục gì?</a></span>
 						</td>
 						<td>
 							<img src="{{ asset('public/css/chuyende2/chuyende-18.png') }}" alt="">
-							<span class=""><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đại tiện ra khá nhiều máu, phải làm thế nào?</a></span>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<img src="{{ asset('public/css/chuyende2/chuyende-18.png') }}" alt="">
-							<span class=""><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đại tiện ra máu tươi, không đau đớn, nguyên nhân do đâu?</a></span>
-						</td>
-						<td>
-							<img src="{{ asset('public/css/chuyende2/chuyende-18.png') }}" alt="">
-							<span class=""><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đại tiện ra máu phải điều trị như thế nào?</a></span>
+							<span class=""><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Đại tiện ra khá nhiều máu, phải làm thế nào?</a></span>
 						</td>
 					</tr>
 					<tr>
 						<td>
 							<img src="{{ asset('public/css/chuyende2/chuyende-18.png') }}" alt="">
-							<span class=""><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Lần đầu tiên đại tiện ra máu, phải làm thế nào?</a></span>
+							<span class=""><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Đại tiện ra máu tươi, không đau đớn, nguyên nhân do đâu?</a></span>
 						</td>
 						<td>
 							<img src="{{ asset('public/css/chuyende2/chuyende-18.png') }}" alt="">
-							<span class=""><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bị đại tiện ra máu đã lâu, có nguy hại gì?</a></span>
+							<span class=""><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Đại tiện ra máu phải điều trị như thế nào?</a></span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<img src="{{ asset('public/css/chuyende2/chuyende-18.png') }}" alt="">
+							<span class=""><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Lần đầu tiên đại tiện ra máu, phải làm thế nào?</a></span>
+						</td>
+						<td>
+							<img src="{{ asset('public/css/chuyende2/chuyende-18.png') }}" alt="">
+							<span class=""><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Bị đại tiện ra máu đã lâu, có nguy hại gì?</a></span>
 						</td>
 					</tr>
 					<tr>
 						<td>
 							<img src="{{ asset('public/css/chuyende2/chuyende-17.png') }}" alt="">
-							<span class="color1"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Sau đại tiện bị nhỏ máu, không đau không ngứa, làm thế nào?</a></span>
+							<span class="color1"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Sau đại tiện bị nhỏ máu, không đau không ngứa, làm thế nào?</a></span>
 						</td>
 						<td>
 							<img src="{{ asset('public/css/chuyende2/chuyende-18.png') }}" alt="">
-							<span class=""><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bị đại tiện ra máu đã lâu, có nguy hại gì?</a></span>
+							<span class=""><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Bị đại tiện ra máu đã lâu, có nguy hại gì?</a></span>
 						</td>
 					</tr>
 					<tr>
 						<td>
 							<img src="{{ asset('public/css/chuyende2/chuyende-18.png') }}" alt="">
-							<span class=""><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đại tiện phân khô kèm máu, nguyên nhân do đâu?</a></span>
+							<span class=""><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Đại tiện phân khô kèm máu, nguyên nhân do đâu?</a></span>
 						</td>
 						<td>
 							<img src="{{ asset('public/css/chuyende2/chuyende-18.png') }}" alt="">
-							<span class=""><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đại tiện ra máu có những nguy hại gì?</a></span>
+							<span class=""><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Đại tiện ra máu có những nguy hại gì?</a></span>
 						</td>
 					</tr>
 				</table>
@@ -561,11 +561,11 @@
 			<div class="table2">
 				<table class="width-100">
 					<tr>
-						<td class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chuyên gia, bác sĩ</a></td>
-						<td class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Thiết bị tiên tiến</a></td>
-						<td class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chi phí hợp lý</a></td>
-						<td class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Môi trường<br>chữa trị thoải mái</a></td>
-						<td class="text-center"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bác sĩ đi cùng<br>trong cả quy trình</a></td>
+						<td class="text-center"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Chuyên gia, bác sĩ</a></td>
+						<td class="text-center"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Thiết bị tiên tiến</a></td>
+						<td class="text-center"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Chi phí hợp lý</a></td>
+						<td class="text-center"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Môi trường<br>chữa trị thoải mái</a></td>
+						<td class="text-center"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Bác sĩ đi cùng<br>trong cả quy trình</a></td>
 					</tr>
 				</table>
 			</div>
@@ -607,10 +607,10 @@
 				</script>
 			</div>
 			<div class="lists">
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Trò chuyện tại nhà cùng bác sĩ</a>
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Chuyên gia điều trị, xây dựng phương án điều trị</a>
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Tư vấn từ xa, tiết kiệm thời gian công sức</a>
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Nghe điện miễn phí, xin hãy yên tâm</a>
+				<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Trò chuyện tại nhà cùng bác sĩ</a>
+				<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Chuyên gia điều trị, xây dựng phương án điều trị</a>
+				<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Tư vấn từ xa, tiết kiệm thời gian công sức</a>
+				<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Nghe điện miễn phí, xin hãy yên tâm</a>
 			</div>
 		</div>
 	</div>

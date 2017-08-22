@@ -44,6 +44,33 @@
     <script type="text/javascript" src="{{ asset('public/js/desktop/dkdt.js') }}"></script>
     <script type="text/javascript" src="{{ asset('public/js/desktop/desktop.js') }}"></script>
     @yield('js')
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-104641575-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '265984533895012', {
+    em: 'insert_email_variable,'
+    });
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=265984533895012&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
 </head>
 <body>
     <header>
@@ -67,11 +94,11 @@
                 <div class="table-cell cell2 text-right">
                     <div class="dis-table table3">
                         <div class="table-cell cell1">
-                            <a href="tel:1800 6181"><img src="{{ asset('public/css/desktop/imghome/home-2.png') }}" alt=""></a>
+                            <a href="tel:0868608106"><img src="{{ asset('public/css/desktop/imghome/home-2.png') }}" alt=""></a>
                         </div>
                         <div class="table-cell cell2">
                             <div class="hotline">Đường dây nóng 24h : </div>
-                            <div class="phone"><a href="tel:1800 6181">1800 - 6181</a></div>
+                            <div class="phone"><a href="tel:0868608106">0868608106</a></div>
                         </div>
                     </div>
                 </div>
@@ -89,9 +116,9 @@
                         <td><a href="{{ APIPost::getUrlByID(19) }}">Giới thiệu<br>phòng khám</a></td>
                         <td><a href="{{ APITerm::getUrlByID(18) }}">Kỹ thuật<br>đặc biệt</a></td>
                         <td><a href="{{ APITerm::getUrlByID(19) }}">Bệnh án<br>điển hình</a></td>
-                        <td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Các câu hỏi<br>về sức khỏe</a></td>
-                        <td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đăng ký<br>trực tuyến</a></td>
-                        <td><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn<br>trực tuyến</a></td>
+                        <td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Các câu hỏi<br>về sức khỏe</a></td>
+                        <td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Đăng ký<br>trực tuyến</a></td>
+                        <td><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tư vấn<br>trực tuyến</a></td>
                     </tr>
                 </table>
             </div>
@@ -107,7 +134,7 @@
                     <td class="td2">
                         <div>
                             <p class="p1">Thời gian mở cửa:  <span>8:00 - 20:00</span></p>
-                            <p class="p2">Hotline:  <span>1800 - 6181 . 0243 - 9656999</span></p>
+                            <p class="p2">Hotline:  <span>0868608106</span></p>
                             <p class="p3">
                                 Các thông tin trên trang web mang tính chất tham khảo, không thể làm
                                 căn cứ để chuẩn đoán hay chữa trị, hãy làm theo sự chuẩn đoán của bác sĩ.
@@ -119,13 +146,13 @@
                             <table class="table3">
                                 <tr>
                                     <td>
-                                        <a class="text-center dis-block" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+                                        <a class="text-center dis-block" href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
                                             <i class="dis-inline-block bg1"></i>
                                             <span class="dis-block">Đặt lịch<br>trực tuyến</span>
                                         </a>
                                     </td>
                                     <td>
-                                        <a class="text-center dis-block" href="tel:1800 6181">
+                                        <a class="text-center dis-block" href="tel:0868608106">
                                             <i class="dis-inline-block bg2"></i>
                                             <span class="dis-block">Điện thoại<br>miễn phí</span>
                                         </a>
@@ -151,7 +178,7 @@
                                         </a>
                                     </td>
                                     <td>
-                                        <a class="text-center dis-block" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+                                        <a class="text-center dis-block" href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
                                             <i class="dis-inline-block bg6"></i>
                                             <span class="dis-block">Hỏi đáp<br>trực tuyến</span>
                                         </a>
@@ -181,16 +208,16 @@
                                     <button type="submit">Gửi</button>
                                 </td>
                                 <td class="td4">
-                                    Hoặc gọi: <span>1800 - 6181</span>
+                                    Hoặc gọi: <span>0868608106</span>
                                 </td>
                                 <td class="td5">
-                                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn<br>kĩ thuật<br>điều trị</a>
+                                    <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tư vấn<br>kĩ thuật<br>điều trị</a>
                                 </td>
                                 <td class="td6">
-                                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn<br>chi phí<br>điều trị</a>
+                                    <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tư vấn<br>chi phí<br>điều trị</a>
                                 </td>
                                 <td class="td7">
-                                    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table">
+                                    <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-table">
                                         <i class="fa fa-user table-cell"></i>
                                         <span class="table-cell">
                                             Hỏi bệnh trực tuyến<br>
@@ -223,8 +250,8 @@
         <div class="toolbar">
         </div>
     </footer>
-    @include('layouts.popupDesktop1')
     <div id="myloadding"><div id="mytext">Xin chờ chút...</div></div>
+    @include('layouts.popupDesktop1')
     <script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
 </body>
 </html>

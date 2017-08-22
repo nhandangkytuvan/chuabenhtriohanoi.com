@@ -126,9 +126,9 @@ class PostController extends Controller
      * @param  \App\Post  $post
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Post $post)
+    public function update(StorePost $request, Post $post)
     {
-        $this->authorize('update', $post);
+        //$this->authorize('update', $post);
         foreach ($post->fillable as $key => $value) {
             if($request->has($value)){
                 $post->$value = $request->input($value);
@@ -174,7 +174,7 @@ class PostController extends Controller
      */
     public function destroy(Post $post)
     {
-        $this->authorize('delete', $post);
+        //$this->authorize('delete', $post);
         $post->delete();
         File::delete(public_path('upload\\'.$post->avatar));
         DB::statement('ALTER TABLE posts AUTO_INCREMENT = 1');

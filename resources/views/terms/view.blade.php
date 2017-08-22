@@ -15,7 +15,7 @@
 @section('banner')
 	@if(isset($pcBanner[$term->id]))
 		<div>
-			<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+			<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
 				<img src="{{ asset('public/pc-banner/'.$pcBanner[$term->id]) }}" alt="" class="center-block">
 			</a>
 		</div>
@@ -58,7 +58,7 @@
 								<td>
 									<h1><a href="{{ APIPost::getUrlByObj($posts[0]) }}">{{ $posts[0]->name }}</a></h1>
 									<p>
-										{!! APIPost::getDescription($posts[0]->description,45) !!}... <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chi tiết</a>
+										{!! APIPost::getDescription($posts[0]->description,45) !!}... <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Chi tiết</a>
 									</p>
 								</td>
 							</tr>
@@ -133,7 +133,7 @@
 							<div class="post">
 								<h2 class="clearfix">
 									<a href="{{ APIPost::getUrlByObj($post) }}" title="{{ $post->name }}">{{ $post->name }}</a>
-									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="pull-right">Click gặp chuyên gia tư vấn</a>	
+									<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="pull-right">Click gặp chuyên gia tư vấn</a>	
 								</h2>
 								<p>
 									{!! APIPost::getDescription($post->description,60) !!}...

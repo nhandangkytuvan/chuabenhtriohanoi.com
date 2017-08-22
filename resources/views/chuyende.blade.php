@@ -8,7 +8,7 @@
 @section('banner')
 	<div class="myBanner">
 		<div>
-			<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyende1/chuyende-1.png') }}" alt="" class="center-block"></a>
+			<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyende1/chuyende-1.png') }}" alt="" class="center-block"></a>
 		</div>
 	</div>
 @endsection('banner')
@@ -33,7 +33,7 @@
 						một khi đã đi là phải nửa tiếng
 					</div>
 					<div class="line3">
-						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="link">Tình trạng của tôi như sau >></a>
+						<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="link">Tình trạng của tôi như sau >></a>
 					</div>
 				</div>
 				<div class="flex1col2 flex flex-wrap-wrap align-content-between">
@@ -49,7 +49,7 @@
 										phẩm cay, không cay không 
 										chịu được
 									</p>
-									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="link">Tình trạng của tôi như sau >></a>
+									<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="link">Tình trạng của tôi như sau >></a>
 								</td>
 							</tr>
 						</table>
@@ -66,7 +66,7 @@
 										nhịn đi đại tiện, táo bón mãn 
 										tính
 									</p>
-									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="link">Tình trạng của tôi như sau >></a>
+									<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="link">Tình trạng của tôi như sau >></a>
 								</td>
 							</tr>
 						</table>
@@ -84,7 +84,7 @@
 										Tài xế lái xe ngồi cả ngày, 
 										đau hậu môn, ngứa hậu môn
 									</p>
-									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="link">Tình trạng của tôi như sau >></a>
+									<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="link">Tình trạng của tôi như sau >></a>
 								</td>
 							</tr>
 						</table>
@@ -101,7 +101,7 @@
 										tùng thiết đãi, bàn tiệc lúc nào 
 										cũng phải có rượu
 									</p>
-									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="link">Tình trạng của tôi như sau >></a>
+									<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="link">Tình trạng của tôi như sau >></a>
 								</td>
 							</tr>
 						</table>
@@ -114,15 +114,15 @@
 					<table>
 						<tr>
 							<td>
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table table1">
+								<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-table table1">
 									<span class="table-cell"><img src="{{ asset('public/css/chuyende1/chuyende-7.png') }}" alt=""></span>
 									<span class="table-cell text-uppercase">Click tư vấn trực tuyến</span>
 								</a>
 							</td>
 							<td>
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table table2">
+								<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-table table2">
 									<span class="table-cell"><img src="{{ asset('public/css/chuyende1/chuyende-8.png') }}" alt=""></span>
-									<span class="table-cell text-uppercase">1800 - 6181</span>
+									<span class="table-cell text-uppercase">0868608106</span>
 								</a>
 							</td>
 						</tr>
@@ -218,15 +218,15 @@
 					<table>
 						<tr>
 							<td>
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table table1">
+								<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-table table1">
 									<span class="table-cell"><img src="{{ asset('public/css/chuyende1/chuyende-7.png') }}" alt=""></span>
 									<span class="table-cell text-uppercase">Click tư vấn trực tuyến</span>
 								</a>
 							</td>
 							<td>
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table table2">
+								<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-table table2">
 									<span class="table-cell"><img src="{{ asset('public/css/chuyende1/chuyende-8.png') }}" alt=""></span>
-									<span class="table-cell text-uppercase">1800 - 6181</span>
+									<span class="table-cell text-uppercase">0868608106</span>
 								</a>
 							</td>
 						</tr>
@@ -435,15 +435,15 @@
 					<table>
 						<tr>
 							<td>
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table table1">
+								<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-table table1">
 									<span class="table-cell"><img src="{{ asset('public/css/chuyende1/chuyende-7.png') }}" alt=""></span>
 									<span class="table-cell text-uppercase">Click tư vấn trực tuyến</span>
 								</a>
 							</td>
 							<td>
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table table2">
+								<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-table table2">
 									<span class="table-cell"><img src="{{ asset('public/css/chuyende1/chuyende-8.png') }}" alt=""></span>
-									<span class="table-cell text-uppercase">1800 - 6181</span>
+									<span class="table-cell text-uppercase">0868608106</span>
 								</a>
 							</td>
 						</tr>
@@ -495,7 +495,7 @@
 						</div>
 					</div>
 					<div class="footer">
-						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bác sĩ tư vấn</a>
+						<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Bác sĩ tư vấn</a>
 					</div>
 				</div>
 				<div class="flex1col1 bg2">
@@ -530,7 +530,7 @@
 						</div>
 					</div>
 					<div class="footer">
-						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bác sĩ tư vấn</a>
+						<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Bác sĩ tư vấn</a>
 					</div>
 				</div>
 				<div class="flex1col1 bg3">
@@ -565,7 +565,7 @@
 						</div>
 					</div>
 					<div class="footer">
-						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Bác sĩ tư vấn</a>
+						<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Bác sĩ tư vấn</a>
 					</div>
 				</div>
 			</div>
@@ -582,7 +582,7 @@
 								<div class="line1 text-center">Bản thân không phân<br>biệt được cấp độ trĩ?</div>
 								<div class="line2 text-uppercase text-center">Hỏi bác sĩ</div>
 								<div class="line3 text-center">
-									<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyende1/chuyende-29.png') }}" alt=""></a>
+									<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><img src="{{ asset('public/css/chuyende1/chuyende-29.png') }}" alt=""></a>
 								</div>
 							</div>
 						</td>
@@ -615,15 +615,15 @@
 					<table>
 						<tr>
 							<td>
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table table1">
+								<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-table table1">
 									<span class="table-cell"><img src="{{ asset('public/css/chuyende1/chuyende-7.png') }}" alt=""></span>
 									<span class="table-cell text-uppercase">Click tư vấn trực tuyến</span>
 								</a>
 							</td>
 							<td>
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table table2">
+								<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-table table2">
 									<span class="table-cell"><img src="{{ asset('public/css/chuyende1/chuyende-8.png') }}" alt=""></span>
-									<span class="table-cell text-uppercase">1800 - 6181</span>
+									<span class="table-cell text-uppercase">0868608106</span>
 								</a>
 							</td>
 						</tr>
@@ -659,7 +659,7 @@
 					<tr>
 						<td>Bác sĩ nhắc nhở</td>
 						<td>
-							Trong y học lâm sàng, chẩn đoán bằng mắt và tay là bước tìm hiểu đầu tiên trong công tác hỏi thăm bệnh tình của người bệnh, bước này không được coi là số liệu chẩn đoán chuyên khoa về bệnh.... <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chi tiết>>></a>
+							Trong y học lâm sàng, chẩn đoán bằng mắt và tay là bước tìm hiểu đầu tiên trong công tác hỏi thăm bệnh tình của người bệnh, bước này không được coi là số liệu chẩn đoán chuyên khoa về bệnh.... <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Chi tiết>>></a>
 						</td>
 					</tr>
 				</table>
@@ -694,19 +694,19 @@
 								<tr>
 									<td class="text-uppercase"><div class="bg1">Kiểm tra thông minh</div></td>
 									<td>
-										Vượt qua công nghệ kiểm tra truyền thống, cung cấp dữ liệu tham khảo cho công tác chữa trị... <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chi tiết >>></a>
+										Vượt qua công nghệ kiểm tra truyền thống, cung cấp dữ liệu tham khảo cho công tác chữa trị... <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Chi tiết >>></a>
 									</td>
 								</tr>
 								<tr>
 									<td class="text-uppercase"><div class="bg2">Tầm nhìn rộng rãi</div></td>
 									<td>
-										Chẩn đoán chính xác tổ chức vùng bệnh nằm tại tầng sâu trực tràng... <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chi tiết >>></a>
+										Chẩn đoán chính xác tổ chức vùng bệnh nằm tại tầng sâu trực tràng... <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Chi tiết >>></a>
 									</td>
 								</tr>
 								<tr>
 									<td class="text-uppercase"><div class="bg3">Hỗ trợ điều trị</div></td>
 									<td>
-										Chỉ đạo xác định phương pháp chữa trị khoa học, phán đoán hiệu quả điều trị...<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chi tiết >>></a>
+										Chỉ đạo xác định phương pháp chữa trị khoa học, phán đoán hiệu quả điều trị...<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Chi tiết >>></a>
 									</td>
 								</tr>
 							</table>
@@ -720,15 +720,15 @@
 					<table>
 						<tr>
 							<td>
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table table1">
+								<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-table table1">
 									<span class="table-cell"><img src="{{ asset('public/css/chuyende1/chuyende-7.png') }}" alt=""></span>
 									<span class="table-cell text-uppercase">Click tư vấn trực tuyến</span>
 								</a>
 							</td>
 							<td>
-								<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table table2">
+								<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-table table2">
 									<span class="table-cell"><img src="{{ asset('public/css/chuyende1/chuyende-8.png') }}" alt=""></span>
-									<span class="table-cell text-uppercase">1800 - 6181</span>
+									<span class="table-cell text-uppercase">0868608106</span>
 								</a>
 							</td>
 						</tr>
@@ -795,15 +795,15 @@
 				<table>
 					<tr>
 						<td>
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table table1">
+							<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-table table1">
 								<span class="table-cell"><img src="{{ asset('public/css/chuyende1/chuyende-7.png') }}" alt=""></span>
 								<span class="table-cell text-uppercase">Click tư vấn trực tuyến</span>
 							</a>
 						</td>
 						<td>
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table table2">
+							<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-table table2">
 								<span class="table-cell"><img src="{{ asset('public/css/chuyende1/chuyende-8.png') }}" alt=""></span>
-								<span class="table-cell text-uppercase">1800 - 6181</span>
+								<span class="table-cell text-uppercase">0868608106</span>
 							</a>
 						</td>
 					</tr>
@@ -829,9 +829,9 @@
 							<img src="{{ asset('public/css/chuyende1/chuyende-38.png') }}" alt="" class="center-block">
 						</div>
 						<div class="des1 text-justify">
-							Đối với các bệnh nhân bị trĩ giai đoạn đầu, bệnh còn nhẹ, có thể duy trì điều trị sử dụng phương pháp Đông Y để chữa trĩ. Điều trị xông rửa khử trùng bộ phận bệnh, đồng thời sử dụng thuốc Đông Y để bổ trợ, đạt được hiệu quả lưu thông không tắc ứ, tiêu sưng hết đau, chi phí thấp... <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chi tiết>>></a>
+							Đối với các bệnh nhân bị trĩ giai đoạn đầu, bệnh còn nhẹ, có thể duy trì điều trị sử dụng phương pháp Đông Y để chữa trĩ. Điều trị xông rửa khử trùng bộ phận bệnh, đồng thời sử dụng thuốc Đông Y để bổ trợ, đạt được hiệu quả lưu thông không tắc ứ, tiêu sưng hết đau, chi phí thấp... <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Chi tiết>>></a>
 						</div>
-						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="link dis-block text-center">
+						<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="link dis-block text-center">
 							Triệu chứng của tôi có<br>thích hợp điều trị bằng thuốc không?
 						</a>
 					</div>
@@ -844,7 +844,7 @@
 						Điều trị phẫu thuật
 					</div>
 					<div class="des1">
-						Nam Khang sử dụng thiết bị tân tiến điều trị bệnh trĩ giai đoạn giữa và cuối, đội ngũ bác sĩ sở hữu tri thức lý luận và kinh nghiệm thực tiễn phong phú, trình độ kỹ thuật thuần thục, quá trình điều trị an toàn, sớm đã chữa trị khỏi bệnh trĩ, giảm nhẹ gánh nặng đau đớn cho bệnh nhân... <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Chi tiết>>></a>
+						Nam Khang sử dụng thiết bị tân tiến điều trị bệnh trĩ giai đoạn giữa và cuối, đội ngũ bác sĩ sở hữu tri thức lý luận và kinh nghiệm thực tiễn phong phú, trình độ kỹ thuật thuần thục, quá trình điều trị an toàn, sớm đã chữa trị khỏi bệnh trĩ, giảm nhẹ gánh nặng đau đớn cho bệnh nhân... <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Chi tiết>>></a>
 					</div>
 					<div class="flex flex2 justify-content-between">
 						<div class="flex2col1 text-center">
@@ -854,7 +854,7 @@
 							<div class="title1">
 								Kỹ thuật súng chữa trĩ COOK
 							</div>
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="link2 dis-inline-block text-center">
+							<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="link2 dis-inline-block text-center">
 								Thủ thuật súng chữa trĩ<br>COOK có đau không?
 							</a>
 						</div>
@@ -865,7 +865,7 @@
 							<div class="title1">
 								Phẫu thuật điều trị<br>xâm lấn tối thiểu TST
 							</div>
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="link2 dis-inline-block text-center" style="margin-top: 14px;">
+							<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="link2 dis-inline-block text-center" style="margin-top: 14px;">
 								Chi phí phẫu thuật xâm lấn<br>tối thiểu TST có đắt không?
 							</a>
 						</div>
@@ -876,7 +876,7 @@
 							<div class="title1">
 								Kỹ thuật xâm lấn tối thiểu HCPT
 							</div>
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="link2 dis-inline-block text-center">
+							<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="link2 dis-inline-block text-center">
 								Chữa trĩ bằng phương<br>pháp HCPT có đau không?
 							</a>
 						</div>
@@ -890,15 +890,15 @@
 				<table>
 					<tr>
 						<td>
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table table1">
+							<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-table table1">
 								<span class="table-cell"><img src="{{ asset('public/css/chuyende1/chuyende-7.png') }}" alt=""></span>
 								<span class="table-cell text-uppercase">Click tư vấn trực tuyến</span>
 							</a>
 						</td>
 						<td>
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table table2">
+							<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-table table2">
 								<span class="table-cell"><img src="{{ asset('public/css/chuyende1/chuyende-8.png') }}" alt=""></span>
-								<span class="table-cell text-uppercase">1800 - 6181</span>
+								<span class="table-cell text-uppercase">0868608106</span>
 							</a>
 						</td>
 					</tr>
@@ -925,7 +925,7 @@
 						<td>
 							<div class="name">Chẩn đoán chính xác trong ngày, phẫu thuật kịp thời</div>
 							<div class="des">
-								Tuân thủ nghiêm ngặt quy trình phẫu thuật tiêu chuẩn, tối ưu hóa quy trình lâm sàng của phẫu thuật chữa trĩ, nâng cao hiệu quả làm việc của chuyên viên phẫu thuật, giảm bớt thời gian chờ đợi, xếp hàng của bệnh nhân... <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu thêm>>></a>
+								Tuân thủ nghiêm ngặt quy trình phẫu thuật tiêu chuẩn, tối ưu hóa quy trình lâm sàng của phẫu thuật chữa trĩ, nâng cao hiệu quả làm việc của chuyên viên phẫu thuật, giảm bớt thời gian chờ đợi, xếp hàng của bệnh nhân... <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tìm hiểu thêm>>></a>
 							</div>
 						</td>
 						<td>
@@ -934,7 +934,7 @@
 						<td>
 							<div class="name">Đặt hẹn trên mạng, nhanh hơn một bước</div>
 							<div class="des">
-								Phòng khám chuyên khoa Nam Khang Hà Nội phát triển dịch vụ đặt hẹn, xếp số trực tuyến, bệnh nhân thông qua nhân viên trực tuyến có thể đặt hẹn trước với bác sĩ, đến nơi vào khám ngay, không cần xếp hàng lấy số... <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu thêm>>></a>
+								Phòng khám chuyên khoa Nam Khang Hà Nội phát triển dịch vụ đặt hẹn, xếp số trực tuyến, bệnh nhân thông qua nhân viên trực tuyến có thể đặt hẹn trước với bác sĩ, đến nơi vào khám ngay, không cần xếp hàng lấy số... <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tìm hiểu thêm>>></a>
 							</div>
 						</td>
 					</tr>
@@ -945,7 +945,7 @@
 						<td>
 							<div class="name">Phân khu thăm khám, nam nữ riêng biệt, bảo đảm riêng tư</div>
 							<div class="des">
-								Vài năm trước, Nam Khang đã thành lập “Phòng khám điều trị cho nữ giới”, từ hội chẩn đến điều trị, thay thuốc... đều do bác sĩ nữ tiến hành chẩn đoán chăm sóc, tránh việc nữ giới cảm thấy không thoải mái khi đến thăm khám... <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu thêm>>></a>
+								Vài năm trước, Nam Khang đã thành lập “Phòng khám điều trị cho nữ giới”, từ hội chẩn đến điều trị, thay thuốc... đều do bác sĩ nữ tiến hành chẩn đoán chăm sóc, tránh việc nữ giới cảm thấy không thoải mái khi đến thăm khám... <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tìm hiểu thêm>>></a>
 							</div>
 						</td>
 						<td>
@@ -954,7 +954,7 @@
 						<td>
 							<div class="name">Xếp số một lần, tác dụng dài lâu</div>
 							<div class="des">
-								Để thuận tiện hơn cho người bệnh tới thăm khám, người bệnh tới khám chỉ cần xếp số một lần, khám lại không cần xếp số lại, triệt để thực hiện “Xếp số một lần, tác dụng dài lâu”... <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu thêm>>></a>
+								Để thuận tiện hơn cho người bệnh tới thăm khám, người bệnh tới khám chỉ cần xếp số một lần, khám lại không cần xếp số lại, triệt để thực hiện “Xếp số một lần, tác dụng dài lâu”... <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tìm hiểu thêm>>></a>
 							</div>
 						</td>
 					</tr>
@@ -965,7 +965,7 @@
 						<td>
 							<div class="name">Định kì khám lại, theo dõi hậu phẫu</div>
 							<div class="des">
-								Chuyên khoa Nam Khang Hà Nội có nhiều năm kinh nghiệm thực tiễn trong lĩnh vực lâm sàng, đưa ra phương án điều trị thích hợp cho mỗi trường hợp bệnh nhân khác nhau, chỉ đạo tái khám và hồi phục định kì , củng cố hiệu quả chữa trị... <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tìm hiểu thêm>>></a>
+								Chuyên khoa Nam Khang Hà Nội có nhiều năm kinh nghiệm thực tiễn trong lĩnh vực lâm sàng, đưa ra phương án điều trị thích hợp cho mỗi trường hợp bệnh nhân khác nhau, chỉ đạo tái khám và hồi phục định kì , củng cố hiệu quả chữa trị... <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tìm hiểu thêm>>></a>
 							</div>
 						</td>
 					</tr>
@@ -978,15 +978,15 @@
 				<table>
 					<tr>
 						<td>
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table table1">
+							<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-table table1">
 								<span class="table-cell"><img src="{{ asset('public/css/chuyende1/chuyende-7.png') }}" alt=""></span>
 								<span class="table-cell text-uppercase">Click tư vấn trực tuyến</span>
 							</a>
 						</td>
 						<td>
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="dis-table table2">
+							<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="dis-table table2">
 								<span class="table-cell"><img src="{{ asset('public/css/chuyende1/chuyende-8.png') }}" alt=""></span>
-								<span class="table-cell text-uppercase">1800 - 6181</span>
+								<span class="table-cell text-uppercase">0868608106</span>
 							</a>
 						</td>
 					</tr>
@@ -1030,10 +1030,10 @@
 				</script>
 			</div>
 			<div class="lists">
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Trò chuyện tại nhà cùng bác sĩ</a>
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Chuyên gia điều trị, xây dựng phương án điều trị</a>
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Tư vấn từ xa, tiết kiệm thời gian công sức</a>
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Nghe điện miễn phí, xin hãy yên tâm</a>
+				<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Trò chuyện tại nhà cùng bác sĩ</a>
+				<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Chuyên gia điều trị, xây dựng phương án điều trị</a>
+				<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Tư vấn từ xa, tiết kiệm thời gian công sức</a>
+				<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-circle-o"></i> Nghe điện miễn phí, xin hãy yên tâm</a>
 			</div>
 		</div>
 	</div>

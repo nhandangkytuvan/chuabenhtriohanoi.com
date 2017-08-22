@@ -14,16 +14,16 @@
 				<a href="{{ APITerm::getUrlByID(19) }}">Bệnh án<br>điển hình</a>
 			</div>
 			<div class="table-cell cell1 border1 hvr-sweep-to-right">
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Hỏi đáp<br>sức khỏe</a>
+				<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Hỏi đáp<br>sức khỏe</a>
 			</div>
 			<div class="table-cell cell1 hvr-sweep-to-right">
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đăng ký<br>trực tuyến</a>
+				<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Đăng ký<br>trực tuyến</a>
 			</div>
 			<div class="table-cell cell2 border1 hvr-sweep-to-right">
 				<a href="{{ url('dia-chi-phong-kham.html') }}">Chỉ đường</a>
 			</div>
 			<div class="table-cell cell2 hvr-sweep-to-right">
-				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Đặt hẹn<br>trực tuyến</a>
+				<a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Đặt hẹn<br>trực tuyến</a>
 			</div>
 		</div>
 	</div>
@@ -39,10 +39,11 @@
 						<div class="table-cell cell2">
 							<table class="width-100">
 								<tr>
-									<td class="text-left"><a href="{{ APITerm::getUrlByID(2) }}"><i class="fa fa-circle"></i> Trĩ ngoại</a></td>
+									<td class="text-left"><a href="{{ APITerm::getUrlByID(21) }}"><i class="fa fa-circle"></i> Bệnh trĩ</a></td>
 									<td class="text-left"><a href="{{ APITerm::getUrlByID(3) }}"><i class="fa fa-circle"></i> Trĩ nội</a></td>
 								</tr>
 								<tr>
+									<td class="text-left"><a href="{{ APITerm::getUrlByID(2) }}"><i class="fa fa-circle"></i> Trĩ ngoại</a></td>
 									<td class="text-left"><a href="{{ APITerm::getUrlByID(4) }}"><i class="fa fa-circle"></i> Trĩ hỗn hợp</a></td>
 								</tr>
 							</table>
@@ -58,14 +59,14 @@
 							<table class="width-100">
 								<tr>
 									<td class="text-left" style="vertical-align: top;"><a href="{{ APITerm::getUrlByID(6) }}"><i class="fa fa-circle"></i> Áp xe hậu môn</a></td>
-									<td class="text-left"><a href="{{ APITerm::getUrlByID(7) }}"><i class="fa fa-circle"></i> Ngứa rát hậu môn</a></td>
-								</tr>
-								<tr>
 									<td class="text-left"><a href="{{ APITerm::getUrlByID(8) }}"><i class="fa fa-circle"></i> Polyp hậu môn</a></td>
-									<td class="text-left"><a href="{{ APITerm::getUrlByID(9) }}"><i class="fa fa-circle"></i> Đau hậu môn</a></td>
 								</tr>
 								<tr>
+									<td class="text-left"><a href="{{ APITerm::getUrlByID(7) }}"><i class="fa fa-circle"></i> Ngứa rát hậu môn</a></td>
 									<td class="text-left"><a href="{{ APITerm::getUrlByID(10) }}"><i class="fa fa-circle"></i> Hậu môn có vật thể lạ</a></td>
+								</tr>
+								<tr>
+									<td class="text-left"><a href="{{ APITerm::getUrlByID(9) }}"><i class="fa fa-circle"></i> Đau hậu môn</a></td>
 								</tr>
 							</table>
 						</div>
