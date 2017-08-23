@@ -333,6 +333,7 @@
         </div>
     </div>
     @include('layouts.popupMobile1')
+    @include('layouts.popupMobile3')
     <img src="{{ asset('public/images/mobile/shake.gif') }}" alt="" style="position: fixed; top: 15%;right: 0px;z-index: 999;width:55px;">
 </body>
 </html>

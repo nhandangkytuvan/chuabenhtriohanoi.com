@@ -80,6 +80,7 @@ a{text-decoration: none;}
 #my_popup span.pos-absolute{top:-3px;right: -2px;font-size: 18px;color: #0498ff;}
 
 /*popup2*/
-
-
+/*popup3*/
+#my_popup3{position: fixed;left: calc(50% - 160px);top:-100%;transition: top 1s;z-index: 99999999999999999;}
+#my_popup3.active{top:0px;}
 

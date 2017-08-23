@@ -6,13 +6,13 @@ $(document).ready(function() {
         scrolllock: false,
         background: false,
         backgroundactive:false,
-        onclose: function() {setTimeout(showchat, 20000);}
+        onclose: function() {setTimeout(showchat, 12000);}
     });
     var d = new Date();
     var gio = d.getHours();
     var phut = d.getMinutes();
     if((7<gio&&gio<22)||(gio==22&&phut<=30)||(gio==7&&phut>=30)){
-        setTimeout(showchat, 15000);
+        setTimeout(showchat, 10000);
     }
     // 
     $('.home .row3 .flex1col1').click(function(event) {
@@ -30,6 +30,9 @@ $(document).ready(function() {
     $('.topheader').scrollToFixed();
     //
     inter1 = setInterval(alertFunc, 5000);
+    //my_popup3
+    setTimeout(toogleMessenger, 10000);
+    inter1 = setInterval(toogleMessenger, 18000);
     //
     $("a[href='#top']").click(function() {
         $("html, body").animate({ scrollTop: 0 }, "slow");
@@ -76,3 +79,10 @@ $(function(){
     //     $('menu .flex1col1 >.box').css({'height':($('menu .flex1col1').height())+'px'});
     // });
 });
+
+function toogleMessenger(){
+    $("#my_popup3").toggleClass('active');
+    if(!$("#my_popup3").hasClass('active')){
+        setTimeout(toogleMessenger, 10000);
+    }
+}
