@@ -81,7 +81,20 @@
             <div class="img">
                 <img src="{{ asset('public/css/chuyendeMobile3/3.png') }}" alt="" class="img-responsive center-block">
             </div>
+            <div class="img">
+                <img src="{{ asset('public/css/chuyendeMobile3/ch3-banner.jpg') }}" alt="" class="img-responsive center-block">
+            </div>
         </div>
+        <script>
+            $(document).ready(function() {
+                $('.myslick1').slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 5000,
+                });    
+            });
+        </script>
     </div>
     <main>
         <div class="r1">
@@ -157,36 +170,24 @@
             <div class="title text-center"><span>NGUYÊN NHÂN GÂY BỆNH TRĨ</span></div>
             <div class="row">
                 <div class="col-xs-4">
-                    <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
-                        <img src="{{ asset('public/css/chuyendeMobile3/7.png') }}" alt="" class="center-block img-responsive">
-                    </a>
+                    <img src="{{ asset('public/css/chuyendeMobile3/7.png') }}" alt="" class="center-block img-responsive">
                 </div>
                 <div class="col-xs-4">
-                    <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
-                        <img src="{{ asset('public/css/chuyendeMobile3/8.png') }}" alt="" class="center-block img-responsive">
-                    </a>
+                    <img src="{{ asset('public/css/chuyendeMobile3/8.png') }}" alt="" class="center-block img-responsive">
                 </div>
                 <div class="col-xs-4">
-                    <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
-                        <img src="{{ asset('public/css/chuyendeMobile3/9.png') }}" alt="" class="center-block img-responsive">
-                    </a>
+                    <img src="{{ asset('public/css/chuyendeMobile3/9.png') }}" alt="" class="center-block img-responsive">
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-4">
-                    <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
-                        <img src="{{ asset('public/css/chuyendeMobile3/10.png') }}" alt="" class="center-block img-responsive">
-                    </a>
+                    <img src="{{ asset('public/css/chuyendeMobile3/10.png') }}" alt="" class="center-block img-responsive">
                 </div>
                 <div class="col-xs-4">
-                    <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
-                        <img src="{{ asset('public/css/chuyendeMobile3/11.png') }}" alt="" class="center-block img-responsive">
-                    </a>
+                    <img src="{{ asset('public/css/chuyendeMobile3/11.png') }}" alt="" class="center-block img-responsive">
                 </div>
                 <div class="col-xs-4">
-                    <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
-                        <img src="{{ asset('public/css/chuyendeMobile3/12.png') }}" alt="" class="center-block img-responsive">
-                    </a>
+                    <img src="{{ asset('public/css/chuyendeMobile3/12.png') }}" alt="" class="center-block img-responsive">
                 </div>
             </div>
             <div class="dangkytuvan text-center">
@@ -198,26 +199,18 @@
             <div class="title text-center"><span>NGUY HẠI CỦA BỆNH TRĨ</span></div>
             <div class="row">
                 <div class="col-xs-6">
-                    <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
-                        <img src="{{ asset('public/css/chuyendeMobile3/13.png') }}" alt="" class="center-block img-responsive">
-                    </a>
+                    <img src="{{ asset('public/css/chuyendeMobile3/13.png') }}" alt="" class="center-block img-responsive">
                 </div>
                 <div class="col-xs-6">
-                    <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
-                        <img src="{{ asset('public/css/chuyendeMobile3/14.png') }}" alt="" class="center-block img-responsive">
-                    </a>
+                    <img src="{{ asset('public/css/chuyendeMobile3/14.png') }}" alt="" class="center-block img-responsive">
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-6">
-                    <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
-                        <img src="{{ asset('public/css/chuyendeMobile3/15.png') }}" alt="" class="center-block img-responsive">
-                    </a>
+                    <img src="{{ asset('public/css/chuyendeMobile3/15.png') }}" alt="" class="center-block img-responsive">
                 </div>
                 <div class="col-xs-6">
-                    <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">
-                        <img src="{{ asset('public/css/chuyendeMobile3/16.png') }}" alt="" class="center-block img-responsive">
-                    </a>
+                    <img src="{{ asset('public/css/chuyendeMobile3/16.png') }}" alt="" class="center-block img-responsive">
                 </div>
             </div>
             <div class="dangkytuvan text-center">
@@ -251,26 +244,7 @@
                         <p>Phòng khám chuyên khoa Nam Khang quy tụ những chuyên gia đầu ngành từ khắp các nước. Với kinh nghiệm dày dặn, kiến thức chuyên môn sâu rộng và phương châm “lương y như từ mẫu”, các bác sĩ tại phòng khám luôn cố gắng để quá trình điều trị đạt được kết quả tốt nhất, đầy lùi bệnh trĩ ra khỏi cuộc sống.</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xs-6">
-                        <img src="{{ asset('public/css/chuyendeMobile3/18.png') }}" alt="" class="center-block img-responsive">
-                    </div>
-                    <div>
-                        <h3>Đội ngũ y bác sỹ giàu kinh nghiệm: </h3>
-                        <p>Phòng khám chuyên khoa Nam Khang quy tụ những chuyên gia đầu ngành từ khắp các nước. Với kinh nghiệm dày dặn, kiến thức chuyên môn sâu rộng và phương châm “lương y như từ mẫu”, các bác sĩ tại phòng khám luôn cố gắng để quá trình điều trị đạt được kết quả tốt nhất, đầy lùi bệnh trĩ ra khỏi cuộc sống.</p>
-                    </div>
-                </div>
             </div>
-            <script>
-            $(document).ready(function() {
-                $('.myslick2').slick({
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 5000,
-                });    
-            });
-        </script>
             <div class="dangkytuvan text-center">
                 <a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en" class="text-center dis-inline-block text-uppercase">ĐĂNG ký tư vấn</a>
                 <a href="tel:0868.608.106" class="text-center dis-inline-block text-uppercase">GỌI ĐIỆN TRỰC TIẾP</a>
@@ -330,7 +304,35 @@
             </div>
         </div>
     </footer>
-    @include('layouts.popupMobile2')
+    <div class="footer-toolbar toolbarHome">
+        <div class="dis-table width-100 forHome">
+            <div class="table-cell">
+                <div class="">
+                    <h3 class="text-center"><a href="tel:0868608106"><i class="glyphicon glyphicon-phone-alt"></i></a></h3>
+                    <h4 class="text-center"><a href="tel:0868608106">Gọi điện</a></h4>
+                </div>
+            </div>
+            <div class="table-cell">
+                <div class="">
+                    <h3 class="text-center"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-calendar"></i></a></h3>
+                    <h4 class="text-center"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Đặt hẹn</a></h4>
+                </div>
+            </div>
+            <div class="table-cell">
+                <div class="">
+                    <h3 class="text-center"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-comment"></i></a></h3>
+                    <h4 class="text-center"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tư vấn</a></h4>
+                </div>
+            </div>
+            <div class="table-cell">
+                <div class="">
+                    <h3 class="text-center"><a href="{{ url('dia-chi-phong-kham.html') }}"><i class="fa fa-map-marker"></i></a></h3>
+                    <h4 class="text-center"><a href="{{ url('dia-chi-phong-kham.html') }}">Địa chỉ</a></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    @include('layouts.popupMobile1')
     <img src="{{ asset('public/images/mobile/shake.gif') }}" alt="" style="position: fixed; top: 15%;right: 0px;z-index: 999;width:55px;">
 </body>
 </html>

@@ -3,4 +3,5 @@
 		<img src="{{ asset('public/css/mobile/popup2.gif') }}" alt="">
 	</a>
     <a class="my_popup_close btn-cancel" href="javascript:;"></a>
+    <a class="my_popup_close btn-cancel2" href="javascript:;"></a>
 </div>
