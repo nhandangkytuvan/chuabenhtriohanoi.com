@@ -79,13 +79,8 @@ footer .row2 p{color: #fff;line-height: 18px;text-align: justify;font-size: 12px
 .myslick2 .slick-next{right: -12px;}
 
 /*forHome*/
-.footer-toolbar.toolbarHome{background-color: #016fbf;color: #fff;}
-.footer-toolbar.toolbarHome .table-cell{background-color: #239ee4;padding:5px 0px;width: 25%;}
-.footer-toolbar.toolbarHome .table-cell h3{padding-top: 5px;}
-.footer-toolbar.toolbarHome .table-cell i{font-size: 22px;}
-.footer-toolbar.toolbarHome .table-cell h4{font-weight: normal;margin-top: 5px;}
-.footer-toolbar.toolbarHome .table-cell a{display: block;text-align: center;}
-.footer-toolbar.toolbarHome .table-cell i{background-image: none;}
+.footer-toolbar.container.toolbar2{max-width: 480px;padding:0px;}
+/**/
 
 
 

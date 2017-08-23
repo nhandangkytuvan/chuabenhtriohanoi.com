@@ -32,7 +32,7 @@ $(document).ready(function() {
     inter1 = setInterval(alertFunc, 5000);
     //my_popup3
     setTimeout(toogleMessenger, 10000);
-    inter1 = setInterval(toogleMessenger, 18000);
+    setInterval(toogleMessenger, 18000);
     //
     $("a[href='#top']").click(function() {
         $("html, body").animate({ scrollTop: 0 }, "slow");

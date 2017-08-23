@@ -138,34 +138,7 @@
             <p>Thời gian mở cửa: <a href="tel:0868608106">8:00 - 20:00</a></p>
             <p>Địa chỉ phòng khám: <a href="tel:0868608106">193C1 BÀ TRIỆU – HAI BÀ TRƯNG – HÀ NỘI</a></p>
         </div>
-        <div class="container footer-toolbar">
-            <div class="dis-table width-100 forHome">
-                <div class="table-cell">
-                    <div class="">
-                        <h3 class="text-center"><a href="tel:0868608106"><i class="glyphicon glyphicon-phone-alt"></i></a></h3>
-                        <h4 class="text-center"><a href="tel:0868608106">Gọi điện</a></h4>
-                    </div>
-                </div>
-                <div class="table-cell">
-                    <div class="">
-                        <h3 class="text-center"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-calendar"></i></a></h3>
-                        <h4 class="text-center"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Đặt hẹn</a></h4>
-                    </div>
-                </div>
-                <div class="table-cell">
-                    <div class="">
-                        <h3 class="text-center"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en"><i class="fa fa-comment"></i></a></h3>
-                        <h4 class="text-center"><a href="http://swt.phongkham193.com/lr/chatpre.aspx?id=mfi63108226&cid=1489654963660812714370&lng=en">Tư vấn</a></h4>
-                    </div>
-                </div>
-                <div class="table-cell">
-                    <div class="">
-                        <h3 class="text-center"><a href="{{ url('/dia-chi-phong-kham.html') }}"><i class="fa fa-map-marker"></i></a></h3>
-                        <h4 class="text-center"><a href="{{ url('/dia-chi-phong-kham.html') }}">Địa chỉ</a></h4>
-                    </div>
-                </div>
-            </div>
-        </div>
+        @include('toolbar.toolbar')
     </footer>
     <div id="myloadding"><div id="mytext">Xin chờ chút...</div></div>
     <script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
